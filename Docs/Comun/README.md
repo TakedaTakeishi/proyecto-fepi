@@ -14,4 +14,4 @@ Fuentes primarias de PROBOSQUE organizadas por dominio. **Todo lo que es un docu
 | `Gestión documental y calidad/` | Guía/Inventario/Cuadro de clasificación archivística, certificados ISO 9001, lineamientos de Mejora Regulatoria y ficha de trámite |
 | `Pendientes de revisión/` | Archivos de relevancia no confirmada (`nov271.pdf` Gaceta ajena, `ago201a.pdf` convocatoria COPLADEM) — revisar y borrar o reclasificar |
 
-Reorganizado el 2026-09-14: duplicados exactos eliminados (verificados por hash); `manualGralDeOrgPba20251216 (1).pdf` se conservó porque **no** es idéntico a `dic161d.pdf` (¿distinta versión del MGO? verificar).
+Reorganizado el 2026-09-14: duplicados exactos eliminados (verificados por hash). Del MGO 2025 se conserva `dic161d.pdf` (versión Gaceta); `manualGralDeOrgPba20251216 (1).pdf` (versión web) es el mismo documento — solo difiere la portada — y se elimina.
