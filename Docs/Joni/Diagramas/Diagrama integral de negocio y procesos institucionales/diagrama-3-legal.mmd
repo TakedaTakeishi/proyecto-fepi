@@ -1,0 +1,28 @@
+---
+title: "PROBOSQUE · Diagrama 3 de 3: Eje de Control Legal (Inspección y Sanciones)"
+---
+graph TD
+    %% Estilos de los Nodos
+    classDef legal fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c;
+    classDef connector fill:#fafafa,stroke:#616161,stroke-width:1px,stroke-dasharray:4 3,color:#424242;
+
+    %% Entradas desde los otros diagramas
+    L_C9[[← Diagrama 1: Administrativo · C9 Ejecución en Campo]] --> V1
+    L_B11[[← Diagrama 2: Biología · B11 Despliegue en Territorio]] --> V1
+
+    %% Intersección de Flujos (Territorio y Vigilancia)
+    subgraph Eje_Control_Legal[Eje de Control Legal: Inspección y Sanciones]
+        V1[Ejecución en Campo por Beneficiarios] --> V2[Delegaciones Regionales Forestales]
+        V2 --> V3{Auditoría: ¿Se cumplen metas y sanidad?}
+
+        V3 -->|Conformidad Técnica| V4[Aprobación de Reportes / Mantenimiento de Estímulo]
+        V3 -->|Plaga Detectada| V5[Emisión de Notificación de Saneamiento Forestal]
+        V3 -->|Deforestación / Cambio de Uso| V6[Procedimiento Administrativo Sancionador]
+
+        V5 --> V1
+        V6 --> V7[Aplicación de Multas Según el Código Administrativo]
+    end
+
+    %% Asignación Dinámica de Clases
+    class G1,V2,V3,V4,V5,V6,V7 legal;
+    class L_A1,L_C9,L_B11 connector;

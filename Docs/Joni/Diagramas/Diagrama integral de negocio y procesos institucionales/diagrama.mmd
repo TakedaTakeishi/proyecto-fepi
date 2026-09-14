@@ -1,0 +1,75 @@
+graph TD
+    %% Estilos de los Nodos
+    classDef biological fill:#e0f2f1,stroke:#00695c,stroke-width:2px,color:#004d40;
+    classDef administrative fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0b3c5d;
+    classDef storage fill:#fff8e1,stroke:#ff8f00,stroke-width:2px,color:#ff6f00;
+    classDef legal fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c;
+    classDef public fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#4a148c;
+
+    %% Nodos Iniciales (Mandato y Dirección)
+    A1[PROBOSQUE: Dirección General] -->|Emite Directrices Técnicas| B1(Eje Biológico: Banco de Germoplasma)
+    A1 -->|Formula Reglas y Convenios| C1(Eje Administrativo: Fideicomiso FIPASAHEM)
+    A1 -->|Articula Normas Técnicas Alternas| G1(Código Administrativo: Gaceta del Gobierno)
+
+    %% Subsistema Biológico (Proceso de Germoplasma y Reforestación)
+    subgraph Eje Biológico: Biotecnología y Silvicultura
+        B1 --> B2[Monitoreo de Fenología y Unidades Productoras]
+        B2 --> B3[Colecta Manual/Mecánica en Árboles Plus]
+        B3 --> B4[Recepción: Mapeo Geográfico y Registro Climático]
+        B4 --> B5[Beneficio Agroindustrial: Secado, Desalado, Cribado]
+        
+        %% Ramificación Analítica del Laboratorio
+        B5 --> B6[Laboratorio de Biotecnología Forestal]
+        B6 -.->|Investigación y Ensayos| B6A["Protocolos In Vitro: MS 75%, BAP, ANA, AIB"]
+        
+        B5 --> B7[Envasado Hermético y Almacenaje en Cámara Fría]
+        B6 --> B7
+        B7 --> B8[Depuración de Inventarios por Viabilidad]
+        B8 --> B9[Distribución de Semilla a 17-18 Viveros Regionales]
+        
+        B9 --> B10[Producción: Riego, Nutrición, Aclimatación]
+        B10 --> B11[Despliegue: Campaña Reforestando Edomex]
+        
+        %% Economía Circular (Campaña Navideña)
+        B12[Centros de Acopio de Árboles Navideños] -.->|Trituración a Composta| B9
+    end
+
+    %% Subsistema Administrativo (Gestión Financiera PSAH)
+    subgraph Eje Administrativo: Gobernanza del FIPASAHEM
+        C1 --> C2[Comité Técnico: Presidencia y Secretario Técnico]
+        C2 --> C3[Aprobación de Reglas de Operación y Presupuestos]
+        C3 --> C4[Publicación de Convocatorias Oficiales]
+        C4 --> C5[Recepción Documental de Poseedores Forestales]
+        C5 --> C6[Validación mediante Sistema de Información SIFEM]
+        
+        C6 -->|Dictamen Técnico Favorable| C7[Emisión de Resolución Administrativa Favorable]
+        C6 -->|Silencio Administrativo Legal| C7A[Aplica Principio de Afirmativa Ficta]
+        C6 -->|Incumplimiento o Inviabilidad| C8[Resolución Negativa / Invalidez del Acto]
+        
+        C7 --> C9[Fiduciaria: Dispersión de Pago de Servicios Ambientales]
+        C7A --> C9
+    end
+
+    %% Intersección de Flujos (Territorio y Vigilancia)
+    C9 --> V1[Ejecución en Campo por Beneficiarios]
+    B11 --> V1
+    
+    subgraph Eje de Control Legal: Inspección y Sanciones
+        V1 --> V2[Delegaciones Regionales Forestales]
+        V2 --> V3{Auditoría: ¿Se cumplen metas y sanidad?}
+        
+        V3 -->|Conformidad Técnica| V4[Aprobación de Reportes / Mantenimiento de Estímulo]
+        V3 -->|Plaga Detectada| V5[Emisión de Notificación de Saneamiento Forestal]
+        V3 -->|Deforestación / Cambio de Uso| V6[Procedimiento Administrativo Sancionador]
+        
+        V5 --> V1
+        V6 --> V7[Aplicación de Multas Según el Código Administrativo]
+    end
+    
+    %% Asignación Dinámica de Clases
+    class B1,B2,B3,B4,B5,B6,B6A,B8,B9,B10,B11,B12 biological;
+    class C1,C2,C3,C4,C5,C6,C7,C7A,C8,C9 administrative;
+    class B7 storage;
+    class G1,V2,V3,V4,V5,V6,V7 legal;
+    class A1 public;
+    

@@ -1,0 +1,42 @@
+---
+title: "PROBOSQUE · Diagrama 2 de 3: Eje Biológico (Biotecnología y Silvicultura)"
+---
+graph TD
+    %% Estilos de los Nodos
+    classDef biological fill:#e0f2f1,stroke:#00695c,stroke-width:2px,color:#004d40;
+    classDef storage fill:#fff8e1,stroke:#ff8f00,stroke-width:2px,color:#ff6f00;
+    classDef connector fill:#fafafa,stroke:#616161,stroke-width:1px,stroke-dasharray:4 3,color:#424242;
+
+    %% Subsistema Biológico (Proceso de Germoplasma y Reforestación)
+    subgraph Eje_Biologico[Eje Biológico: Biotecnología y Silvicultura]
+        B1(Eje Biológico: Banco de Germoplasma)
+        B1 --> B2[Monitoreo de Fenología y Unidades Productoras]
+        B2 --> B3[Colecta Manual/Mecánica en Árboles Plus]
+        B3 --> B4[Recepción: Mapeo Geográfico y Registro Climático]
+        B4 --> B5[Beneficio Agroindustrial: Secado, Desalado, Cribado]
+
+        %% Ramificación Analítica del Laboratorio
+        B5 --> B6[Laboratorio de Biotecnología Forestal]
+        B6 -.->|Investigación y Ensayos| B6A["Protocolos In Vitro: MS 75%, BAP, ANA, AIB"]
+
+        B5 --> B7[Envasado Hermético y Almacenaje en Cámara Fría]
+        B6 --> B7
+        B7 --> B8[Depuración de Inventarios por Viabilidad]
+        B8 --> B9[Distribución de Semilla a 17-18 Viveros Regionales]
+
+        B9 --> B10[Producción: Riego, Nutrición, Aclimatación]
+        B10 --> B11[Despliegue: Campaña Reforestando Edomex]
+
+        %% Economía Circular (Campaña Navideña)
+        B12[Centros de Acopio de Árboles Navideños] -.->|Trituración a Composta| B9
+    end
+
+    L_A1[[← Diagrama 1: Administrativo · A1 Emite Directrices Técnicas]] --> Eje_Biologico
+
+    %% Intersección de Flujos (Territorio y Vigilancia) → salto al último diagrama
+    B11 -->|Despliegue en Territorio| L_V1[[→ Diagrama 3: Legal · V1 Ejecución en Campo]]
+
+    %% Asignación Dinámica de Clases
+    class B1,B2,B3,B4,B5,B6,B6A,B8,B9,B10,B11,B12 biological;
+    class B7 storage;
+    class L_A1,L_V1 connector;

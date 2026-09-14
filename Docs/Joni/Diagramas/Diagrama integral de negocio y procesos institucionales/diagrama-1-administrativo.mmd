@@ -1,0 +1,48 @@
+---
+title: 'PROBOSQUE · Diagrama 1 de 3: Eje Administrativo (Gobernanza del FIPASAHEM)'
+---
+flowchart TB
+ subgraph subGraph0["Eje Administrativo: Gobernanza del FIPASAHEM"]
+        C2["Comité Técnico: Presidencia y Secretario Técnico"]
+        C1("Eje Administrativo: Fideicomiso FIPASAHEM")
+        C3["Aprobación de Reglas de Operación y Presupuestos"]
+        C4["Publicación de Convocatorias Oficiales"]
+        C5["Recepción Documental de Poseedores Forestales"]
+        C6["Validación mediante Sistema de Información SIFEM"]
+        C7["Emisión de Resolución Administrativa Favorable"]
+        C7A["Aplica Principio de Afirmativa Ficta"]
+        C8["Resolución Negativa / Invalidez del Acto"]
+        C9["Fiduciaria: Dispersión de Pago de Servicios Ambientales"]
+  end
+    A1["PROBOSQUE: Dirección General"] -- Formula Reglas y Convenios --> C1
+    A1 -- Emite Directrices Técnicas --> L_BIO[["→ Diagrama 2: Biología · B1 Banco de Germoplasma"]]
+    A1 -- Articula Normas Técnicas Alternas --> L_LEG[["→ Diagrama 3: Legal · G1 Gaceta del Gobierno"]]
+    C1 --> C2
+    C2 --> C3
+    C3 --> C4
+    C4 --> C5
+    C5 --> C6
+    C6 -- Dictamen Técnico Favorable --> C7
+    C6 -- Silencio Administrativo Legal --> C7A
+    C6 -- Incumplimiento o Inviabilidad --> C8
+    C7 --> C9
+    C7A --> C9
+    C9 -- Ejecución en Campo --> L_V1[["→ Diagrama 3: Legal · V1 Ejecución en Campo"]]
+
+     A1:::public
+     C1:::administrative
+     L_BIO:::connector
+     L_LEG:::connector
+     C2:::administrative
+     C3:::administrative
+     C4:::administrative
+     C5:::administrative
+     C6:::administrative
+     C7:::administrative
+     C7A:::administrative
+     C8:::administrative
+     C9:::administrative
+     L_V1:::connector
+    classDef administrative fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0b3c5d
+    classDef public fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#4a148c
+    classDef connector fill:#fafafa,stroke:#616161,stroke-width:1px,stroke-dasharray:4 3,color:#424242
