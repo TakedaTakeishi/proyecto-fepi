@@ -4,3 +4,4 @@ venv/
 .env
 Thumbs.db
 desktop.ini
+.claude/
