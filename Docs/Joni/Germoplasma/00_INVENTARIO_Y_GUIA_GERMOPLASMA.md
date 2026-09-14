@@ -73,6 +73,7 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 | [COSTOS_Venta_Planta_2026.pdf](<../../Comun/Germoplasma/COSTOS_Venta_Planta_2026.pdf>) | Catálogo 2026 de planta y precios por tipo de envase |
 | [PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2024_abr301a.pdf](<../../Comun/Germoplasma/PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2024_abr301a.pdf>) | Tarifas formales de todos los servicios (Gaceta 30-abr-2024) — precio máximo legal |
 | [Manual_de_restauraci_n_forestal_version_digital_compressed__2_.pdf](<../../Comun/Germoplasma/Manual_de_restauraci_n_forestal_version_digital_compressed__2_.pdf>) | Manual de Restauración Forestal (técnico, ~10 MB) |
+| [RETYS_2092_SOLICITUD_DONACION_PLANTA_2026.pdf](<../../Comun/Germoplasma/RETYS_2092_SOLICITUD_DONACION_PLANTA_2026.pdf>) | **Formato oficial "Solicitud de Planta" 2026** (v.1, elaboró SRyPP / validó DRFF), descargado de la cédula RETYS 2092. En el sitio lo llaman "Solicitud de Restauración Forestal Social" |
 
 ### `Programas de apoyo/` — los 6 programas (dominio Alan/Xareni)
 
@@ -131,6 +132,7 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 | Ruta | Qué es |
 |---|---|
 | [Germoplasma/02_PROCEDIMIENTO_DISTRIBUCION_GERMOPLASMA.md](./02_PROCEDIMIENTO_DISTRIBUCION_GERMOPLASMA.md) | Análisis del procedimiento de distribución (venta + donación): roles R1–R13, reglas BR, pasos, necesidades N-01..N-18 |
+| [Germoplasma/01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md](./01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md) | Mapa de procesos del banco (fundamentales vs no fundamentales), qué sabemos / qué falta de cada uno y lista de búsqueda priorizada |
 | [Diagramas/4.1_Atencion_Solicitudes_Planta_Forestal/](<../Diagramas/4.1_Atencion_Solicitudes_Planta_Forestal/>) | 3 hojas del diagrama 4.1 (PDF págs. 12–14 del MP 2006) |
 | [Diagramas/4.2_Colecta_Germoplasma_Forestal/](<../Diagramas/4.2_Colecta_Germoplasma_Forestal/>) | 7 hojas del diagrama 4.2 (PDF págs. 31–37) + versión en columnas + resúmenes (Colecta, Donación) |
 | [Diagramas/4.2_Formatos_Semilla/](<../Diagramas/4.2_Formatos_Semilla/>) | Formatos del 4.2: Solicitud de Semilla (p. 39) e instructivo (p. 40); Salida de Semilla del Banco (p. 41) e instructivo (p. 42); medición (p. 38) |
@@ -195,7 +197,7 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 3. Programación operativa actual: cómo se deciden fechas/zonas de colecta hoy.
 4. Inventario actualizado de semilla por especie y lote (solo se conoce el agregado 2.8 t).
 5. MP de la SRyPP y de las Subdirecciones restantes (solo en Normateca Interna).
-6. Formato "Solicitud de Restauración Forestal Social" (enlace del sitio; no está en la copia offline — tampoco `biotecnia_forestal.html`).
+6. ~~Formato "Solicitud de Restauración Forestal Social"~~ **RESUELTO (2026-09-14)**: descargado de la cédula RETYS 2092 como `Docs/Comun/Germoplasma/RETYS_2092_SOLICITUD_DONACION_PLANTA_2026.pdf` (nombre oficial: "Solicitud de Planta" 2026). Sigue pendiente `biotecnia_forestal.html` (no está en la copia offline).
 7. Inventario Estatal Forestal 2022 completo (flipbook heyzine; solicitar PDF).
 8. ~~Fichas RETYS de trámites (páginas dinámicas)~~ **PARCIALMENTE RESUELTO (2026-09-14)**: las 3 cédulas de germoplasma (1162 venta semilla, 1068 venta planta, 2092 donación) transcritas en `Docs/Comun/Retys EdoMex/`. Restantes (239, 627, 629, 873, 876, 878, 881, 1068✓, 1141, 1142, 1145, 1162✓, 1797, 2092✓…) si se necesitan.
 9. Renovación de la certificación ISO 9001 (vencida 2025-10-10).

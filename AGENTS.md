@@ -36,10 +36,17 @@ Mantener la cadena de trazabilidad: `[clave fuente] → BR-# → paso → N-##`.
 
 ## Trampas al trabajar con las fuentes
 
-- Muchos PDF están **escaneados sin capa de texto** (p. ej. `jul301b.pdf`, certificados ISO): una búsqueda de texto devuelve 0 resultados y eso NO significa que el dato no exista. Verificar renderizando las páginas como imagen.
+- Muchos PDF están **escaneados sin capa de texto** (p. ej. certificados ISO; `jul301b.pdf` dejó de ser uno: es la versión 2025 con texto): una búsqueda de texto devuelve 0 resultados y eso NO significa que el dato no exista. Verificar renderizando las páginas como imagen.
 - Contradicciones entre versiones: priorizar `RO_2026_*` (web, consolidado) sobre `REGLAS_OPS_*` (Gaceta, "modificaciones").
 - Distinguir siempre **verificado** (con página/cita) de **supuesto** ("a confirmar"); los hallazgos relevantes van fechados.
 - Los documentos 00/01/02 (hoy en `Docs/Joni/Germoplasma/`) aún citan rutas viejas `Docs/MANUALES/...`; se rehacen. Tras la reorganización, las fuentes están en `Docs/Comun/`. Usar siempre rutas reales del disco al crear enlaces.
+
+## Trampas al traer contenido de la web (probosque.edomex.gob.mx / retys.edomex.gob.mx)
+
+- `webfetch` sobre URLs del sitio PROBOSQUE (p. ej. `.../node/261`) a veces revienta con **"Decode error"** aunque devuelva 200. Alternativa que sí funciona: `Invoke-WebRequest -OutFile` a la carpeta temporal y parsear el HTML con regex.
+- Las **cédulas RETYS** son páginas enormes: pedir `format=html` (con `format=text` se pierden los `href`) y, si la salida se trunca, hacer grep al archivo guardado. **Los formatos descargables reales viven en `backretys.edomex.gob.mx/storage/FormatosTramites/...`** (enlaces que solo aparecen en el HTML).
+- Tras descargar un archivo, **verificar el tipo real** (magic bytes: `%PDF`), porque un "200 OK" puede ser HTML disfrazado.
+- El contenido dinámico que interesa se **transcribe con fecha** a `Docs/Comun/Retys EdoMex/` (las páginas pueden cambiar o desaparecer); no basta con citar la URL.
 
 ## Git
 
