@@ -34,7 +34,7 @@ Para el dominio germoplasma es la fuente más operativa que existe (ver Parte II
 | [dic161d.pdf](<../../Comun/Manual Jurídico/dic161d.pdf>) | **MGO 2025** (Gaceta 16-dic-2025). Único MGO 2025 conservado (la versión web difiere solo en portada y se eliminó). Págs. clave: 13 organigrama, 25–27 funciones SRyPP (código 225C0201020100L), 20–21 UVI, 36 delegaciones regionales, 12 codificación estructural |
 | [may281.pdf](<../../Comun/Manual Jurídico/may281.pdf>) | MGO 2012 (histórico; útil para ver evolución de unidades) |
 | [rglvig245.pdf](<../../Comun/Manual Jurídico/rglvig245.pdf>) | Reglamento Interno PROBOSQUE (últ. reforma 14-nov-2025). Art. 15 fracc. II y XVIII: base legal de viveros, huertos semilleros y bancos de germoplasma |
-| [jul301b.pdf](<../../Comun/Manual Jurídico/jul301b.pdf>) | MP de Contabilidad — **escaneado sin capa de texto** (buscar en él devuelve 0 resultados; abrir como imagen). Presupuesto, transferencias, pagos; formatos PbR; único manual 2020-era con diagramas de operación |
+| [jul301b.pdf](<../../Comun/Manual Jurídico/jul301b.pdf>) | **MP del Departamento de Contabilidad (ed. febrero 2025, Gaceta 30-jul-2025, 37 págs., con capa de texto)**. Solo 3 procedimientos: anteproyecto de presupuesto, liberación de transferencias y pagos diversos — **no documenta el registro de ingresos por venta**; sí el registro contable de ingresos (póliza de ingresos + SPEI/contra-recibo, p. 19) |
 | [MANUALES_PROC_PROBOSQUE_2020_sep091_(UAZC-IndustriaComercialización-UIPPE).pdf](<../../Comun/Manual Jurídico/MANUALES_PROC_PROBOSQUE_2020_sep091_(UAZC-IndustriaComercialización-UIPPE).pdf>) | Ver "Hallazgo clave" arriba |
 | [mar271h.pdf](<../../Comun/Manual Jurídico/mar271h.pdf>) | Código de Conducta PROBOSQUE |
 | [manualDeOperacionNormatecaInterna.pdf](<../../Comun/Manual Jurídico/manualDeOperacionNormatecaInterna.pdf>) | Confirma la Normateca Interna con manuales NO publicados (p. ej. el MP actual de la SRyPP → pedir por SAIMEX/INFOEM) |
@@ -51,11 +51,18 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 | [colecta_germoplasma.html](<../../Comun/Sitio web/colecta_germoplasma.html>) | Banco de Germoplasma: capacidad 10 t, 2.8 t almacenadas; Laboratorio (humedad, pureza, semillas/kg, viabilidad, germinación); colecta 2024: 2.51 t; especies colectadas |
 | [venta_semilla_planta.html](<../../Comun/Sitio web/venta_semilla_planta.html>) | Dónde se guarda y entrega la semilla: Banco de Germoplasma y Área de Beneficio de Semilla (Vivero Invernaderos, Conjunto SEDAGRO, Rancho San Lorenzo, Metepec); horarios 9:00–15:00; Formato Universal de Pago |
 | [donacion-planta.html](<../../Comun/Sitio web/donacion-planta.html>) | Donación ("Restauración Forestal Social"): temporada jun–ago, vale de planta, NTEA019 para espacios públicos |
+| [donacion-1000.html](<../../Comun/Sitio web/donacion-1000.html>) | **Donación de ≥1,000 plantas**: atención jun–sep, formato "Solicitud de Restauración Forestal Social" + instructivo, entrega en OC/DRF/correo, notificación de vale |
 | [produccion_planta.html](<../../Comun/Sitio web/produccion_planta.html>) | Proceso productivo completo + inventario de planta por vivero (10.47 M al 31-dic-2024) |
 | [viveros_forestales.html](<../../Comun/Sitio web/viveros_forestales.html>) | Los 17 viveros por delegación regional |
 | [inventario_forestal.html](<../../Comun/Sitio web/inventario_forestal.html>) | Inventario Estatal Forestal y de Suelos 2022 + liga a 5 docs técnicos (heyzine) |
 | [supervision-vigilancia-forestal.html](<../../Comun/Sitio web/supervision-vigilancia-forestal.html>) | Evaluación y seguimiento técnico: guardabosques, peritajes (Depto. de Evaluación y Seguimiento Técnico Forestal) |
 | [sanidad_forestal.html](<../../Comun/Sitio web/sanidad_forestal.html) / [incendios_forestales.html](<../../Comun/Sitio web/incendios_forestales.html>) | Monitoreo de plagas y de incendios |
+
+### `Retys EdoMex/` — cédulas oficiales de trámites (transcripción fechada)
+
+| Archivo | Qué es |
+|---|---|
+| [CEDULAS_RETYS_PROBOSQUE_GERMOPLASMA.md](<../../Comun/Retys EdoMex/CEDULAS_RETYS_PROBOSQUE_GERMOPLASMA.md>) | **Transcripción (2026-09-14) de las cédulas RETYS 1162 (Venta de Semilla), 1068 (Venta de Planta) y 2092 (Donación de planta)** — páginas dinámicas de retys.edomex.gob.mx enlazadas desde `tramites_servicios.html`. Contienen la **metodología oficial paso a paso**, requisitos, costos, plazos y el documento de resultado de cada trámite. Claves de cita: `[RETYS-1162]`, `[RETYS-1068]`, `[RETYS-2092]` |
 
 ### `Germoplasma/` — dominio banco de semillas
 
@@ -162,7 +169,8 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 | 10 | `86_manualProcDirRestYFtoFtal.pdf` **págs. 38–42** | **Los registros formales del Banco ya están definidos**: formato "Solicitud de Semilla" (p. 39–40) y **"Salida de Semilla del Banco de Germoplasma" con folio** (p. 41–42) que captura por lote: **lote, fecha de colecta, presupuesto, peso kg, semillas/kg, % llenas, % germinación, planta a obtener y fecha límite de siembra** (con responsabilidad del jefe de vivero). También "Vale de Salida de Planta de Viveros" con folio consecutivo (4.1, págs. 15–24) |
 | 11 | `Germoplasma/COSTOS_Venta_Semilla_Conos_2026.pdf` + `COSTOS_Venta_Planta_2026.pdf` | El catálogo público es de facto el inventario de especies disponibles y precios |
 | 12 | `Germoplasma/PRECIOS_Y_TARIFAS_..._abr301a.pdf` | Tarifas formales (Gaceta 2024) — tope legal de los precios del catálogo |
-| 13 | `Manual Jurídico/jul301b.pdf` | A dónde va el dinero de la venta ("capitalización"); cultura de formatos contables (escaneado: abrir como imagen) |
+| 13 | `Manual Jurídico/jul301b.pdf` | MP de Contabilidad 2025 (con texto): registro de ingresos vía **póliza de ingresos + SPEI/contra-recibo** (p. 19); el FUP lo elabora y sella Contabilidad según RETYS |
+| 13b | `Retys EdoMex/CEDULAS_RETYS_PROBOSQUE_GERMOPLASMA.md` | **Metodología oficial paso a paso** de venta de semilla/planta y donación (requisitos, plazos, resultado) — la fuente más directa para los pasos del procedimiento |
 | 14 | `Gestión documental y calidad/INVENTARIO_Gral_Archivo_2025.pdf` + `CUADRO_Gral_Clasif_Archivística_2024.pdf` | **Hallazgo verificado: no aparece ninguna serie documental de viveros/germoplasma/semilla** → los registros del MP 2006 se llevan aparte, sin custodia archivística formal. Ese vacío es la oportunidad concreta del SGD |
 
 ## P4 — Contexto y límites de lo público · ~15 min
@@ -189,15 +197,17 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 5. MP de la SRyPP y de las Subdirecciones restantes (solo en Normateca Interna).
 6. Formato "Solicitud de Restauración Forestal Social" (enlace del sitio; no está en la copia offline — tampoco `biotecnia_forestal.html`).
 7. Inventario Estatal Forestal 2022 completo (flipbook heyzine; solicitar PDF).
-8. Fichas RETYS de trámites (páginas dinámicas: retys.edomex.gob.mx cedulas 19, 51, 239, 309, 627, 629, 873, 876, 878, 881, 1068, 1141, 1142, 1145, 1162, 1242, 1797, 2092).
+8. ~~Fichas RETYS de trámites (páginas dinámicas)~~ **PARCIALMENTE RESUELTO (2026-09-14)**: las 3 cédulas de germoplasma (1162 venta semilla, 1068 venta planta, 2092 donación) transcritas en `Docs/Comun/Retys EdoMex/`. Restantes (239, 627, 629, 873, 876, 878, 881, 1068✓, 1141, 1142, 1145, 1162✓, 1797, 2092✓…) si se necesitan.
 9. Renovación de la certificación ISO 9001 (vencida 2025-10-10).
 
 ## Notas de versiones y contradicciones
 
 - **MP 2006 vs MGO 2025**: el manual usa estructura antigua (DRFF directa, reglamento previo, PRODEFOR). Sus flujos/formatos siguen siendo la mejor descripción operativa, pero los puestos deben leerse mapeados a la estructura 2025 (SRyPP → Depto. de Producción de Planta).
+- **Umbral de donación en conflicto**: RETYS 2092 (2026) → ≥1,000 plantas = Contrato de Donación + informe final; MP 2006 → ≥2,000 = Convenio de Reforestación. Priorizar RETYS; confirmar en entrevista.
+- **Cédulas RETYS citan el MGO del 25-may-2023** (no el dic161d 2025): están vivas pero parcialmente desactualizadas.
 - **RO_2026_\* (web, consolidado) > REGLAS_OPS_\* (Gaceta, "modificaciones")** al citar programas de apoyo.
 - MGO 2025 = solo `dic161d.pdf` (la copia web se eliminó; difería solo en portada).
 - `CONVOCATORIA_Programas_Apoyo_2026_ene271c.pdf` ≈ `CONVOCATORIA_2026_Programas_Apoyo.pdf` (misma convocatoria, Gaceta vs web).
-- PDFs **escaneados sin capa de texto**: `jul301b.pdf`, certificados ISO — una búsqueda de texto devuelve 0 y NO significa que el dato no exista; abrir como imagen.
+- PDFs **escaneados sin capa de texto**: certificados ISO — una búsqueda de texto devuelve 0 y NO significa que el dato no exista; abrir como imagen. (`jul301b.pdf` ya NO aplica: es la versión 2025 con texto.)
 - NotaTec1 (Medidas para plantación exitosa) devolvió 404; puede resurgir en `publicaciones.html`.
 - Catálogos históricos de semilla (2021, 2025) solo como URL en `../Fuentes para el banco de semillas`.
