@@ -1,0 +1,53 @@
+@startuml P9-B-donacion
+skinparam shadowing false
+skinparam roundCorner 14
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 11
+skinparam backgroundColor #101014
+skinparam TitleFontColor #F4F4F5
+skinparam TitleFontSize 15
+skinparam SwimlaneWidth 170
+skinparam ActivityStartColor #F97316
+skinparam ActivityEndColor #F97316
+skinparam ActivityStartBorderColor #F97316
+skinparam ActivityEndBorderColor #F97316
+skinparam ActivityBorderColor #F97316
+skinparam ActivityBackgroundColor #1B1B21
+skinparam ActivityFontColor #F4F4F5
+skinparam ActivityDiamondBorderColor #FB923C
+skinparam ActivityDiamondBackgroundColor #101014
+skinparam ActivityDiamondFontColor #FDBA74
+skinparam ArrowColor #F97316
+skinparam ArrowFontColor #FDBA74
+skinparam ArrowFontSize 10
+skinparam SwimlaneTitleFontColor #FB923C
+skinparam SwimlaneTitleBackgroundColor #0A0A0D
+skinparam SwimlaneTitleFontSize 12
+title P9·B — Donación de planta
+|R1 Solicitante|
+start
+:B1 · consulta requisitos en el sitio;
+:B2 · entrega "Solicitud de Planta"\no Programa Municipal (Ayto.)\nen DRF / DG / correo;
+|R3 Ventanilla·DRF|
+:B3 · contacta e indica requisitos\npor perfil;
+|R1 Solicitante|
+:B4 · entrega requisitos\nen ≤5 días hábiles;
+|R7 SRyPP|
+if (¿Disponibilidad?) then (no)
+  :B5n · negativa + asesoría técnica;
+  stop
+else (sí)
+  :B5 · notifica disponibilidad;
+|R1 Solicitante|
+:B6 · recoge vale y firma\nContrato de Donación (≥1,000 o Ayto.)\no Carta Compromiso (<1,000);
+:B7 · acude al vivero por la planta;
+|R6 Vivero|
+:B7b · entrega contra vale;\nbaja inventario e informe;
+|R1 Solicitante|
+:B8 · establece la planta;
+:B9 · informe final\n(solo con Contrato);
+|R11 Archivo|
+:B10 · archivo del expediente;
+stop
+endif
+@enduml
