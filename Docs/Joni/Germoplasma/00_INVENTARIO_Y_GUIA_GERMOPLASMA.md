@@ -2,7 +2,7 @@
 
 > Documento unificado (2026-09-14). Reemplaza a `00_INVENTARIO_Y_MAPA.md` y `00_GUIA_LECTURA_BANCO_SEMILLAS.md` (su historial queda en git).
 > **Parte I** = mapa de todas las fuentes del proyecto (los 3 dominios). **Parte II** = ruta de lectura recomendada del dominio banco de semillas/germoplasma.
-> Fuentes: `Docs/Comun/` (reorganizado 2026-09-14); trabajo propio: `Docs/Joni/`. Fase: entendimiento del problema → análisis de procedimientos (venta/distribución: `02_PROCEDIMIENTO_DISTRIBUCION_GERMOPLASMA.md`).
+> Fuentes: `Docs/Comun/` (reorganizado 2026-09-14); trabajo propio: `Docs/Joni/`. Fase: entendimiento del problema → análisis de procedimientos (venta/distribución = proceso P9: `P09_DISTRIBUCION_GERMOPLASMA.md`).
 
 ---
 
@@ -131,7 +131,7 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 
 | Ruta | Qué es |
 |---|---|
-| [Germoplasma/02_PROCEDIMIENTO_DISTRIBUCION_GERMOPLASMA.md](./02_PROCEDIMIENTO_DISTRIBUCION_GERMOPLASMA.md) | Análisis del procedimiento de distribución (venta + donación): roles R1–R13, reglas BR, pasos, necesidades N-01..N-18 |
+| [Germoplasma/P09_DISTRIBUCION_GERMOPLASMA.md](./P09_DISTRIBUCION_GERMOPLASMA.md) | Análisis del proceso **P9** (salida externa: venta + donación): roles R1–R13, reglas BR-1..11, pasos A#/B#, necesidades N-01..N-21. Antes `02_PROCEDIMIENTO_...` |
 | [Germoplasma/01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md](./01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md) | Mapa de procesos del banco (fundamentales vs no fundamentales), qué sabemos / qué falta de cada uno y lista de búsqueda priorizada |
 | [Diagramas/4.1_Atencion_Solicitudes_Planta_Forestal/](<../Diagramas/4.1_Atencion_Solicitudes_Planta_Forestal/>) | 3 hojas del diagrama 4.1 (PDF págs. 12–14 del MP 2006) |
 | [Diagramas/4.2_Colecta_Germoplasma_Forestal/](<../Diagramas/4.2_Colecta_Germoplasma_Forestal/>) | 7 hojas del diagrama 4.2 (PDF págs. 31–37) + versión en columnas + resúmenes (Colecta, Donación) |
@@ -143,13 +143,13 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 
 # Parte II — Ruta de lectura: banco de semillas / germoplasma
 
-> Objetivo: entender el funcionamiento interno, de roles a procedimientos. Tiempo estimado ~2 h. Los documentos están en `Docs/Comun/` (enlaces ya resueltos en la Parte I).
+> Objetivo: entender el funcionamiento interno, de roles a procedimientos. Tiempo estimado ~2 h. Los documentos están en `Docs/Comun/` (enlaces ya resueltos en la Parte I). *Aclaración: "P1–P4" aquí son etapas de lectura; los IDs de proceso del banco (P1–P10) están en `01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md`.*
 
 ## P1 — Quién hace qué (roles y atribuciones) · ~45 min
 
 | # | Documento | Qué leer y por qué |
 |---|---|---|
-| 1 | `Manual Jurídico/dic161d.pdf` (MGO 2025) | **pág. 13** organigrama (DG → DRFF → Subdirección de Restauración y Producción de Planta → Depto. de Producción de Planta). **Págs. 25–27** funciones SRyPP: recolecta de germoplasma, huertos semilleros, propagación in vitro, laboratorio, venta y capitalización de semilla, visitas guiadas. **Pág. 21** apoyo a entidades para adquirir semilla/conos. **Pág. 36** delegaciones regionales (reportan zonas de colecta, producen planta). **Pág. 12** codificación estructural |
+| 1 | `Manual Jurídico/dic161d.pdf` (MGO 2025) | **pág. 13** organigrama (DG → DRFF → SRyPP → Depto. de Producción de Planta). **Págs. 25–26** funciones SRyPP (225C0201020100L): coordina recolecta de germoplasma (f.3), atiende restauración forestal social (f.10), **venta y capitalización de semilla/conos/planta (f.12)**. **Págs. 26–27** SAPCAT: huertos semilleros y propagación in vitro (f.11), visitas guiadas (f.20) — *no* son de la SRyPP (verificado 2026-09-14). **Págs. 20–21** UVI (f.6 apoyo a entidades para adquirir semilla/conos/planta). **Págs. 35–36** delegaciones regionales. **Pág. 12** codificación estructural; **pp. 17–20** OIC |
 | 2 | `Manual Jurídico/Directorio.txt` | Nombres reales por puesto (Iván Delfino Gómez Patiño — SRyPP; Emmanuel Mondragón Romero — DRFF) |
 | 3 | `Manual Jurídico/rglvig245.pdf` art. 15 (págs. 9–10) | Base legal: viveros, huertos semilleros y **bancos de germoplasma in situ** |
 | 4 | `Germoplasma/86_manualProcDirRestYFtoFtal.pdf` págs. 25–27 y 31–37 | **Roles OPERATIVOS del 2006** (los nombres de columna del diagrama): Responsable de Colecta de Germoplasma Forestal, Banco de Germoplasma, Depto. de Producción de Planta, Titular del Depto., DRFF, Delegaciones Regionales — el MGO solo da funciones generales; este manual dice quién firma qué |
@@ -168,7 +168,7 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 
 | # | Documento | Qué leer |
 |---|---|---|
-| 10 | `86_manualProcDirRestYFtoFtal.pdf` **págs. 38–42** | **Los registros formales del Banco ya están definidos**: formato "Solicitud de Semilla" (p. 39–40) y **"Salida de Semilla del Banco de Germoplasma" con folio** (p. 41–42) que captura por lote: **lote, fecha de colecta, presupuesto, peso kg, semillas/kg, % llenas, % germinación, planta a obtener y fecha límite de siembra** (con responsabilidad del jefe de vivero). También "Vale de Salida de Planta de Viveros" con folio consecutivo (4.1, págs. 15–24) |
+| 10 | `86_manualProcDirRestYFtoFtal.pdf` **págs. 38–42** | **Los registros formales del Banco ya están definidos**: formato "Solicitud de Semilla" (p. 39–40) y **"Salida de Semilla del Banco de Germoplasma" con folio** (p. 41–42) que captura por lote: **lote, fecha de colecta, presupuesto, peso kg, semillas/kg, % llenas, % germinación, planta a obtener y fecha límite de siembra** (con responsabilidad del jefe de vivero). También "Vale de Salida de Planta de Viveros" con folio consecutivo (4.1, formatos pp. 16–27; el vale pp. 26–27) |
 | 11 | `Germoplasma/COSTOS_Venta_Semilla_Conos_2026.pdf` + `COSTOS_Venta_Planta_2026.pdf` | El catálogo público es de facto el inventario de especies disponibles y precios |
 | 12 | `Germoplasma/PRECIOS_Y_TARIFAS_..._abr301a.pdf` | Tarifas formales (Gaceta 2024) — tope legal de los precios del catálogo |
 | 13 | `Manual Jurídico/jul301b.pdf` | MP de Contabilidad 2025 (con texto): registro de ingresos vía **póliza de ingresos + SPEI/contra-recibo** (p. 19); el FUP lo elabora y sella Contabilidad según RETYS |
