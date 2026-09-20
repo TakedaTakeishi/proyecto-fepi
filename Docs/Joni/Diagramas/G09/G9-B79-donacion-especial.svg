@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 468 530" width="468" height="530" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="8.5" markerHeight="8.5" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#566171"/></marker></defs>
+<rect x="0" y="0" width="468" height="530" fill="#FAFBFC"/>
+<text x="234" y="42" text-anchor="middle" font-size="17" font-weight="600" fill="#111827">G9·B·79 — Donación especial (art. 3.79 Bis)</text>
+<rect x="27" y="62" width="204" height="438" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="129" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R1</text>
+<text x="129" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Solicitante</text>
+<rect x="237" y="62" width="204" height="438" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="339" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R6</text>
+<text x="339" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Vivero</text>
+<polyline points="129,116 129,126.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="129,193.5 129,211.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="129,278.5 129,300 339,300 339,304" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="339,356 339,380 129,380 129,376.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="129,443.5 129,454" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="129" cy="108" r="7" fill="#374151"/>
+<rect x="41.25" y="126.5" width="175.5" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="129" y="149" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B·79.1</tspan><tspan fill="#1F2937"> · Entrega acta +</tspan></text>
+<text x="129" y="164" text-anchor="middle" font-size="11.5" fill="#1F2937">identificación (DRF</text>
+<text x="129" y="179" text-anchor="middle" font-size="11.5" fill="#1F2937">o SRyPP)</text>
+<rect x="51" y="211.5" width="156" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="129" y="234" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B·79.2</tspan><tspan fill="#1F2937"> · Firma Carta</tspan></text>
+<text x="129" y="249" text-anchor="middle" font-size="11.5" fill="#1F2937">Compromiso y recoge</text>
+<text x="129" y="264" text-anchor="middle" font-size="11.5" fill="#1F2937">el vale</text>
+<rect x="264.25" y="304" width="149.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="339" y="326.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B·79.3</tspan><tspan fill="#1F2937"> · Recoge la</tspan></text>
+<text x="339" y="341.5" text-anchor="middle" font-size="11.5" fill="#1F2937">planta en el vivero</text>
+<rect x="47.75" y="376.5" width="162.5" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="129" y="399" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B·79.4</tspan><tspan fill="#1F2937"> · Establece la</tspan></text>
+<text x="129" y="414" text-anchor="middle" font-size="11.5" fill="#1F2937">planta conforme a</text>
+<text x="129" y="429" text-anchor="middle" font-size="11.5" fill="#1F2937">la carta</text>
+<circle cx="129" cy="462" r="8" fill="#374151"/><circle cx="129" cy="462" r="3.4" fill="#FAFBFC"/>
+</svg>

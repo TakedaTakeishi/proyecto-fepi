@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1470 1595" width="1470" height="1595" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="8.5" markerHeight="8.5" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#566171"/></marker></defs>
+<rect x="0" y="0" width="1470" height="1595" fill="#FAFBFC"/>
+<text x="735" y="42" text-anchor="middle" font-size="17" font-weight="600" fill="#111827">G9·A — Venta (semilla / conos / planta)</text>
+<rect x="49" y="62" width="194" height="1503" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="146" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R1</text>
+<text x="146" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Solicitante</text>
+<rect x="249" y="62" width="194" height="1503" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="346" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R8</text>
+<text x="346" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Contabilidad</text>
+<rect x="449" y="62" width="194" height="1503" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="546" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R3</text>
+<text x="546" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Ventanilla DPP·UVI</text>
+<rect x="649" y="62" width="194" height="1503" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="746" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R4</text>
+<text x="746" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Banco de germoplasma</text>
+<rect x="849" y="62" width="194" height="1503" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="946" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R5</text>
+<text x="946" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Área de Beneficio</text>
+<rect x="1049" y="62" width="194" height="1503" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="1146" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R6</text>
+<text x="1146" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Vivero</text>
+<rect x="1249" y="62" width="194" height="1503" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="1346" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R11</text>
+<text x="1346" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Archivo</text>
+<rect x="12" y="118" width="24" height="627" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="24" y="431.5" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1D4ED8" transform="rotate(-90 24 431.5)">Semilla y conos</text>
+<rect x="12" y="763" width="24" height="542" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="24" y="1034" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1D4ED8" transform="rotate(-90 24 1034)">Planta</text>
+<rect x="12" y="1362" width="24" height="186" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="24" y="1455" text-anchor="middle" font-size="10.5" font-weight="600" fill="#1D4ED8" transform="rotate(-90 24 1455)">Registro</text>
+<polyline points="146,116 146,132" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="146,184 146,197 346,197 346,209" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="346,261 346,270 146,270 146,278.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="146,345.5 146,356 346,356 346,366" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="346,418 346,431 546,431 546,444" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="546,496 546,526" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="546,570 546,583 746,583 746,596.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="617.4,548 946,548 946,596.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="746,663.5 746,682" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="746,734 746,1345" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="946,663.5 946,1345" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="1146,1301.5 1146,1345" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="1146,1345 346,1345" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="346,1345 346,1374" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="146,763 146,774" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="146,826 146,843 346,843 346,859.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="346,896.5 346,913 146,913 146,930" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="146,982 146,999 346,999 346,1015.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="346,1052.5 346,1069 546,1069 546,1086" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="546,1138 546,1147 1146,1147 1146,1156.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1146,1223.5 1146,1234.5" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="346,1426 346,1440 1346,1440 1346,1454" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1346,1506 1346,1527" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="146" cy="108" r="7" fill="#374151"/>
+<rect x="61.5" y="132" width="169" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="146" y="154.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A0</tspan><tspan fill="#1F2937"> · Consulta catálogo</tspan></text>
+<text x="146" y="169.5" text-anchor="middle" font-size="11.5" fill="#1F2937">y disponibilidad</text>
+<rect x="271.25" y="209" width="149.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="346" y="231.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A1</tspan><tspan fill="#1F2937"> · Elabora el FUP</tspan></text>
+<text x="346" y="246.5" text-anchor="middle" font-size="11.5" fill="#1F2937">con el importe</text>
+<rect x="71.25" y="278.5" width="149.5" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="146" y="301" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A2</tspan><tspan fill="#1F2937"> · Paga en centro</tspan></text>
+<text x="146" y="316" text-anchor="middle" font-size="11.5" fill="#1F2937">autorizado (R9) y</text>
+<text x="146" y="331" text-anchor="middle" font-size="11.5" fill="#1F2937">entrega comprobante</text>
+<rect x="272" y="366" width="148" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="346" y="388.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A3</tspan><tspan fill="#1F2937"> · Sella el FUP</tspan></text>
+<text x="346" y="403.5" text-anchor="middle" font-size="11.5" fill="#1F2937">“Pagado”</text>
+<rect x="468" y="444" width="156" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="546" y="466.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A4</tspan><tspan fill="#1F2937"> · Indica el punto</tspan></text>
+<text x="546" y="481.5" text-anchor="middle" font-size="11.5" fill="#1F2937">de recogida</text>
+<polygon points="546,526 617.4,548 546,570 474.6,548" fill="#FDF6E3" stroke="#D8BC6A" stroke-width="1.2"/>
+<text x="546" y="552" text-anchor="middle" font-size="11.5" fill="#7A5B12">¿Semilla o conos?</text>
+<rect x="661.5" y="596.5" width="169" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="746" y="619" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A5</tspan><tspan fill="#1F2937"> · Entrega semilla +</tspan></text>
+<text x="746" y="634" text-anchor="middle" font-size="11.5" fill="#1F2937">formato de salida</text>
+<text x="746" y="649" text-anchor="middle" font-size="11.5" fill="#1F2937">foliado</text>
+<rect x="668" y="682" width="156" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="746" y="704.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A6</tspan><tspan fill="#1F2937"> · Bitácora y baja</tspan></text>
+<text x="746" y="719.5" text-anchor="middle" font-size="11.5" fill="#1F2937">de inventario</text>
+<rect x="868" y="596.5" width="156" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="946" y="619" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-C5</tspan><tspan fill="#1F2937"> · Entrega conos</tspan></text>
+<text x="946" y="634" text-anchor="middle" font-size="11.5" fill="#1F2937">en el Área de</text>
+<text x="946" y="649" text-anchor="middle" font-size="11.5" fill="#1F2937">Beneficio</text>
+<rect x="72" y="774" width="148" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="146" y="796.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-P0</tspan><tspan fill="#1F2937"> · Consulta</tspan></text>
+<text x="146" y="811.5" text-anchor="middle" font-size="11.5" fill="#1F2937">catálogo de planta</text>
+<circle cx="146" cy="755" r="7" fill="#374151"/>
+<rect x="264.75" y="859.5" width="162.5" height="37" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="346" y="882" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-P1</tspan><tspan fill="#1F2937"> · Elabora el FUP</tspan></text>
+<rect x="64.75" y="930" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="146" y="952.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-P2</tspan><tspan fill="#1F2937"> · Paga en centro</tspan></text>
+<text x="146" y="967.5" text-anchor="middle" font-size="11.5" fill="#1F2937">autorizado (R9)</text>
+<rect x="264.75" y="1015.5" width="162.5" height="37" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="346" y="1038" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-P3</tspan><tspan fill="#1F2937"> · Sella “Pagado”</tspan></text>
+<rect x="464.75" y="1086" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="546" y="1108.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-P4</tspan><tspan fill="#1F2937"> · Genera el vale</tspan></text>
+<text x="546" y="1123.5" text-anchor="middle" font-size="11.5" fill="#1F2937">de salida de planta</text>
+<rect x="1068" y="1156.5" width="156" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="1146" y="1179" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-P5</tspan><tspan fill="#1F2937"> · Entrega en</tspan></text>
+<text x="1146" y="1194" text-anchor="middle" font-size="11.5" fill="#1F2937">vivero contra vale +</text>
+<text x="1146" y="1209" text-anchor="middle" font-size="11.5" fill="#1F2937">FUP “Pagado”</text>
+<rect x="1058.25" y="1234.5" width="175.5" height="67" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="1146" y="1257" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A-P6</tspan><tspan fill="#1F2937"> · Registra salida,</tspan></text>
+<text x="1146" y="1272" text-anchor="middle" font-size="11.5" fill="#1F2937">baja inventario e</text>
+<text x="1146" y="1287" text-anchor="middle" font-size="11.5" fill="#1F2937">informa a la DRF</text>
+<rect x="255" y="1374" width="182" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="346" y="1396.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A7</tspan><tspan fill="#1F2937"> · Registra el ingreso</tspan></text>
+<text x="346" y="1411.5" text-anchor="middle" font-size="11.5" fill="#1F2937">(póliza + SPEI)</text>
+<rect x="1268" y="1454" width="156" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="1346" y="1476.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A8</tspan><tspan fill="#1F2937"> · Archiva el</tspan></text>
+<text x="1346" y="1491.5" text-anchor="middle" font-size="11.5" fill="#1F2937">expediente por folio</text>
+<circle cx="1346" cy="1535" r="8" fill="#374151"/><circle cx="1346" cy="1535" r="3.4" fill="#FAFBFC"/>
+<text x="646" y="578" text-anchor="middle" font-size="10.5" font-weight="400" font-style="italic" fill="#6B7280">semilla</text>
+<text x="746" y="540" text-anchor="middle" font-size="10.5" font-weight="400" font-style="italic" fill="#6B7280">conos</text>
+<text x="846" y="1433" text-anchor="middle" font-size="10.5" font-weight="400" font-style="italic" fill="#6B7280">folio</text>
+<circle cx="746" cy="1345" r="2.6" fill="#566171"/>
+<circle cx="946" cy="1345" r="2.6" fill="#566171"/>
+<circle cx="1146" cy="1345" r="2.6" fill="#566171"/>
+</svg>
