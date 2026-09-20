@@ -7,9 +7,9 @@
 
 ## 1. Objeto y alcance
 
-Calcular el **indicador de cobertura de la masa forestal** del programa presupuestario 03020201 «Desarrollo Forestal» — porcentaje de la superficie objetivo efectivamente atendida (bajo manejo) — y conciliarlo contra el presupuesto ejercido del ejercicio fiscal, dejándolo listo para su validación metodológica externa.
+Calcular los **indicadores de cobertura y manejo de la masa forestal** del programa presupuestario 03020201 «Desarrollo Forestal» —abarcando acciones de reforestación, manejo forestal maderable y servicios ambientales— y conciliarlo contra el presupuesto ejercido del ejercicio fiscal, dejándolo listo para su validación metodológica externa.
 
-**Dentro del alcance:** recepción del dato de superficie desde el SIG/campo → cálculo del porcentaje de cobertura → conciliación con presupuesto ejercido → revisión interna → envío a validación externa.
+**Dentro del alcance:** recepción del dato de superficie desde el SIG/campo → cálculo de los índices (MIR) → conciliación con presupuesto ejercido → revisión interna → envío a validación externa.
 
 **Fuera del alcance:** el levantamiento de datos en campo y su carga al SIG (proceso previo, Fase 2), el dictamen de solicitudes individuales (Fase 4), y la publicación final del informe (Fase 8, que consume el resultado de este proceso).
 
@@ -17,25 +17,20 @@ Calcular el **indicador de cobertura de la masa forestal** del programa presupue
 
 | Clave | Documento | Uso |
 |---|---|---|
-| [EVAL23-ANEXOS] | Evaluación Específica de Desempeño del Pp. 03020201 «Desarrollo Forestal», Anexos, PROBOSQUE, 2023 (evalúa ejercicio 2022) — transparenciafiscal.edomex.gob.mx | Fuente del dato duro de cobertura 2022 (28.55 %) y de las cifras presupuestales del ejercicio |
-| [EVAL23-CONAC] | Evaluación Específica de Desempeño, Formato CONAC de difusión de resultados, PROBOSQUE, 2023 | Confirma la existencia del SIG y del Sistema de Gestión de Calidad como fuente del dato, y documenta debilidades de sistematización |
-| [MGO] | Manual General de Organización de PROBOSQUE, Gaceta del Gobierno, 28-may-2012 | Ubica a la Unidad de Información, Planeación, Programación y Evaluación (UIPPE) y a las Direcciones sustantivas dentro del organigrama |
-| [CONEVAL-FICHA] | Ficha de Monitoreo Sectorial Forestal, CONEVAL, 2017 | Marco de referencia federal (CONAFOR) usado como comparativo, no como meta propia de PROBOSQUE |
-| [ROP-GEN] | Reglas de Operación de programas forestales de PROBOSQUE (ediciones 2013–2026, estructura homóloga) | Define la superficie objetivo y los criterios de qué cuenta como "superficie bajo manejo" |
-
-**Nota de transparencia:** no se localizó públicamente la fórmula exacta de cálculo del indicador tal como aparece en la Matriz de Indicadores para Resultados (MIR); la fórmula descrita en (BR-1) se reconstruye a partir del dato reportado (28.55 % = superficie bajo manejo / superficie objetivo) y debe confirmarse contra la ficha técnica de indicador vigente.
+| [MIR-2026] | Programa Presupuestario 03020201 «Desarrollo Forestal» 2026 | Define las fórmulas exactas y la periodicidad oficial de los indicadores de cobertura y manejo forestal. |
+| [FICHAS-2024] | Fichas Técnicas de Diseño y Seguimiento de Indicadores 2024, PROBOSQUE | Documenta la metodología de cálculo y el desglose de variables para indicadores trimestrales operativos (ej. sanidad forestal). |
+| [EVAL23-CONAC] | Evaluación Específica de Desempeño, Formato CONAC de difusión de resultados, PROBOSQUE, 2023 | Confirma la existencia del SIG y del Sistema de Gestión de Calidad como fuente del dato, y documenta la debilidad de que el origen está en hojas de cálculo no sistematizadas. |
+| [MGO] | Manual General de Organización de PROBOSQUE, Gaceta del Gobierno, 28-may-2012 | Ubica a la Unidad de Información, Planeación, Programación y Evaluación (UIPPE) y a las Direcciones sustantivas dentro del organigrama. |
+| [ROP-GEN] | Reglas de Operación de programas forestales de PROBOSQUE | Define la superficie objetivo y los criterios de qué cuenta como "superficie bajo manejo". |
 
 ## 2.1 Glosario
 
 | Término / sigla | Significado | Fuente |
 |---|---|---|
-| MIR | Matriz de Indicadores para Resultados del Pp. «Desarrollo Forestal» | [EVAL23-ANEXOS] |
+| MIR | Matriz de Indicadores para Resultados del Pp. «Desarrollo Forestal» | [MIR-2026] |
 | UIPPE | Unidad de Información, Planeación, Programación y Evaluación de PROBOSQUE | [MGO] |
 | PAE | Programa Anual de Evaluación del Estado de México | [EVAL23-CONAC] |
 | ASM | Aspectos Susceptibles de Mejora, hallazgos de una evaluación externa que retroalimentan el proceso | [EVAL23-CONAC] |
-| Superficie bajo manejo | Superficie que efectivamente recibió intervención (reforestación, plantación, aprovechamiento, etc.), a diferencia de la superficie sólo planeada | [EVAL23-ANEXOS] |
-| Superficie objetivo | Meta de superficie a atender en el ejercicio fiscal, definida en la planeación del programa | [EVAL23-ANEXOS] |
-| Pp. | Programa presupuestario (nomenclatura CONAC/estatal) | [EVAL23-CONAC] |
 
 ## 3. Roles (stakeholders)
 
@@ -51,28 +46,30 @@ Calcular el **indicador de cobertura de la masa forestal** del programa presupue
 
 | Rol | Función | Actividades clave |
 |---|---|---|
-| R1 | Proveer el dato base | Entregar la superficie bajo manejo actualizada del SIG (heredada de la Fase 2) |
-| R2 | Calcular el indicador | Aplicar la fórmula de cobertura, cargarla a la MIR, documentar memoria de cálculo |
-| R3 | Conciliar presupuesto | Cruzar el presupuesto ejercido del ejercicio fiscal contra la superficie reportada |
-| R4 | Autorizar | Revisar el cálculo preliminar y autorizar su envío a evaluación externa |
-| R5 | Validar | Revisar la consistencia metodológica y emitir observaciones (ASM) si corresponde |
+| R1 | Proveer el dato base | Entregar la superficie bajo manejo (reforestada, perturbada, con problemas) actualizada, heredada de la Fase 2 en hojas de cálculo. |
+| R2 | Calcular el indicador | Aplicar las fórmulas de la MIR (Nivel Fin, Propósito y Componente), cargar el resultado, documentar memoria de cálculo. |
+| R3 | Conciliar presupuesto | Cruzar el presupuesto ejercido del ejercicio fiscal contra la superficie reportada. |
+| R4 | Autorizar | Revisar el cálculo preliminar y autorizar su envío a evaluación externa. |
+| R5 | Validar | Revisar la consistencia metodológica y emitir observaciones (ASM) si corresponde. |
 
 ## 5. Reglas de negocio verificadas
 
-- **BR-1** Fórmula reconstruida del indicador: `% cobertura = (superficie bajo manejo atendida / superficie objetivo) × 100`. Dato duro verificado del ejercicio 2022: **28.55 %** [EVAL23-ANEXOS].
-- **BR-2** Sólo cuenta para el indicador la superficie efectivamente **bajo manejo** dentro del área de enfoque atendida; la superficie sólo planeada no ejecutada no se contabiliza [EVAL23-ANEXOS].
-- **BR-3** El cálculo se concilia contra el presupuesto del mismo ejercicio fiscal. Dato 2022: autorizado $228,647,305.00; modificado $240,187,757.61; ejercido $168,340,090.95 [EVAL23-ANEXOS].
-- **BR-4** El indicador debe someterse a validación metodológica externa dentro del Programa Anual de Evaluación (PAE) estatal [EVAL23-CONAC].
-- **BR-5** Los indicadores federales de referencia (CONAFOR: tasa de deforestación neta anual, cobertura restaurada) se usan como marco comparativo de tendencia, **no** como meta propia de PROBOSQUE [CONEVAL-FICHA].
+- **BR-1** El cálculo de cobertura se rige por las fórmulas oficiales de la MIR 2026. Las principales son:
+  - **Restauración (Nivel Fin):** $ \% = \left(\frac{\text{Superficie forestal perturbada incorporada a acciones}}{\text{Superficie forestal perturbada en el Edoméx}}\right) \times 100 $
+  - **Servicios Ambientales (Nivel Propósito):** $ \% = \left(\frac{\text{Superficie aprobada por servicios ambientales}}{\text{Superficie de áreas forestales potenciales}}\right) \times 100 $
+  - **Manejo Maderable (Nivel Componente):** $ \text{Tasa} = \left(\frac{\text{Superficie bajo manejo final} - \text{Superficie bajo manejo inicial}}{\text{Superficie bajo manejo inicial}}\right) \times 100 $
+- **BR-2** Sólo cuenta para el indicador la superficie efectivamente comprobada dentro del área de enfoque atendida; la superficie sólo planeada no ejecutada no se contabiliza.
+- **BR-3** Los indicadores estratégicos de cobertura general tienen una frecuencia de medición **Anual**, mientras que los indicadores de gestión operativos (como la atención de sanidad forestal) se miden de forma **Trimestral**.
+- **BR-4** El indicador debe someterse a validación metodológica externa dentro del Programa Anual de Evaluación (PAE) estatal.
 
 ## 6. Procedimiento narrado
 
-1. R1 aporta el dato de superficie bajo manejo actualizado en el SIG (resultado de la Fase 2).
-2. R2 aplica la fórmula de cobertura (BR-1) y carga el resultado preliminar a la MIR del Pp. «Desarrollo Forestal».
-3. R3 concilia el dato de superficie contra el presupuesto ejercido del ejercicio fiscal (BR-3).
-4. R2 integra la memoria de cálculo y remite el indicador preliminar a R4.
-5. R4 (Dirección General) revisa y autoriza el indicador para su envío a validación externa.
-6. R5 (instancia evaluadora bajo el PAE) valida la consistencia metodológica y, en su caso, emite Aspectos Susceptibles de Mejora (ASM).
+1. R1 aporta el dato de superficie actualizado (resultado de la Fase 2). *Nota operativa: Actualmente estos datos provienen de proyectos mantenidos en hojas de cálculo (Excel) que no constituyen una base de datos sistematizada*.
+2. R2 aplica las fórmulas oficiales (BR-1) según la periodicidad del indicador (anual o trimestral) y carga el resultado a la MIR del Pp. «Desarrollo Forestal».
+3. R3 concilia el dato de superficie contra el presupuesto ejercido del ejercicio fiscal.
+4. R2 integra la memoria de cálculo (ficha técnica) y remite el indicador preliminar a R4.
+5. R4 (Dirección General) revisa (da el Visto Bueno) y autoriza el indicador para su publicación y envío a evaluación externa.
+6. R5 (instancia evaluadora bajo el PAE) valida la consistencia metodológica anual y, en su caso, emite Aspectos Susceptibles de Mejora (ASM).
 7. R2 incorpora las observaciones de R5 si existen, y consolida el indicador final del ejercicio.
 8. El indicador final pasa a la Fase 8 (Reporte de resultados e indicadores) para su publicación.
 
@@ -80,31 +77,28 @@ Calcular el **indicador de cobertura de la masa forestal** del programa presupue
 
 ![Diagrama de proceso — Fase 3: Cálculo de índices de cobertura](fase3_calculo_indices.png)
 
-Inicia cuando las Direcciones sustantivas entregan la superficie bajo manejo (heredada de la Fase 2). UIPPE calcula el indicador y lo carga a la MIR; Administración concilia contra presupuesto; Dirección General autoriza (o regresa el cálculo si no autoriza); CONEVAL/evaluador externo valida la metodología y, si emite ASM, UIPPE los incorpora antes de consolidar el indicador final que alimenta la Fase 8.
-
 ## 8. Tabla de necesidades
 
 Prioridad: **A** = obligatoria (la exige norma o el proceso se detiene), **M** = media (control/consistencia), **B** = deseable.
 
-| ID | Rol / Stakeholder | Necesidad | Prioridad | Origen | Paso del procedimiento relacionado|
-|---|---|---|---|---| --- |
-| N-01 | R2 UIPPE | Calcular y reportar el indicador de cobertura en la MIR | A | Normativo — CONEVAL / Programa Anual de Evaluación estatal | Paso 2: R2 aplica la fórmula de cobertura y carga el resultado preliminar a la MIR |
-| N-02 | R3 Administración | Vincular presupuesto ejercido con la superficie efectivamente cubierta | A | Organizacional | Paso 3: R3 concilia el dato de superficie contra el presupuesto ejercido °
-| N-03 | R5 CONEVAL/evaluador | Validar consistencia metodológica del indicador | M | Normativo — Programa Anual de Evaluación | Paso 6: R5 valida la consistencia metodológica y emite ASM si corresponde |
-| N-04 | R2 UIPPE | Recibir de la Fase 2 un dato de superficie confiable y sistematizado | A | Derivada — hoy el dato de origen vive en hojas de cálculo no sistematizadas (hallazgo Fase 2) | Paso 1: R1 aporta el dato de superficie bajo manejo actualizado en el SIG |
-| N-05 | R4 Dirección General | Contar con memoria de cálculo documentada antes de autorizar | M | Buenas prácticas de control interno | Paso 4: R2 integra la memoria de cálculo y remite el indicador a R4 |
-| N-06 | R1 Direcciones sustantivas | Entregar el dato de campo/SIG con periodicidad definida | M | Inferida — no hay evidencia pública de la periodicidad exacta | Paso 1: R1 aporta el dato de superficie bajo manejo actualizado en el SIG
+| ID | Rol / Stakeholder | Necesidad | Prioridad | Origen | Paso del procedimiento relacionado |
+|---|---|---|---|---|---|
+| N-01 | R2 UIPPE | Calcular y reportar el indicador de cobertura en la MIR | A | Normativo — MIR 2026 | Paso 2. Relacionado con Fase 2 (insumo) y Fase 8 (resultado) |
+| N-02 | R3 Administración | Vincular presupuesto ejercido con la superficie efectivamente cubierta | A | Organizacional | Paso 3. Interno a esta fase |
+| N-03 | R5 CONEVAL/evaluador | Validar consistencia metodológica del indicador | M | Normativo — Programa Anual de Evaluación | Paso 6. Relacionado con Fase 8 (Reporte) |
+| N-04 | R2 UIPPE | Recibir de la Fase 2 un dato de superficie confiable y sistematizado | A | Derivada — hoy el dato de origen vive en hojas de cálculo (riesgo documentado) | Paso 1. Relacionado directamente con Fase 2 |
+| N-05 | R4 Dirección General | Contar con la Ficha Técnica documentada antes de otorgar el Vo. Bo. | A | Normativo / Fichas 2024 | Paso 5. Previo a Fase 8 |
 
 ## 9. Registros que el proceso debe gestionar
 
 | Registro | Genera | Contiene | Retención sugerida |
 |---|---|---|---|
-| Ficha técnica de indicador (MIR) | R2 | Fórmula, meta, avance, fuente de datos | Ciclo del ejercicio fiscal + histórico comparativo |
-| Memoria de cálculo del indicador | R2 | Superficie bajo manejo, superficie objetivo, cálculo paso a paso | A definir por Archivo institucional |
+| Ficha técnica de indicador (MIR) | R2 | Fórmula, variables, meta, avance trimestral/anual, firmas de elaboración y Vo. Bo. | Ciclo del ejercicio fiscal + histórico |
+| Memoria de cálculo del indicador | R2 | Superficie atendida, superficie potencial, cálculo de tasa de variación | A definir por Archivo institucional |
 | Reporte de conciliación presupuestal | R3 | Presupuesto autorizado/modificado/ejercido vs. superficie atendida | Fiscal (Cuenta Pública) |
-| Informe de validación metodológica (ASM) | R5 | Hallazgos, observaciones, recomendaciones | Ciclo de mejora continua (retroalimenta Fases 2 y 3) |
+| Informe de validación metodológica (ASM) | R5 | Hallazgos, observaciones, recomendaciones | Ciclo de mejora continua |
 
-## 10. Vacíos y siguientes pasos
+## 10. Vacíos remanentes (Riesgos operativos actuales)
 
-1. No se localizó la fórmula exacta publicada en una ficha técnica de indicador vigente; la fórmula de BR-1 es una **reconstrucción razonada** a partir del dato reportado (28.55 %), pendiente de confirmar contra el documento MIR original.
-2. El dato de origen (Fase 2) proviene de hojas de cálculo no sistematizadas, lo que introduce riesgo de inconsistencia en este cálculo — riesgo heredado, no propio de esta fase.
+1. **Vulnerabilidad del dato de origen (Heredado de la Fase 2):** Tal como señala la evaluación de desempeño, la información operativa sigue proviniendo de hojas de cálculo de Excel en las áreas sustantivas, en lugar de una base de datos institucional robusta, lo que traslada el riesgo de error humano directo al cálculo final de R2.
+2. **Opacidad en la conciliación presupuestal:** El mecanismo exacto de conciliación presupuestal (R3) no está documentado paso a paso en manuales públicos; se opera bajo inferencia lógica entre el gasto ejercido y el avance de las metas trimestrales/anuales.
