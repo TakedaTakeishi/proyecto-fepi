@@ -2,7 +2,7 @@
 
 > Documento unificado (2026-09-14). Reemplaza a `00_INVENTARIO_Y_MAPA.md` y `00_GUIA_LECTURA_BANCO_SEMILLAS.md` (su historial queda en git).
 > **Parte I** = mapa de todas las fuentes del proyecto (los 3 dominios). **Parte II** = ruta de lectura recomendada del dominio banco de semillas/germoplasma.
-> Fuentes: `Docs/Comun/` (reorganizado 2026-09-14); trabajo propio: `Docs/Joni/`. Fase: entendimiento del problema → análisis de procedimientos (venta/distribución = proceso P9: `P09_DISTRIBUCION_GERMOPLASMA.md`).
+> Fuentes: `Docs/Comun/` (reorganizado 2026-09-14); trabajo propio: `Docs/Joni/`. Fase: entendimiento del problema → análisis de procedimientos (venta/distribución = proceso G9: `G09_DISTRIBUCION_GERMOPLASMA.md`).
 
 ---
 
@@ -69,9 +69,11 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 | Archivo | Qué es |
 |---|---|
 | [86_manualProcDirRestYFtoFtal.pdf](<../../Comun/Germoplasma/86_manualProcDirRestYFtoFtal.pdf>) | **MP de la DRFF (2006)** — ver Hallazgo clave y Parte II (procedimientos 4.1 y 4.2 con formatos) |
-| [COSTOS_Venta_Semilla_Conos_2026.pdf](<../../Comun/Germoplasma/COSTOS_Venta_Semilla_Conos_2026.pdf>) | Catálogo operativo 2026: especies y precios de semilla y conos (el "inventario" público) |
+| [COSTOS_Venta_Semilla_Conos_2026.pdf](<../../Comun/Germoplasma/COSTOS_Venta_Semilla_Conos_2026.pdf>) | Catálogo operativo 2026: especies y precios de semilla y conos (el "inventario" público). **1 p.** (corregido 2026-09-17) |
 | [COSTOS_Venta_Planta_2026.pdf](<../../Comun/Germoplasma/COSTOS_Venta_Planta_2026.pdf>) | Catálogo 2026 de planta y precios por tipo de envase |
-| [PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2024_abr301a.pdf](<../../Comun/Germoplasma/PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2024_abr301a.pdf>) | Tarifas formales de todos los servicios (Gaceta 30-abr-2024) — precio máximo legal |
+| `COSTOS_Venta_Semilla_2021..2025.pdf` + `COSTOS_Venta_Planta_2022..2025.pdf` + [COSTOS_Venta_Semilla_Conos_2021.pdf](<../../Comun/Germoplasma/COSTOS_Venta_Semilla_Conos_2021.pdf>) | **Serie histórica capturada 2026-09-17** de `ventaDeSemilla/<año>/` (2022–2025 por deducción de URL, todos `%PDF` verificados): permite el análisis de estabilidad del catálogo y la consistencia con la Gaceta → proceso **GS3** |
+| [PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2024_abr301a.pdf](<../../Comun/Germoplasma/PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2024_abr301a.pdf>) | Tarifas formales de todos los servicios (Gaceta 30-abr-2024) — precio máximo legal del ejercicio 2024 |
+| [PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2026_may191c.pdf](<../../Comun/Germoplasma/PRECIOS_Y_TARIFAS_Servicios_PROBOSQUE_2026_may191c.pdf>) | **Gaceta 19-may-2026 (Tomo CCXXI No. 86), capturada 2026-09-17** del enlace verificado de `marco_juridico.html`: montos del ejercicio 2026 — cierra la contradicción $9/$11 de G09 (firma: encargada DAFGD) |
 | [Manual_de_restauraci_n_forestal_version_digital_compressed__2_.pdf](<../../Comun/Germoplasma/Manual_de_restauraci_n_forestal_version_digital_compressed__2_.pdf>) | Manual de Restauración Forestal (técnico, ~10 MB) |
 | [RETYS_2092_SOLICITUD_DONACION_PLANTA_2026.pdf](<../../Comun/Germoplasma/RETYS_2092_SOLICITUD_DONACION_PLANTA_2026.pdf>) | **Formato oficial "Solicitud de Planta" 2026** (v.1, elaboró SRyPP / validó DRFF), descargado de la cédula RETYS 2092. En el sitio lo llaman "Solicitud de Restauración Forestal Social" |
 
@@ -131,7 +133,7 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 
 | Ruta | Qué es |
 |---|---|
-| [Germoplasma/P09_DISTRIBUCION_GERMOPLASMA.md](./P09_DISTRIBUCION_GERMOPLASMA.md) | Análisis del proceso **P9** (salida externa: venta + donación): roles R1–R13, reglas BR-1..11, pasos A#/B#, necesidades N-01..N-21. Antes `02_PROCEDIMIENTO_...` |
+| [Germoplasma/G09_DISTRIBUCION_GERMOPLASMA.md](./G09_DISTRIBUCION_GERMOPLASMA.md) | Análisis del proceso **G9** (salida externa: venta + donación): roles R1–R13, reglas BR-1..11, pasos A#/B#, necesidades N-01..N-21. Antes `02_PROCEDIMIENTO_...` y luego `P09_...` |
 | [Germoplasma/01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md](./01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md) | Mapa de procesos del banco (fundamentales vs no fundamentales), qué sabemos / qué falta de cada uno y lista de búsqueda priorizada |
 | [Diagramas/4.1_Atencion_Solicitudes_Planta_Forestal/](<../Diagramas/4.1_Atencion_Solicitudes_Planta_Forestal/>) | 3 hojas del diagrama 4.1 (PDF págs. 12–14 del MP 2006) |
 | [Diagramas/4.2_Colecta_Germoplasma_Forestal/](<../Diagramas/4.2_Colecta_Germoplasma_Forestal/>) | 7 hojas del diagrama 4.2 (PDF págs. 31–37) + versión en columnas + resúmenes (Colecta, Donación) |
@@ -143,7 +145,7 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 
 # Parte II — Ruta de lectura: banco de semillas / germoplasma
 
-> Objetivo: entender el funcionamiento interno, de roles a procedimientos. Tiempo estimado ~2 h. Los documentos están en `Docs/Comun/` (enlaces ya resueltos en la Parte I). *Aclaración: "P1–P4" aquí son etapas de lectura; los IDs de proceso del banco (P1–P10) están en `01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md`.*
+> Objetivo: entender el funcionamiento interno, de roles a procedimientos. Tiempo estimado ~2 h. Los documentos están en `Docs/Comun/` (enlaces ya resueltos en la Parte I). *Aclaración: "P1–P4" aquí son etapas de lectura (nombres propios de este plan); los IDs de proceso del banco (G1–G10 y GS1–GS8) están en `01_MAPA_PROCESOS_Y_VACIOS_GERMOPLASMA.md`.*
 
 ## P1 — Quién hace qué (roles y atribuciones) · ~45 min
 
@@ -212,4 +214,4 @@ Todas las páginas en [../../Comun/Sitio web/](<../../Comun/Sitio web/>). Para g
 - `CONVOCATORIA_Programas_Apoyo_2026_ene271c.pdf` ≈ `CONVOCATORIA_2026_Programas_Apoyo.pdf` (misma convocatoria, Gaceta vs web).
 - PDFs **escaneados sin capa de texto**: certificados ISO — una búsqueda de texto devuelve 0 y NO significa que el dato no exista; abrir como imagen. (`jul301b.pdf` ya NO aplica: es la versión 2025 con texto.)
 - NotaTec1 (Medidas para plantación exitosa) devolvió 404; puede resurgir en `publicaciones.html`.
-- Catálogos históricos de semilla (2021, 2025) solo como URL en `../Fuentes para el banco de semillas`.
+- ~~Catálogos históricos de semilla (2021, 2025) solo como URL en `../Fuentes para el banco de semillas`~~ **RESUELTO 2026-09-17**: serie 2021–2025 completa en `Docs/Comun/Germoplasma/` (2022–2024 localizadas por el patrón de URL `ventaDeSemilla/<año>/costosVenta{Semilla|Planta}Ftal<año>.pdf`); falta solo la Gaceta de tarifas del ejercicio 2025 (vacío B6 del mapa).

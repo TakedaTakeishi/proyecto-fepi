@@ -8,7 +8,7 @@ Fuentes primarias de PROBOSQUE organizadas por dominio. **Todo lo que es un docu
 | `Sitio web/` | Copia offline de las 39 páginas de probosque.edomex.gob.mx |
 | `Germoplasma/` | Catálogos de costos semilla/conos/planta 2026, tarifas Gaceta 2024, MP de la DRFF (fuente de los diagramas 4.1/4.2), manual de restauración forestal |
 | `Programas de apoyo/` | `RO_2026_*` (6, consolidados — priorizarlos), `REGLAS_OPS_*` (Gaceta), convocatorias, formatos FO-PB/Guardabosques/Voluntarios, fichas, guía de proyecto técnico, convocatoria 2025 (`feb071`) |
-| `Programas de apoyo/Reportes por reclamar/` | Reportes elaborados por Alan/Xareni; mover a la carpeta personal de su autor cuando se confirme el reparto |
+| `Programas de apoyo/Reportes por reclamar/` | Informes de resultados PSAHEM/ERF/RMSF elaborados por Alan/Xareni (hoy programadores — ya no documentan). **Confirmado 2026-09-19: quedan como fuente de E-02** (estadística de programas); Joni los mueve a `Docs/Joni/` cuando empiece ese análisis |
 | `Masa forestal/` | Autorizaciones DEMIF, sanidad (NOTATEC2), concesiones/evaluaciones 2023, Ley General de Desarrollo Forestal Sustentable |
 | `Finanzas y adquisiciones/` | Presupuesto, ley de ingresos, cuenta pública, ayudas y subsidios, manuales del Comité de Adquisiciones, acuerdos de días inhábiles |
 | `Gestión documental y calidad/` | Guía/Inventario/Cuadro de clasificación archivística, certificados ISO 9001, lineamientos de Mejora Regulatoria y ficha de trámite |

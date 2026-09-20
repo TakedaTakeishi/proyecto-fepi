@@ -5,3 +5,11 @@ venv/
 Thumbs.db
 desktop.ini
 .claude/
+.vscode/
+.agents/
+skills-lock.json
+~$*
+
+# Pruebas y descartes de diagramas (no se suben)
+Docs/Joni/Diagramas/G09/pruebas/
+Docs/Joni/Diagramas/G09/descartados/
