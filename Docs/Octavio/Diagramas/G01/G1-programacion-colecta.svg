@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480 1380" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#6c757d" />
+        </marker>
+    </defs>
+
+    <!-- Título -->
+    <text x="740" y="30" font-size="16" font-weight="bold" fill="#343a40" text-anchor="middle">G1 — Programación anual de colecta</text>
+
+    <!-- Carriles (Swimlanes) -->
+    <!-- R1 -->
+    <rect x="40" y="50" width="200" height="1300" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="140" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R1</text>
+    <text x="140" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Sec. Finanzas</text>
+    <!-- R2 -->
+    <rect x="240" y="50" width="200" height="1300" fill="#ffffff" stroke="#e9ecef" />
+    <text x="340" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R2</text>
+    <text x="340" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Dir. General</text>
+    <!-- R3 -->
+    <rect x="440" y="50" width="200" height="1300" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="540" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R3</text>
+    <text x="540" y="90" font-size="12" fill="#6c757d" text-anchor="middle">UIPPEI</text>
+    <!-- R4 -->
+    <rect x="640" y="50" width="200" height="1300" fill="#ffffff" stroke="#e9ecef" />
+    <text x="740" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R4</text>
+    <text x="740" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DRFF (Dir. Área)</text>
+    <!-- R5 -->
+    <rect x="840" y="50" width="200" height="1300" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="940" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R5</text>
+    <text x="940" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Delegaciones</text>
+    <!-- R6 -->
+    <rect x="1040" y="50" width="200" height="1300" fill="#ffffff" stroke="#e9ecef" />
+    <text x="1140" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R6</text>
+    <text x="1140" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Prod. de Planta</text>
+    <!-- R7 -->
+    <rect x="1240" y="50" width="200" height="1300" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="1340" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R7</text>
+    <text x="1340" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Resp. Colecta</text>
+
+    <!-- Barra lateral izquierda (Agrupador) -->
+    <rect x="10" y="100" width="20" height="1200" rx="10" fill="#e8f0fe" />
+    <text x="-700" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">Planeación Institucional y Operativa (G1)</text>
+
+    <!-- ================= CONEXIONES (FLECHAS) ================= -->
+    <g fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arrow)">
+        <!-- Secuencia Institucional -->
+        <path d="M 140 105 L 140 130" />
+        <path d="M 140 190 L 140 205 L 340 205 L 340 220" />
+        <path d="M 340 280 L 340 295 L 540 295 L 540 310" />
+        <path d="M 540 370 L 540 385 L 740 385 L 740 400" />
+        <path d="M 740 460 L 740 475 L 1140 475 L 1140 490" />
+        <path d="M 1140 550 L 1140 565 L 540 565 L 540 580" />
+        <path d="M 540 640 L 540 690" /> <!-- Rombo Sí -->
+        <path d="M 620 610 L 1240 610 L 1240 520 L 1220 520" /> <!-- Rombo No -->
+        <path d="M 540 750 L 540 765 L 740 765 L 740 780" />
+        <path d="M 740 840 L 740 850 L 540 850 L 540 870" />
+        <path d="M 540 930 L 540 945 L 740 945 L 740 960" />
+        <path d="M 740 1020 L 740 1035 L 540 1035 L 540 1050" />
+        <path d="M 540 1110 L 540 1125 L 340 1125 L 340 1140" />
+        <path d="M 340 1200 L 340 1215 L 140 1215 L 140 1230" />
+        <path d="M 140 1290 L 140 1315" />
+
+        <!-- Secuencia Operativa -->
+        <path d="M 940 105 L 940 130" />
+        <path d="M 940 190 L 940 205 L 1140 205 L 1140 220" />
+        <path d="M 1140 280 L 1140 295 L 1340 295 L 1340 310" />
+        <path d="M 1340 370 L 1340 565 L 1140 565 L 1140 580" />
+        <path d="M 1140 640 L 1140 690" />
+        <path d="M 1140 750 L 1140 860 L 740 860 L 740 870" />
+        <path d="M 740 930 L 740 940 L 1340 940 L 1340 960" />
+        <path d="M 1340 1020 L 1340 1045" />
+    </g>
+
+    <!-- Textos de Decisión (Rombo) -->
+    <text x="550" y="665" font-size="11" fill="#6c757d">sí</text>
+    <text x="630" y="605" font-size="11" fill="#6c757d">no</text>
+
+    <!-- ================= NODOS ================= -->
+    <style>
+        .node { fill: #eaf2ff; stroke: #a0c4ff; stroke-width: 1.5; rx: 6; }
+        .node-text { font-size: 11px; fill: #495057; text-anchor: middle; }
+    </style>
+
+    <!-- Puntos de inicio -->
+    <circle cx="140" cy="100" r="5" fill="#343a40" />
+    <circle cx="940" cy="100" r="5" fill="#343a40" />
+
+    <!-- A1 -->
+    <rect x="60" y="130" width="160" height="60" class="node" />
+    <text x="140" y="155" class="node-text">
+        <tspan x="140" dy="0">A1 - Solicita elaboración</tspan>
+        <tspan x="140" dy="15">del Programa Anual</tspan>
+    </text>
+
+    <!-- B1 -->
+    <rect x="860" y="130" width="160" height="60" class="node" />
+    <text x="940" y="155" class="node-text">
+        <tspan x="940" dy="0">B1 - Solicitan especies</tspan>
+        <tspan x="940" dy="15">a reforestar</tspan>
+    </text>
+
+    <!-- A2 -->
+    <rect x="260" y="220" width="160" height="60" class="node" />
+    <text x="340" y="245" class="node-text">
+        <tspan x="340" dy="0">A2 - Turna solicitud</tspan>
+        <tspan x="340" dy="15">a UIPPEI</tspan>
+    </text>
+
+    <!-- B2 -->
+    <rect x="1060" y="220" width="160" height="60" class="node" />
+    <text x="1140" y="245" class="node-text">
+        <tspan x="1140" dy="0">B2 - Determina</tspan>
+        <tspan x="1140" dy="15">requerimientos de semilla</tspan>
+    </text>
+
+    <!-- A3 -->
+    <rect x="460" y="310" width="160" height="60" class="node" />
+    <text x="540" y="335" class="node-text">
+        <tspan x="540" dy="0">A3 - Solicita info a</tspan>
+        <tspan x="540" dy="15">Áreas Ejecutoras</tspan>
+    </text>
+
+    <!-- B3 -->
+    <rect x="1260" y="310" width="160" height="60" class="node" />
+    <text x="1340" y="335" class="node-text">
+        <tspan x="1340" dy="0">B3 - Elabora Prog. Anual</tspan>
+        <tspan x="1340" dy="15">de Trabajo de Colecta</tspan>
+    </text>
+
+    <!-- A4 -->
+    <rect x="660" y="400" width="160" height="60" class="node" />
+    <text x="740" y="425" class="node-text">
+        <tspan x="740" dy="0">A4 - Turna solicitud a</tspan>
+        <tspan x="740" dy="15">Producción de Planta</tspan>
+    </text>
+
+    <!-- A5 -->
+    <rect x="1060" y="490" width="160" height="60" class="node" />
+    <text x="1140" y="515" class="node-text">
+        <tspan x="1140" dy="0">A5 - Integra info y</tspan>
+        <tspan x="1140" dy="15">envía a UIPPEI</tspan>
+    </text>
+
+    <!-- A6 (Rombo) -->
+    <polygon points="540,580 620,610 540,640 460,610" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="540" y="605" class="node-text">
+        <tspan x="540" dy="0">A6 - ¿Info</tspan>
+        <tspan x="540" dy="15">correcta?</tspan>
+    </text>
+
+    <!-- B4 -->
+    <rect x="1060" y="580" width="160" height="60" class="node" />
+    <text x="1140" y="605" class="node-text">
+        <tspan x="1140" dy="0">B4 - Confirma metas</tspan>
+        <tspan x="1140" dy="15">vs Presupuesto</tspan>
+    </text>
+
+    <!-- A8 -->
+    <rect x="460" y="690" width="160" height="60" class="node" />
+    <text x="540" y="715" class="node-text">
+        <tspan x="540" dy="0">A8 - Registra en SIPREP</tspan>
+        <tspan x="540" dy="15">y genera preliminares</tspan>
+    </text>
+
+    <!-- B5 -->
+    <rect x="1060" y="690" width="160" height="60" class="node" />
+    <text x="1140" y="715" class="node-text">
+        <tspan x="1140" dy="0">B5 - Elabora oficios y</tspan>
+        <tspan x="1140" dy="15">Acuerdo de contratación</tspan>
+    </text>
+
+    <!-- A9 -->
+    <rect x="660" y="780" width="160" height="60" class="node" />
+    <text x="740" y="805" class="node-text">
+        <tspan x="740" dy="0">A9 - Valida reportes</tspan>
+        <tspan x="740" dy="15">preliminares</tspan>
+    </text>
+
+    <!-- B6 -->
+    <rect x="660" y="870" width="160" height="60" class="node" />
+    <text x="740" y="895" class="node-text">
+        <tspan x="740" dy="0">B6 - Firma Acuerdo</tspan>
+        <tspan x="740" dy="15">y regresa a Depto.</tspan>
+    </text>
+
+    <!-- A10 -->
+    <rect x="460" y="870" width="160" height="60" class="node" />
+    <text x="540" y="895" class="node-text">
+        <tspan x="540" dy="0">A10 - Cierra SIPREP</tspan>
+        <tspan x="540" dy="15">y genera rep. finales</tspan>
+    </text>
+
+    <!-- A11 -->
+    <rect x="660" y="960" width="160" height="60" class="node" />
+    <text x="740" y="985" class="node-text">
+        <tspan x="740" dy="0">A11 - Valida reportes</tspan>
+        <tspan x="740" dy="15">finales</tspan>
+    </text>
+
+    <!-- B7 -->
+    <rect x="1260" y="960" width="160" height="60" class="node" />
+    <text x="1340" y="985" class="node-text">
+        <tspan x="1340" dy="0">B7 - Contrata personal</tspan>
+        <tspan x="1340" dy="15">e inicia monitoreo</tspan>
+    </text>
+
+    <!-- A12 -->
+    <rect x="460" y="1050" width="160" height="60" class="node" />
+    <text x="540" y="1075" class="node-text">
+        <tspan x="540" dy="0">A12 - Turna reportes</tspan>
+        <tspan x="540" dy="15">a Dir. General</tspan>
+    </text>
+
+    <!-- A13 -->
+    <rect x="260" y="1140" width="160" height="60" class="node" />
+    <text x="340" y="1165" class="node-text">
+        <tspan x="340" dy="0">A13 - Autoriza y</tspan>
+        <tspan x="340" dy="15">envía a Finanzas</tspan>
+    </text>
+
+    <!-- A14 -->
+    <rect x="60" y="1230" width="160" height="60" class="node" />
+    <text x="140" y="1255" class="node-text">
+        <tspan x="140" dy="0">A14 - Recibe Programa</tspan>
+        <tspan x="140" dy="15">Anual autorizado</tspan>
+    </text>
+
+    <!-- Puntos de fin -->
+    <circle cx="140" cy="1320" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="140" cy="1320" r="2" fill="#343a40" />
+
+    <circle cx="1340" cy="1050" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="1340" cy="1050" r="2" fill="#343a40" />
+
+</svg>
