@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896 690" width="896" height="690" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="8.5" markerHeight="8.5" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#566171"/></marker></defs>
+<rect x="0" y="0" width="896" height="690" fill="#FAFBFC"/>
+<text x="448" y="42" text-anchor="middle" font-size="17" font-weight="600" fill="#111827">T2·B — Integración y actualización de la Normateca Interna</text>
+<rect x="27" y="62" width="206" height="598" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="130" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R27</text>
+<text x="130" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Unidades administrativas</text>
+<rect x="239" y="62" width="206" height="598" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="342" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R22</text>
+<text x="342" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Comité Interno MR</text>
+<rect x="451" y="62" width="206" height="598" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="554" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R20</text>
+<text x="554" y="100" text-anchor="middle" font-size="10" fill="#6B7280">UJIGEV</text>
+<rect x="663" y="62" width="206" height="598" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="766" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R26</text>
+<text x="766" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Sitio (UCSyTI/Ag. Digital)</text>
+<polyline points="130,116 130,132" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="130,184 130,196 342,196 342,208" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="342,260 342,271 554,271 554,282" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="554,334 554,356" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="554,408 554,419 766,419 766,430" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="766,482 766,493 554,493 554,504" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="554,556 554,565 766,565 766,592" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="130" cy="108" r="7" fill="#374151"/>
+<rect x="37" y="132" width="186" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="130" y="154.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B1</tspan><tspan fill="#1F2937"> · Identifica disposiciones</tspan></text>
+<text x="130" y="169.5" text-anchor="middle" font-size="11.5" fill="#1F2937">vigentes (orden jerárquico)</text>
+<rect x="254.25" y="208" width="175.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="342" y="230.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B2</tspan><tspan fill="#1F2937"> · Resuelve adiciones</tspan></text>
+<text x="342" y="245.5" text-anchor="middle" font-size="11.5" fill="#1F2937">y sustituciones</text>
+<rect x="461" y="282" width="186" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="554" y="304.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B3</tspan><tspan fill="#1F2937"> · Compila electrónicamente</tspan></text>
+<text x="554" y="319.5" text-anchor="middle" font-size="11.5" fill="#1F2937">(coordinación UJIGEV)</text>
+<rect x="461" y="356" width="186" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="554" y="378.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B4</tspan><tspan fill="#1F2937"> · Reemplaza lo actualizado</tspan></text>
+<text x="554" y="393.5" text-anchor="middle" font-size="11.5" fill="#1F2937">(p. ej. Ley de Ingresos)</text>
+<rect x="673" y="430" width="186" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="766" y="452.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B5</tspan><tspan fill="#1F2937"> · Actualiza la sección</tspan></text>
+<text x="766" y="467.5" text-anchor="middle" font-size="11.5" fill="#1F2937">marco_juridico del sitio</text>
+<rect x="466.25" y="504" width="175.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="554" y="526.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">B6</tspan><tspan fill="#1F2937"> · Difunde: conocer y</tspan></text>
+<text x="554" y="541.5" text-anchor="middle" font-size="11.5" fill="#1F2937">cumplir es obligatorio</text>
+<circle cx="766" cy="600" r="8" fill="#374151"/><circle cx="766" cy="600" r="3.4" fill="#FAFBFC"/>
+</svg>
