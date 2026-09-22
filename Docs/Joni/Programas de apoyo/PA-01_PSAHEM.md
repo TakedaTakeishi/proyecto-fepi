@@ -202,7 +202,7 @@ Generados por `Docs/Joni/Diagramas/PA01/gen-diagramas.mjs` (editar el script, no
 | **V-04** | Las **plantillas de Contrato de Adhesión, Convenio de Concertación y adendum** no existen en el repo | [RO 10.1·VI–VII] los manda elaborar/validar; no hay formato FO-PB asociado ni en RETYS | Pedir a UJIGEV/SSA-MIF (anonimizado) | N-11 · B1–B3 |
 | **V-05** | El **formato "Dictamen Técnico" del Sistema de Gestión de Calidad** (con la tabla de puntos) no está capturado | [RO 8.1.1.1·criterio 1] lo cita por nombre | Área ISO / SSA-MIF (vincula T-01) | N-08 · A7 |
 | **V-06** | Formatos de **informe final de actividades y minuta de verificación** no existen en el repo | [RO §7.2 y 10.1·XI] los exigen con firmas | SSA/MIF | N-14, N-15 · C3–C5 |
-| **V-07** | La **cédula RETYS del trámite PSAHEM (ID 51)** no está transcrita (solo la de germoplasma) | [AGENDA25 campo 17] da el ID; `Docs/Comun/Retys EdoMex/` solo tiene germoplasma | Capturar de retys.edomex.gob.mx (tarea T-1) | N-01 · A2 |
+| **V-07** | La **cédula RETYS del trámite PSAHEM (ID 51)** no está transcrita | [AGENDA25 campo 17] da el ID; las únicas cédulas transcritas (germoplasma) quedaron fuera de alcance en `Docs/Comun/germoplasma-archivo/Retys EdoMex/` | Capturar de retys.edomex.gob.mx a `Docs/Comun/Trámites RETYS/` (tarea T-1) | N-01 · A2 |
 | **V-08** | Las **actas de sesiones del Comité Técnico** (que aprueban listados y pagos) no son públicas: el RO las menciona pero no se localizan en el sitio | [RO 10.1·VI] "quedando plasmada en el acta de la sesión"; búsqueda en [MJ-HTML]/[MR-HTML] sin resultado | Transparencia (SAIMEX) / entrevista | N-09, N-20 · A9 |
 | **V-09** | El **Manual de Procedimientos de SSA/MIF** no existe pese a la obligación de f.20 | [MGO25 pdf p. 28 f.20]; la Normateca del sitio solo lista MP-UIPPE y MP-Contabilidad | Pedir a SSA/MIF (¿existe?) | A5–A7 |
 | **V-10** | El **listado 2026 de beneficiarios aprobados** (Gaceta/sitio) no fue capturado: solo hay evidencia histórica 2017-18 | [HIST] enlaza listados 2017-18; [RO 10.1·VI] manda publicar cada año | Capturar Gaceta jul-2026 (tarea T-2) | N-10 · A10 |
@@ -218,7 +218,7 @@ Generados por `Docs/Joni/Diagramas/PA01/gen-diagramas.mjs` (editar el script, no
 
 ### 11.3 Tareas nuestras (no vacíos)
 
-- T-1: transcribir la cédula RETYS ID 51 (PSAH) a `Docs/Comun/Retys EdoMex/` (cierra V-07; patrón ya probado en germoplasma).
+- T-1: transcribir la cédula RETYS ID 51 (PSAH) a `Docs/Comun/Trámites RETYS/` (cierra V-07; el patrón de captura ya está probado en las cédulas archivadas de germoplasma).
 - T-2: capturar del sitio/Gaceta el listado 2026 de beneficiarios PSAHEM (V-10) — evidencia viva del paso A10.
 - T-3: al replicar la plantilla a PA-02..PA-06, reutilizar el ciclo A/B/C y marcar solo las divergencias (etapas del calendario por programa [CONV QUINTA]; RFI usa bitácora y estudio técnico; RHF/Capturando tienen sus montos y modalidades).
 - T-4: cruzar con GS8 (entrega de planta por vale dentro de programas) cuando se documente.
