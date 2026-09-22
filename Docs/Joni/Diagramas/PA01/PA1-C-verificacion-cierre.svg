@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 840" width="1128" height="840" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="8.5" markerHeight="8.5" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#566171"/></marker></defs>
+<rect x="0" y="0" width="1128" height="840" fill="#FAFBFC"/>
+<text x="564" y="42" text-anchor="middle" font-size="17" font-weight="600" fill="#111827">PA1·C — Ejecución, verificación y cierre (30%, incumplimiento, informe anual)</text>
+<rect x="27" y="62" width="210" height="748" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="132" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R28</text>
+<text x="132" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Beneficiaria/o</text>
+<rect x="243" y="62" width="210" height="748" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="348" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R29·R30</text>
+<text x="348" y="100" text-anchor="middle" font-size="10" fill="#6B7280">DRF / SSA-MIF</text>
+<rect x="459" y="62" width="210" height="748" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="564" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R31</text>
+<text x="564" y="100" text-anchor="middle" font-size="10" fill="#6B7280">DRFF</text>
+<rect x="675" y="62" width="210" height="748" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="780" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R32·R20</text>
+<text x="780" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Comité · UJIGEV</text>
+<rect x="891" y="62" width="210" height="748" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="996" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R15·R33</text>
+<text x="996" y="100" text-anchor="middle" font-size="10" fill="#6B7280">DAFGD · Fiduciaria</text>
+<polyline points="348,116 348,132" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="348,184 348,195 132,195 132,206" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="132,258 132,269 348,269 348,280" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="348,332 348,343 132,343 132,354" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="132,406 132,417 564,417 564,428" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="482.75,454 348,454 348,502" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="348,554 348,566 780,566 780,578" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="720,600 132,600 132,650" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="840,600 996,600 996,650" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="780,622 780,716 564,716 564,724" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="564,776 564,782" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="348" cy="108" r="7" fill="#374151"/>
+<rect x="266.75" y="132" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="348" y="154.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C1</tspan><tspan fill="#1F2937"> · Acompañamiento</tspan></text>
+<text x="348" y="169.5" text-anchor="middle" font-size="11.5" fill="#1F2937">técnico (±asesor RFN)</text>
+<rect x="50.75" y="206" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="132" y="228.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C2</tspan><tspan fill="#1F2937"> · Ejecuta cuidados</tspan></text>
+<text x="132" y="243.5" text-anchor="middle" font-size="11.5" fill="#1F2937">del bosque</text>
+<rect x="270" y="280" width="156" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="348" y="302.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C3</tspan><tspan fill="#1F2937"> · Verificación en</tspan></text>
+<text x="348" y="317.5" text-anchor="middle" font-size="11.5" fill="#1F2937">todos los predios</text>
+<rect x="54" y="354" width="156" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="132" y="376.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C4</tspan><tspan fill="#1F2937"> · Informe final +</tspan></text>
+<text x="132" y="391.5" text-anchor="middle" font-size="11.5" fill="#1F2937">minuta firmada</text>
+<rect x="482.75" y="428" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="564" y="450.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C5</tspan><tspan fill="#1F2937"> · Solicita segunda</tspan></text>
+<text x="564" y="465.5" text-anchor="middle" font-size="11.5" fill="#1F2937">ministración (30%)</text>
+<rect x="274" y="502" width="148" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="348" y="524.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C6</tspan><tspan fill="#1F2937"> · Listado de</tspan></text>
+<text x="348" y="539.5" text-anchor="middle" font-size="11.5" fill="#1F2937">incumplidos</text>
+<polygon points="780,578 840,600 780,622 720,600" fill="#FDF6E3" stroke="#D8BC6A" stroke-width="1.2"/>
+<text x="780" y="604" text-anchor="middle" font-size="11.5" fill="#7A5B12">¿Cumplió?</text>
+<rect x="58" y="650" width="148" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="132" y="672.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C8</tspan><tspan fill="#1F2937"> · Graduación o</tspan></text>
+<text x="132" y="687.5" text-anchor="middle" font-size="11.5" fill="#1F2937">refrendo (≤3 años)</text>
+<rect x="911.5" y="650" width="169" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="996" y="672.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C7</tspan><tspan fill="#1F2937"> · Reintegro a la</tspan></text>
+<text x="996" y="687.5" text-anchor="middle" font-size="11.5" fill="#1F2937">cuenta del fideicomiso</text>
+<rect x="482.75" y="724" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="564" y="746.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">C9</tspan><tspan fill="#1F2937"> · Informe anual de</tspan></text>
+<text x="564" y="761.5" text-anchor="middle" font-size="11.5" fill="#1F2937">ejecución (→ E-02)</text>
+<circle cx="564" cy="790" r="8" fill="#374151"/><circle cx="564" cy="790" r="3.4" fill="#FAFBFC"/>
+<text x="700" y="592" text-anchor="end" font-size="10.5" font-weight="400" font-style="italic" fill="#6B7280">sí</text>
+<text x="848" y="592" text-anchor="start" font-size="9.5" font-weight="400" font-style="italic" fill="#6B7280">no (acuerdo del Comité)</text>
+</svg>

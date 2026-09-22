@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 910" width="1128" height="910" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="8.5" markerHeight="8.5" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#566171"/></marker></defs>
+<rect x="0" y="0" width="1128" height="910" fill="#FAFBFC"/>
+<text x="564" y="42" text-anchor="middle" font-size="17" font-weight="600" fill="#111827">PA1·A — Convocatoria, solicitud y dictaminación (PSAHEM 2026)</text>
+<rect x="27" y="62" width="210" height="818" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="132" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R28</text>
+<text x="132" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Solicitante</text>
+<rect x="243" y="62" width="210" height="818" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="348" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R29</text>
+<text x="348" y="100" text-anchor="middle" font-size="10" fill="#6B7280">DRF (9 regiones)</text>
+<rect x="459" y="62" width="210" height="818" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="564" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R31·R30</text>
+<text x="564" y="100" text-anchor="middle" font-size="10" fill="#6B7280">DRFF / SSA-MIF</text>
+<rect x="675" y="62" width="210" height="818" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="780" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">R32</text>
+<text x="780" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Comité Técnico</text>
+<rect x="891" y="62" width="210" height="818" rx="10" fill="#F7F8FA" stroke="#DCE0E6"/>
+<text x="996" y="84" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">PO·web</text>
+<text x="996" y="100" text-anchor="middle" font-size="10" fill="#6B7280">Gaceta / sitio</text>
+<polyline points="340,108 996,108 996,132" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="905,158 132,158 132,206" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="225,232 348,232 348,280" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="348,332 348,358" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="288,380 132,380 132,429" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="132,481 132,493 348,493 348,504" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="348,402 348,504" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="348,556 348,565 564,565 564,574" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="564,626 564,646" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="564,698 564,707 780,707 780,716" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="780,768 780,777 996,777 996,786" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="996,838 996,850" fill="none" stroke="#566171" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="348" cy="108" r="7" fill="#374151"/>
+<rect x="905" y="132" width="182" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="996" y="154.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A1</tspan><tspan fill="#1F2937"> · Publica RO y</tspan></text>
+<text x="996" y="169.5" text-anchor="middle" font-size="11.5" fill="#1F2937">Convocatoria (27-ene-26)</text>
+<rect x="39" y="206" width="186" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="132" y="228.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A2</tspan><tspan fill="#1F2937"> · Integra solicitud</tspan></text>
+<text x="132" y="243.5" text-anchor="middle" font-size="11.5" fill="#1F2937">(501A + 502 + requisitos)</text>
+<rect x="257" y="280" width="182" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="348" y="302.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A3</tspan><tspan fill="#1F2937"> · Recepción en la DRF</tspan></text>
+<text x="348" y="317.5" text-anchor="middle" font-size="11.5" fill="#1F2937">que corresponde; folio</text>
+<polygon points="348,358 408,380 348,402 288,380" fill="#FDF6E3" stroke="#D8BC6A" stroke-width="1.2"/>
+<text x="348" y="384" text-anchor="middle" font-size="11.5" fill="#7A5B12">¿Completa?</text>
+<rect x="44.25" y="429" width="175.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="132" y="451.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A3b</tspan><tspan fill="#1F2937"> · Faltantes: 5 días</tspan></text>
+<text x="132" y="466.5" text-anchor="middle" font-size="11.5" fill="#1F2937">hábiles o desechada</text>
+<rect x="263.5" y="504" width="169" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="348" y="526.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A4</tspan><tspan fill="#1F2937"> · Abre expediente y</tspan></text>
+<text x="348" y="541.5" text-anchor="middle" font-size="11.5" fill="#1F2937">turna a ejecutora</text>
+<rect x="476.25" y="574" width="175.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="564" y="596.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A5</tspan><tspan fill="#1F2937"> · Poligonal en campo</tspan></text>
+<text x="564" y="611.5" text-anchor="middle" font-size="11.5" fill="#1F2937">+ digitalización</text>
+<rect x="482.75" y="646" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="564" y="668.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A7</tspan><tspan fill="#1F2937"> · Dictamen técnico</tspan></text>
+<text x="564" y="683.5" text-anchor="middle" font-size="11.5" fill="#1F2937">y jurídico; listados</text>
+<rect x="698.75" y="716" width="162.5" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="780" y="738.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A8</tspan><tspan fill="#1F2937"> · CVT analiza;</tspan></text>
+<text x="780" y="753.5" text-anchor="middle" font-size="11.5" fill="#1F2937">Comité aprueba (acta)</text>
+<rect x="905" y="786" width="182" height="52" rx="9" fill="#E8F0FE" stroke="#93B4E0" stroke-width="1.2"/>
+<text x="996" y="808.5" text-anchor="middle" font-size="11.5" fill="#1F2937"><tspan font-weight="600" fill="#1D4ED8">A10</tspan><tspan fill="#1F2937"> · Resultados: Gaceta</tspan></text>
+<text x="996" y="823.5" text-anchor="middle" font-size="11.5" fill="#1F2937">+ sitio + DRF</text>
+<circle cx="996" cy="858" r="8" fill="#374151"/><circle cx="996" cy="858" r="3.4" fill="#FAFBFC"/>
+<text x="154" y="420" text-anchor="end" font-size="10.5" font-weight="400" font-style="italic" fill="#6B7280">no</text>
+<text x="260" y="490" text-anchor="start" font-size="9.5" font-weight="400" font-style="italic" fill="#6B7280">sí (complementa)</text>
+<text x="388" y="420" text-anchor="start" font-size="10.5" font-weight="400" font-style="italic" fill="#6B7280">sí</text>
+</svg>

@@ -106,14 +106,14 @@ flowchart LR
 ### G8 — Entrega interna a viveros 🟡
 | | |
 |---|---|
-| **Qué sabemos** | Flujo formal completo [MP06 pp. 33-42]: vivero/DRF → "Solicitud de Semilla" → Depto. Producción autoriza → **Vale de Salida foliado** con datos técnicos del lote → bitácora → el vivero siembra. Nota de responsabilidad: si no se siembra, **regresar al banco antes de la fecha límite**. |
-| **Qué falta** | Confirmar que los formatos 2006 siguen en uso (probable: RETYS 1162 los cita como resultado vigente); sistema de folio real. |
+| **Qué sabemos** | Flujo formal completo [MP06 pp. 33-42]: vivero/DRF → "Solicitud de Semilla" → Depto. Producción autoriza → **Vale de Salida** (con campo "FOLIO No." = número consecutivo del propio vale, pp. 26–27) con datos técnicos del lote → bitácora → el vivero siembra. Nota de responsabilidad: si no se siembra, **regresar al banco antes de la fecha límite**. |
+| **Qué falta** | Confirmar que los formatos 2006 siguen en uso (probable: RETYS 1162 los cita como resultado vigente); **a qué serie corresponde el folio de cada formato** (¿por vivero? ¿anual? ¿quién lo asigna?) — el manual no lo define (p. 42 lo define en círculo: "número de folio respectivo"). |
 | **Dónde conseguir** | Inspección en campo; pedir formatos llenados (anonimizados) vía entrevista. |
 
 ### G9 — Salida externa: venta y donación 🟢 (este es [`G09_DISTRIBUCION_GERMOPLASMA.md`](./G09_DISTRIBUCION_GERMOPLASMA.md); cita de pasos: G9·A#, G9·B#)
 | | |
 |---|---|
-| **Qué sabemos** | Metodología oficial de los 3 trámites [RETYS-1162, RETYS-1068, RETYS-2092]: FUP elaborado y sellado por Contabilidad → pago en banco/establecimiento → entrega contra folio; resultado = "Formato de salida de Semilla del Banco de Germoplasma" / "Vale de salida de planta forestal"; donación con 9 pasos + modalidad especial 3.79 Bis; requisitos y plazos (15 min venta; 9 meses resolución donación; ficta negativa); formato de solicitud 2026 capturado [SOL-DON]. |
+| **Qué sabemos** | Metodología oficial de los 3 trámites [RETYS-1162, RETYS-1068, RETYS-2092]: FUP elaborado y sellado por Contabilidad → pago en banco/establecimiento → **entrega acudiendo con el FUP sellado "Pagado"** (cédulas m.3 — no mencionan folio alguno); resultado = "Formato de salida de Semilla del Banco de Germoplasma" / "Vale de salida de planta forestal"; donación con 9 pasos + modalidad especial 3.79 Bis; requisitos y plazos (15 min venta; 9 meses resolución donación; ficta negativa); formato de solicitud 2026 capturado [SOL-DON]. |
 | **Qué falta** | Ver "Estado de G09" al final — los huecos están en los bordes (inventario, contabilidad, conos, plantillas). |
 | **Dónde conseguir** | — |
 
