@@ -1,4 +1,3 @@
-
 Objeto y alcance.
 Base documental.
 Glosario.
