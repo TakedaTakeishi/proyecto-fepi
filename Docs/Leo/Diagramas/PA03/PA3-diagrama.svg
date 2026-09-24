@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1650" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#6c757d" />
+        </marker>
+    </defs>
+
+    <!-- Título -->
+    <text x="800" y="30" font-size="16" font-weight="bold" fill="#343a40" text-anchor="middle">PA-03 — Capturando Carbono</text>
+
+    <!-- ================= CARRILES (SWIMLANES) ================= -->
+    <rect x="40" y="50" width="220" height="1560" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="150" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R28</text>
+    <text x="150" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Persona Beneficiaria</text>
+
+    <rect x="260" y="50" width="260" height="1560" fill="#ffffff" stroke="#e9ecef" />
+    <text x="390" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R29</text>
+    <text x="390" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Delegaciones Regionales</text>
+
+    <rect x="520" y="50" width="300" height="1560" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="670" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R31</text>
+    <text x="670" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Dir. Restauración (Ejecutora)</text>
+
+    <rect x="820" y="50" width="220" height="1560" fill="#ffffff" stroke="#e9ecef" />
+    <text x="930" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R20</text>
+    <text x="930" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Unidad Jurídica</text>
+
+    <rect x="1040" y="50" width="260" height="1560" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="1170" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R32</text>
+    <text x="1170" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Comité de Capturando Carbono</text>
+
+    <rect x="1300" y="50" width="260" height="1560" fill="#ffffff" stroke="#e9ecef" />
+    <text x="1430" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R15</text>
+    <text x="1430" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Administración y Finanzas</text>
+
+    <!-- ================= AGRUPADORES LATERALES ================= -->
+    <rect x="10" y="100" width="20" height="500" rx="10" fill="#e8f0fe" />
+    <text x="-350" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">A. Diagnóstico y Aprobación</text>
+    
+    <rect x="10" y="620" width="20" height="340" rx="10" fill="#fff3cd" />
+    <text x="-790" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">B. Contratación y Pagos</text>
+    
+    <rect x="10" y="980" width="20" height="550" rx="10" fill="#d4edda" />
+    <text x="-1255" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">C. Cuidado, Evaluación y Cierre</text>
+
+    <!-- ================= CONEXIONES ================= -->
+    <g fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arrow)">
+        <!-- Fase A -->
+        <path d="M 1170 100 L 1170 125" />
+        <path d="M 1170 185 L 1170 200 L 150 200 L 150 215" />
+        <path d="M 150 275 L 150 290 L 390 290 L 390 305" />
+        <path d="M 390 365 L 390 380 L 670 380 L 670 395" />
+        <path d="M 670 455 L 670 470 L 930 470 L 930 485" />
+        <path d="M 930 545 L 930 560 L 1170 560 L 1170 575" />
+        
+        <!-- Fase B -->
+        <path d="M 1170 635 L 1170 650 L 670 650 L 670 665" />
+        <path d="M 670 725 L 670 745" />
+
+        <!-- Rombo Hectareaje -->
+        <path d="M 720 775 L 1430 775 L 1430 815" /> <!-- > 5 ha -->
+        <path d="M 620 775 L 1430 775 L 1430 895" /> <!-- <= 5 ha (bypass visual) -->
+        <path d="M 620 775 L 570 775 L 570 815" /> <!-- No bypass to 100% block -->
+
+        <!-- Pagos B3 -->
+        <!-- Desde 100% -->
+        <path d="M 570 875 L 570 930 L 150 930 L 150 995" />
+        <!-- Desde 70% -->
+        <path d="M 1430 875 L 1430 900 L 150 900 L 150 995" />
+
+        <!-- Fase C -->
+        <path d="M 150 1055 L 150 1070 L 390 1070 L 390 1085" />
+        
+        <!-- Rombo 2: Evaluación 2da Ministración -->
+        <path d="M 390 1145 L 390 1170" />
+        <path d="M 440 1200 L 670 1200 L 670 1235" /> <!-- Si (Aplica) -->
+        <path d="M 670 1295 L 670 1310 L 1430 1310 L 1430 1325" /> <!-- Paga 30% -->
+        <path d="M 1430 1385 L 1430 1400 L 1170 1400 L 1170 1425" /> <!-- A Cierre -->
+
+        <!-- Ruta No (Cierre Directo para los del 100%) -->
+        <path d="M 340 1200 L 310 1200 L 310 1400 L 1170 1400 L 1170 1425" />
+    </g>
+
+    <!-- Textos de Rombos -->
+    <text x="745" y="765" font-size="11" fill="#495057">&gt; 5 ha</text>
+    <text x="590" y="765" font-size="11" fill="#495057">&#8804; 5 ha</text>
+
+    <text x="465" y="1190" font-size="11" fill="#495057">Aplica 2da Min?</text>
+    <text x="465" y="1215" font-size="11" fill="#28a745">Sí</text>
+    <text x="325" y="1190" font-size="11" fill="#dc3545">No</text>
+
+    <!-- ================= NODOS ================= -->
+    <style>
+        .node { fill: #eaf2ff; stroke: #a0c4ff; stroke-width: 1.5; rx: 6; }
+        .node-text { font-size: 11px; fill: #495057; text-anchor: middle; }
+        .node-warn { fill: #fff9db; stroke: #ffd43b; stroke-width: 1.5; rx: 6; }
+    </style>
+
+    <circle cx="1170" cy="95" r="5" fill="#343a40" />
+
+    <!-- A1 -->
+    <rect x="1080" y="125" width="180" height="60" class="node" />
+    <text x="1170" y="150" class="node-text">
+        <tspan x="1170" dy="0">PA3·A1 - Aprobar Reglas y</tspan>
+        <tspan x="1170" dy="15">presupuestos del programa</tspan>
+    </text>
+
+    <!-- A2 -->
+    <rect x="60" y="215" width="180" height="60" class="node" />
+    <text x="150" y="240" class="node-text">
+        <tspan x="150" dy="0">PA3·A2 - Ingresar</tspan>
+        <tspan x="150" dy="15">FO-PB-501A y 502</tspan>
+    </text>
+
+    <!-- A3 -->
+    <rect x="300" y="305" width="180" height="60" class="node" />
+    <text x="390" y="330" class="node-text">
+        <tspan x="390" dy="0">PA3·A3 - Realizar</tspan>
+        <tspan x="390" dy="15">Diagnóstico Técnico Forestal</tspan>
+    </text>
+
+    <!-- A4 -->
+    <rect x="580" y="395" width="180" height="60" class="node" />
+    <text x="670" y="420" class="node-text">
+        <tspan x="670" dy="0">PA3·A4 - Registrar y</tspan>
+        <tspan x="670" dy="15">digitalizar expediente</tspan>
+    </text>
+
+    <!-- A5 -->
+    <rect x="840" y="485" width="180" height="60" class="node" />
+    <text x="930" y="510" class="node-text">
+        <tspan x="930" dy="0">PA3·A4 - Emitir dictamen</tspan>
+        <tspan x="930" dy="15">técnico y jurídico</tspan>
+    </text>
+
+    <!-- A6 -->
+    <rect x="1080" y="575" width="180" height="60" class="node" />
+    <text x="1170" y="600" class="node-text">
+        <tspan x="1170" dy="0">PA3·A5 - Aprobar Padrón</tspan>
+        <tspan x="1170" dy="15">de Beneficiarios factibles</tspan>
+    </text>
+
+    <!-- B1 -->
+    <rect x="580" y="665" width="180" height="60" class="node" />
+    <text x="670" y="690" class="node-text">
+        <tspan x="670" dy="0">PA3·B1 - Elaborar y firmar</tspan>
+        <tspan x="670" dy="15">Contrato de Adhesión</tspan>
+    </text>
+
+    <!-- Rombo B2 -->
+    <polygon points="670,745 720,775 670,805 620,775" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="670" y="780" class="node-text">¿Superficie?</text>
+
+    <!-- B2.1 (Pago 100%) -->
+    <rect x="480" y="815" width="180" height="60" class="node-warn" />
+    <text x="570" y="840" class="node-text">
+        <tspan x="570" dy="0">PA3·B2 - Autorizar</tspan>
+        <tspan x="570" dy="15">Pago Único (100%)</tspan>
+    </text>
+
+    <!-- B2.2 (Pago 70%) -->
+    <rect x="1340" y="815" width="180" height="60" class="node" />
+    <text x="1430" y="840" class="node-text">
+        <tspan x="1430" dy="0">PA3·B2 - Transferir 1ra</tspan>
+        <tspan x="1430" dy="15">ministración (70%)</tspan>
+    </text>
+
+    <!-- C1 -->
+    <rect x="60" y="995" width="180" height="60" class="node" />
+    <text x="150" y="1020" class="node-text">
+        <tspan x="150" dy="0">PA3·C1 - Ejecutar propuesta</tspan>
+        <tspan x="150" dy="15">de actividades (FO-PB-520-B)</tspan>
+    </text>
+
+    <!-- C2 -->
+    <rect x="300" y="1085" width="180" height="60" class="node" />
+    <text x="390" y="1110" class="node-text">
+        <tspan x="390" dy="0">PA3·C2 - Verificar en campo e</tspan>
+        <tspan x="390" dy="15">Informe Final (FO-PB-509-A)</tspan>
+    </text>
+
+    <!-- Rombo C3 -->
+    <polygon points="390,1170 440,1200 390,1230 340,1200" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    
+    <!-- C3 -->
+    <rect x="580" y="1235" width="180" height="60" class="node" />
+    <text x="670" y="1260" class="node-text">
+        <tspan x="670" dy="0">PA3·C3 - Dictaminar pago</tspan>
+        <tspan x="670" dy="15">de la segunda ministración</tspan>
+    </text>
+
+    <!-- C3 Pago -->
+    <rect x="1340" y="1325" width="180" height="60" class="node" />
+    <text x="1430" y="1350" class="node-text">
+        <tspan x="1430" dy="0">Transferir 2da</tspan>
+        <tspan x="1430" dy="15">ministración (30%)</tspan>
+    </text>
+
+    <!-- C4 -->
+    <rect x="1080" y="1425" width="180" height="60" class="node" />
+    <text x="1170" y="1450" class="node-text">
+        <tspan x="1170" dy="0">PA3·C4 - Autorizar Informe</tspan>
+        <tspan x="1170" dy="15">Anual y cierre del programa</tspan>
+    </text>
+
+    <!-- Puntos de fin -->
+    <circle cx="1170" cy="1515" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="1170" cy="1515" r="2" fill="#343a40" />
+
+</svg>
