@@ -95,20 +95,16 @@ Consolidar los datos geoespaciales, técnicos y administrativos acumulados a lo 
 ## 7. Diagrama de actividad
 
 ```mermaid
-sequenceDiagram
-    autonumber
-    actor R01 as R-01 Analista Estadistica
-    actor R02 as R-02 Admin SIG
-    actor R03 as R-03 Dir Restauracion
-    actor R04 as R-04 Entidades Fiscalizadoras
-
-    R01->>R01: E03·P1 Configura corte anual del ejercicio fiscal
-    R02->>R02: E03·P2 Agrega capas espaciales de predios apoyados y de espera
-    R01->>R01: E03·P3 Cruza datos de hectareas, montos y sobrevivencia MF-07
-    R01->>R01: E03·P4 Genera Padron Consolidado de Lista de Espera
-    R01->>R03: E03·P5 Presenta Tablero Ejecutivo y proyecto de cierre
-    R03->>R03: Valida cifras y firma el Informe Anual de Resultados
-    R03->>R04: E03·P6 Publica reporte consolidado y exporta datos abiertos
+flowchart TD
+    A([Inicio: Convocatoria anual concluida]) --> B[R-01: Configuración de corte del ejercicio fiscal en SGD]
+    B --> C[R-02: Consolidación geoespacial de polígonos cerrados en SIG]
+    C --> D[R-01: Cruce de hectáreas apoyadas vs presupuesto ejercido]
+    D --> E[R-01: Consolidación de expedientes elegibles sin suficiencia presupuestal]
+    E --> F[SGD: Algoritmo de prelación y jerarquización de Lista de Espera]
+    F --> G[R-03: Revisión de métricas en Tablero Ejecutivo Dashboard]
+    G --> H[R-03: Emisión y firma del Informe Anual Consolidado]
+    H --> I[R-04: Publicación en portal de datos abiertos y rendición de cuentas]
+    I --> Z([Fin del ciclo anual / Insumo para nueva convocatoria])
 ```
 
 ---
