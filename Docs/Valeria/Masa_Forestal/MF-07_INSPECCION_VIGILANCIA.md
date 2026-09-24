@@ -95,25 +95,18 @@ Realizar las visitas periciales de inspección y auditoría técnica física en 
 ## 7. Diagrama de actividad
 
 ```mermaid
-sequenceDiagram
-    autonumber
-    actor R01 as R-01 Auditor Campo
-    actor R02 as R-02 Beneficiario
-    actor R03 as R-03 Coordinador DRF
-    actor R04 as R-04 Dir Restauracion
-
-    R01->>R01: MF07·P1 Descarga orden de visita y expediente
-    R01->>R02: MF07·P2 Realiza recorrido fisico perimetral y toma fotos GPS
-    R01->>R02: MF07·P3 Levanta y suscribe Minuta Circunstanciada in situ
-    R01->>R03: MF07·P4 Carga minuta, fotos georreferenciadas e informe en SGD
-    R03->>R03: MF07·P5 Evalua porcentaje de avance fisico de compromisos
-    alt Avance fisico menor al 80% o dano grave
-        R03->>R04: Recomienda suspension de pago o rescision de convenio
-        R04->>R04: MF07·P6 Emite resolucion de rescision y sancion
-    else Avance fisico satisfactorio (>= 80%)
-        R03->>R04: Recomienda liberacion de pago subsecuente
-        R04->>R04: MF07·P6 Autoriza liberacion de ministracion en SGD
-    end
+flowchart TD
+    A([Inicio: Orden de inspección periódica en SGD]) --> B[R-01: Descarga de expediente técnico y traza cartográfica]
+    B --> C[R-01/R-02: Recorrido perimetral conjunto e inspección en campo]
+    C --> D[R-01: Toma de fotografías con metadatos GPS EXIF y traza GPX]
+    D --> E[R-01/R-02: Elaboración y firma de Minuta Circunstanciada in situ]
+    E --> F[R-01: Carga de evidencias y dictamen técnico en el SGD]
+    F --> G[R-03: Revisión regional y cálculo de avance físico]
+    G --> H{¿Cumplimiento >= 80% y sin daño grave?}
+    H -- No --> I[R-04: Emisión de resolución de suspensión o rescisión de convenio]
+    I --> Z([Fin de intervención / Sanción])
+    H -- Sí --> J[R-04: Aprobación técnica para liberar ministración subsecuente]
+    J --> K([Turno a proceso financiero MF-06])
 ```
 
 ---
