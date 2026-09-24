@@ -15,6 +15,17 @@ Procesar matemáticamente las bandas espectrales de las imágenes satelitales ob
 
 ---
 
+## 1.1 Entradas y Salidas del Proceso
+
+| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
+|---|---|---|---|
+| **Entrada** | Bandas multiespectrales recortadas | Bandas B4 (Rojo) y B8 (NIR) ajustadas a la poligonal | Proceso MF-02 |
+| **Entrada** | Máscara de exclusión de uso de suelo | Polígonos de zonas no forestales a omitir | Proceso MF-02 |
+| **Salida** | Ráster continuo de Índices (NDVI/SAVI) | Capa GeoTIFF de 10 m de resolución con valores espectrales | Motor de cálculo geoespacial SGD |
+| **Salida** | Dictamen Técnico de Cobertura Espectral | Cédula en PDF con validación del umbral normativo ($\ge 50\%$) | Expediente SGD -> Insumo para Comité MF-04 |
+
+---
+
 ## 2. Base documental (origen de los requisitos)
 
 | Clave | Documento (ruta en `Docs/Comun/`) | Uso — páginas verificadas |
