@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1700" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#6c757d" />
+        </marker>
+    </defs>
+
+    <!-- Título -->
+    <text x="800" y="30" font-size="16" font-weight="bold" fill="#343a40" text-anchor="middle">PA-04 — Plantaciones Sustentables</text>
+
+    <!-- ================= CARRILES (SWIMLANES) ================= -->
+    <rect x="40" y="50" width="220" height="1620" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="150" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R28</text>
+    <text x="150" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Persona Beneficiaria</text>
+
+    <rect x="260" y="50" width="260" height="1620" fill="#ffffff" stroke="#e9ecef" />
+    <text x="390" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R29</text>
+    <text x="390" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Delegaciones Regionales</text>
+
+    <rect x="520" y="50" width="300" height="1620" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="670" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R31</text>
+    <text x="670" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Dirección de Restauración (Ejecutora)</text>
+
+    <rect x="820" y="50" width="220" height="1620" fill="#ffffff" stroke="#e9ecef" />
+    <text x="930" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R20</text>
+    <text x="930" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Unidad Jurídica</text>
+
+    <rect x="1040" y="50" width="260" height="1620" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="1170" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R32</text>
+    <text x="1170" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Comité de Plantaciones</text>
+
+    <rect x="1300" y="50" width="260" height="1620" fill="#ffffff" stroke="#e9ecef" />
+    <text x="1430" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R15</text>
+    <text x="1430" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Administración y Finanzas</text>
+
+    <!-- ================= AGRUPADORES LATERALES ================= -->
+    <rect x="10" y="100" width="20" height="490" rx="10" fill="#e8f0fe" />
+    <text x="-345" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">A. Registro y Dictaminación</text>
+    
+    <rect x="10" y="610" width="20" height="340" rx="10" fill="#fff3cd" />
+    <text x="-780" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">B. Planta, Contrato y 1ra Ministración</text>
+    
+    <rect x="10" y="970" width="20" height="630" rx="10" fill="#d4edda" />
+    <text x="-1285" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">C. Ejecución, Verificación y Cierre</text>
+
+    <!-- ================= CONEXIONES ================= -->
+    <g fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arrow)">
+        <!-- Fase A -->
+        <path d="M 1170 100 L 1170 115" />
+        <path d="M 1170 175 L 1170 190 L 150 190 L 150 205" />
+        <path d="M 150 265 L 150 280 L 390 280 L 390 295" />
+        <path d="M 390 355 L 390 370 L 670 370 L 670 385" />
+        <path d="M 670 445 L 670 460 L 930 460 L 930 475" />
+        <path d="M 930 535 L 930 550 L 1170 550 L 1170 565" />
+        
+        <!-- Rombo 1 -->
+        <path d="M 1170 625 L 1170 640" /> 
+        <!-- No -->
+        <path d="M 1120 670 L 670 670 L 670 705" />
+        <!-- Sí -->
+        <path d="M 1170 700 L 1170 735 L 770 735" />
+
+        <!-- Fase B -->
+        <!-- Vale de planta -->
+        <path d="M 670 765 L 670 790 L 150 790 L 150 805" />
+        <path d="M 150 865 L 150 880 L 670 880 L 670 895" /> <!-- Contrato -->
+        <path d="M 670 955 L 670 970 L 1430 970 L 1430 1015" /> <!-- Transfiere Finanzas (70%) -->
+
+        <!-- Fase C -->
+        <path d="M 1430 1075 L 1430 1090 L 150 1090 L 150 1165" /> <!-- Establecer/Mantenimiento -->
+        <path d="M 150 1225 L 150 1240 L 390 1240 L 390 1255" /> <!-- Verificación -->
+        
+        <!-- Rombo 2 (Cumple Superficie) -->
+        <path d="M 390 1315 L 390 1330 L 670 1330 L 670 1345" /> 
+        
+        <!-- No (Ajustar) -->
+        <path d="M 620 1375 L 570 1375 L 570 1410" />
+        <path d="M 570 1470 L 570 1490 L 1430 1490 L 1430 1505" /> <!-- Transfiere Ajuste -->
+        
+        <!-- Sí (Completa) -->
+        <path d="M 720 1375 L 770 1375 L 770 1410" />
+        <path d="M 770 1470 L 770 1490 L 1430 1490 L 1430 1505" /> <!-- Transfiere Completo -->
+
+        <!-- Cierre -->
+        <path d="M 1430 1565 L 1430 1580 L 1170 1580 L 1170 1595" />
+        <path d="M 1170 1655 L 1170 1680" />
+
+        <!-- Cierre Rama Fail (Notificar) -->
+        <path d="M 670 765 L 670 780" />
+    </g>
+
+    <!-- Textos de Rombos -->
+    <text x="1140" y="665" font-size="11" fill="#dc3545">No</text>
+    <text x="1185" y="725" font-size="11" fill="#28a745">Sí</text>
+
+    <text x="640" y="1365" font-size="11" fill="#dc3545">No</text>
+    <text x="700" y="1365" font-size="11" fill="#28a745">Sí</text>
+
+    <!-- ================= NODOS ================= -->
+    <style>
+        .node { fill: #eaf2ff; stroke: #a0c4ff; stroke-width: 1.5; rx: 6; }
+        .node-text { font-size: 11px; fill: #495057; text-anchor: middle; }
+        .node-fail { fill: #fff5f5; stroke: #ff8787; stroke-width: 1.5; rx: 6; }
+        .node-warn { fill: #fff9db; stroke: #ffd43b; stroke-width: 1.5; rx: 6; }
+    </style>
+
+    <circle cx="1170" cy="95" r="5" fill="#343a40" />
+
+    <!-- A1 -->
+    <rect x="1080" y="115" width="180" height="60" class="node" />
+    <text x="1170" y="140" class="node-text">
+        <tspan x="1170" dy="0">PA4·A1 - Aprobar reglas,</tspan>
+        <tspan x="1170" dy="15">padrón y montos</tspan>
+    </text>
+
+    <!-- A2 -->
+    <rect x="60" y="205" width="180" height="60" class="node" />
+    <text x="150" y="230" class="node-text">
+        <tspan x="150" dy="0">PA4·A2 - Ingresar FO-PB-501A</tspan>
+        <tspan x="150" dy="15">(Tipo de plantación)</tspan>
+    </text>
+
+    <!-- A3 -->
+    <rect x="300" y="295" width="180" height="60" class="node" />
+    <text x="390" y="320" class="node-text">
+        <tspan x="390" dy="0">PA4·A3 - Diagnóstico</tspan>
+        <tspan x="390" dy="15">Técnico Forestal (Campo)</tspan>
+    </text>
+
+    <!-- A4 -->
+    <rect x="580" y="385" width="180" height="60" class="node" />
+    <text x="670" y="410" class="node-text">
+        <tspan x="670" dy="0">PA4·A4 - Registrar e</tspan>
+        <tspan x="670" dy="15">integrar expediente</tspan>
+    </text>
+
+    <!-- A5 -->
+    <rect x="840" y="475" width="180" height="60" class="node" />
+    <text x="930" y="500" class="node-text">
+        <tspan x="930" dy="0">PA4·A4 - Emitir dictamen</tspan>
+        <tspan x="930" dy="15">técnico y jurídico</tspan>
+    </text>
+
+    <!-- A6 -->
+    <rect x="1080" y="565" width="180" height="60" class="node" />
+    <text x="1170" y="590" class="node-text">
+        <tspan x="1170" dy="0">PA4·A5 - Analizar y</tspan>
+        <tspan x="1170" dy="15">aprobar Padrón de factibles</tspan>
+    </text>
+
+    <!-- Rombo 1 (Autoriza) -->
+    <polygon points="1170,640 1220,670 1170,700 1120,670" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="1170" y="675" class="node-text">¿Autoriza?</text>
+
+    <!-- A7 (Fail) -->
+    <rect x="580" y="705" width="180" height="60" class="node-fail" />
+    <text x="670" y="730" class="node-text">
+        <tspan x="670" dy="0">PA4·A5 - Notificar</tspan>
+        <tspan x="670" dy="15">lista de espera</tspan>
+    </text>
+    <circle cx="670" cy="785" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="670" cy="785" r="2" fill="#343a40" />
+
+    <!-- B1 (Pass) -->
+    <rect x="580" y="735" width="180" height="60" class="node" />
+    <text x="670" y="760" class="node-text">
+        <tspan x="670" dy="0">PA4·B1 - Emitir Vale de Salida</tspan>
+        <tspan x="670" dy="15">de Planta</tspan>
+    </text>
+
+    <!-- B1_2 -->
+    <rect x="60" y="805" width="180" height="60" class="node" />
+    <text x="150" y="830" class="node-text">
+        <tspan x="150" dy="0">PA4·B1 - Recoger planta</tspan>
+        <tspan x="150" dy="15">en vivero (Plazo: 30 días)</tspan>
+    </text>
+
+    <!-- B2 -->
+    <rect x="580" y="895" width="180" height="60" class="node" />
+    <text x="670" y="920" class="node-text">
+        <tspan x="670" dy="0">PA4·B2 - Elaborar y firmar</tspan>
+        <tspan x="670" dy="15">Contrato de Adhesión</tspan>
+    </text>
+
+    <!-- B3 -->
+    <rect x="1340" y="1015" width="180" height="60" class="node" />
+    <text x="1430" y="1040" class="node-text">
+        <tspan x="1430" dy="0">PA4·B3 - Transferir 1ra</tspan>
+        <tspan x="1430" dy="15">ministración (70%)</tspan>
+    </text>
+
+    <!-- C1 -->
+    <rect x="60" y="1165" width="180" height="60" class="node" />
+    <text x="150" y="1190" class="node-text">
+        <tspan x="150" dy="0">PA4·C1 - Establecer plantación</tspan>
+        <tspan x="150" dy="15">o dar mantenimiento</tspan>
+    </text>
+
+    <!-- C2 -->
+    <rect x="300" y="1255" width="180" height="60" class="node" />
+    <text x="390" y="1280" class="node-text">
+        <tspan x="390" dy="0">PA4·C2 - Verificar densidad y</tspan>
+        <tspan x="390" dy="15">distribución en campo</tspan>
+    </text>
+
+    <!-- Rombo 2 (Cumple Superficie) -->
+    <polygon points="670,1345 720,1375 670,1405 620,1375" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="670" y="1380" class="node-text">¿Cumple 100%?</text>
+
+    <!-- C3 (Ajuste) -->
+    <rect x="480" y="1410" width="180" height="60" class="node-warn" />
+    <text x="570" y="1435" class="node-text">
+        <tspan x="570" dy="0">PA4·C3 - Ajustar segunda</tspan>
+        <tspan x="570" dy="15">ministración (>= 70%)</tspan>
+    </text>
+
+    <!-- C3 (Completa) -->
+    <rect x="680" y="1410" width="180" height="60" class="node" />
+    <text x="770" y="1435" class="node-text">
+        <tspan x="770" dy="0">PA4·C3 - Tramitar</tspan>
+        <tspan x="770" dy="15">segunda ministración</tspan>
+    </text>
+
+    <!-- C4 -->
+    <rect x="1340" y="1505" width="180" height="60" class="node" />
+    <text x="1430" y="1530" class="node-text">
+        <tspan x="1430" dy="0">PA4·C4 - Transferir 2da</tspan>
+        <tspan x="1430" dy="15">ministración (30% o saldo)</tspan>
+    </text>
+
+    <!-- C5 -->
+    <rect x="1080" y="1595" width="180" height="60" class="node" />
+    <text x="1170" y="1620" class="node-text">
+        <tspan x="1170" dy="0">PA4·C5 - Aprobar listados</tspan>
+        <tspan x="1170" dy="15">finales e informe (Graduación)</tspan>
+    </text>
+
+    <!-- Puntos de fin -->
+    <circle cx="1170" cy="1685" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="1170" cy="1685" r="2" fill="#343a40" />
+
+</svg>
