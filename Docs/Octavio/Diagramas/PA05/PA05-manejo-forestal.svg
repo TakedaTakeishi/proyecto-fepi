@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1800" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#6c757d" />
+        </marker>
+    </defs>
+
+    <!-- Título -->
+    <text x="800" y="30" font-size="16" font-weight="bold" fill="#343a40" text-anchor="middle">PA-05 — Manejo Forestal Sustentable</text>
+
+    <!-- ================= CARRILES (SWIMLANES) ================= -->
+    <!-- R28 -->
+    <rect x="40" y="50" width="200" height="1720" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="140" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R28</text>
+    <text x="140" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Beneficiaria</text>
+    <!-- R29 -->
+    <rect x="260" y="50" width="200" height="1720" fill="#ffffff" stroke="#e9ecef" />
+    <text x="360" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R29</text>
+    <text x="360" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DRF (Ventanilla)</text>
+    <!-- R30 -->
+    <rect x="480" y="50" width="200" height="1720" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="580" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R30</text>
+    <text x="580" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DEMIF (Responsable)</text>
+    <!-- R20 -->
+    <rect x="700" y="50" width="200" height="1720" fill="#ffffff" stroke="#e9ecef" />
+    <text x="800" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R20</text>
+    <text x="800" y="90" font-size="12" fill="#6c757d" text-anchor="middle">UJIGEV (Jurídico)</text>
+    <!-- R31 -->
+    <rect x="920" y="50" width="200" height="1720" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="1020" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R31</text>
+    <text x="1020" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DRFF (Ejecutora)</text>
+    <!-- R32 -->
+    <rect x="1140" y="50" width="200" height="1720" fill="#ffffff" stroke="#e9ecef" />
+    <text x="1240" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R32</text>
+    <text x="1240" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Comité de Admisión</text>
+    <!-- R15 -->
+    <rect x="1360" y="50" width="200" height="1720" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="1460" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R15</text>
+    <text x="1460" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DAFGD (Finanzas)</text>
+
+    <!-- ================= AGRUPADORES LATERALES ================= -->
+    <!-- Fase A -->
+    <rect x="10" y="100" width="20" height="720" rx="10" fill="#e8f0fe" />
+    <text x="-460" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">A. Solicitud y Dictaminación</text>
+    <!-- Fase B -->
+    <rect x="10" y="830" width="20" height="350" rx="10" fill="#fff3cd" />
+    <text x="-1005" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">B. Contratación y Pago</text>
+    <!-- Fase C -->
+    <rect x="10" y="1190" width="20" height="560" rx="10" fill="#d4edda" />
+    <text x="-1470" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">C. Ejecución y Fiscalización</text>
+
+    <!-- ================= CONEXIONES (FLECHAS) ================= -->
+    <g fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arrow)">
+        <path d="M 140 100 L 140 130" />
+        <path d="M 140 190 L 140 205 L 360 205 L 360 220" />
+        <path d="M 360 280 L 360 310" />
+        <path d="M 360 370 L 360 385 L 800 385 L 800 400" />
+        <path d="M 800 460 L 800 475 L 580 475 L 580 490" />
+        <path d="M 580 550 L 580 565 L 1020 565 L 1020 580" />
+        <path d="M 1020 640 L 1020 655 L 1240 655 L 1240 670" />
+        <path d="M 1240 730 L 1240 745 L 1020 745 L 1020 760" />
+        <path d="M 1020 820 L 1020 835 L 1020 850" />
+        <path d="M 1020 910 L 1020 925 L 140 925 L 140 940" />
+        <path d="M 140 1000 L 140 1015 L 580 1015 L 580 1030" />
+        <path d="M 580 1090 L 580 1105 L 1460 1105 L 1460 1120" />
+        <path d="M 1460 1180 L 1460 1195 L 140 1195 L 140 1210" />
+        <path d="M 140 1270 L 140 1285 L 580 1285 L 580 1300" />
+        
+        <!-- Bifurcación (Rombo) -->
+        <path d="M 580 1360 L 580 1390" /> <!-- Sí -->
+        <path d="M 640 1330 L 1240 1330 L 1240 1390" /> <!-- No -->
+        
+        <!-- Ruta Éxito (Graduación) -->
+        <path d="M 580 1450 L 580 1465 L 1460 1465 L 1460 1480" />
+        <path d="M 1460 1540 L 1460 1555 L 140 1555 L 140 1570" />
+        <!-- Bypass para no cruzar el nodo de reintegro -->
+        <path d="M 140 1630 L 30 1630 L 30 1730 L 135 1730" /> 
+        
+        <!-- Ruta Fallo (Incumplimiento) -->
+        <path d="M 1240 1450 L 1240 1465 L 800 1465 L 800 1480" />
+        <path d="M 800 1540 L 800 1645 L 140 1645 L 140 1660" />
+        <path d="M 140 1720 L 140 1730" />
+    </g>
+
+    <!-- Textos del Rombo -->
+    <text x="590" y="1380" font-size="11" fill="#6c757d">sí</text>
+    <text x="655" y="1325" font-size="11" fill="#6c757d">no</text>
+
+    <!-- ================= NODOS ================= -->
+    <style>
+        .node { fill: #eaf2ff; stroke: #a0c4ff; stroke-width: 1.5; rx: 6; }
+        .node-text { font-size: 11px; fill: #495057; text-anchor: middle; }
+        .node-fail { fill: #fff5f5; stroke: #ff8787; stroke-width: 1.5; rx: 6; }
+    </style>
+
+    <!-- Puntos de inicio y fin -->
+    <circle cx="140" cy="95" r="5" fill="#343a40" />
+    <circle cx="140" cy="1740" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="140" cy="1740" r="2" fill="#343a40" />
+
+    <!-- A2 -->
+    <rect x="50" y="130" width="180" height="60" class="node" />
+    <text x="140" y="155" class="node-text">
+        <tspan x="140" dy="0">PA5·A2 - Presenta Solicitud</tspan>
+        <tspan x="140" dy="15">Única y Polígono (.shp)</tspan>
+    </text>
+
+    <!-- A3 -->
+    <rect x="270" y="220" width="180" height="60" class="node" />
+    <text x="360" y="245" class="node-text">
+        <tspan x="360" dy="0">PA5·A3 - Coteja, previene</tspan>
+        <tspan x="360" dy="15">o genera folio (5 días)</tspan>
+    </text>
+
+    <!-- A4 -->
+    <rect x="270" y="310" width="180" height="60" class="node" />
+    <text x="360" y="335" class="node-text">
+        <tspan x="360" dy="0">PA5·A4 - Turna expediente</tspan>
+        <tspan x="360" dy="15">para análisis central</tspan>
+    </text>
+
+    <!-- A5 -->
+    <rect x="710" y="400" width="180" height="60" class="node" />
+    <text x="800" y="425" class="node-text">
+        <tspan x="800" dy="0">PA5·A5 - Dictamen Jurídico</tspan>
+        <tspan x="800" dy="15">(Valida propiedad/posesión)</tspan>
+    </text>
+
+    <!-- A6 -->
+    <rect x="490" y="490" width="180" height="60" class="node" />
+    <text x="580" y="515" class="node-text">
+        <tspan x="580" dy="0">PA5·A6 - Dictamen Técnico</tspan>
+        <tspan x="580" dy="15">(Calcula matriz de puntos)</tspan>
+    </text>
+
+    <!-- A7 -->
+    <rect x="930" y="580" width="180" height="60" class="node" />
+    <text x="1020" y="605" class="node-text">
+        <tspan x="1020" dy="0">PA5·A7 - Emite Listado</tspan>
+        <tspan x="1020" dy="15">Preliminar de Solicitudes</tspan>
+    </text>
+
+    <!-- A8 -->
+    <rect x="1150" y="670" width="180" height="60" class="node" />
+    <text x="1240" y="695" class="node-text">
+        <tspan x="1240" dy="0">PA5·A8 - Aprueba Listado</tspan>
+        <tspan x="1240" dy="15">de Factibles/No Factibles</tspan>
+    </text>
+
+    <!-- A9 -->
+    <rect x="930" y="760" width="180" height="60" class="node" />
+    <text x="1020" y="785" class="node-text">
+        <tspan x="1020" dy="0">PA5·A9 - Publica Resultados</tspan>
+        <tspan x="1020" dy="15">(Sitio web y DRF)</tspan>
+    </text>
+
+    <!-- B1 -->
+    <rect x="930" y="850" width="180" height="60" class="node" />
+    <text x="1020" y="875" class="node-text">
+        <tspan x="1020" dy="0">PA5·B1 - Elabora Contrato y</tspan>
+        <tspan x="1020" dy="15">UJIGEV valida legalidad</tspan>
+    </text>
+
+    <!-- B2 -->
+    <rect x="50" y="940" width="180" height="60" class="node" />
+    <text x="140" y="965" class="node-text">
+        <tspan x="140" dy="0">PA5·B2 - Firma Contrato</tspan>
+        <tspan x="140" dy="15">(Plazo: 10 días hábiles)</tspan>
+    </text>
+
+    <!-- B3 -->
+    <rect x="490" y="1030" width="180" height="60" class="node" />
+    <text x="580" y="1055" class="node-text">
+        <tspan x="580" dy="0">PA5·B3 - Solicita Pago</tspan>
+        <tspan x="580" dy="15">1ra Ministración (70%/50%)</tspan>
+    </text>
+
+    <!-- B4 -->
+    <rect x="1370" y="1120" width="180" height="60" class="node" />
+    <text x="1460" y="1145" class="node-text">
+        <tspan x="1460" dy="0">PA5·B4 - Transfiere recurso</tspan>
+        <tspan x="1460" dy="15">a cuenta del beneficiario</tspan>
+    </text>
+
+    <!-- C2 -->
+    <rect x="50" y="1210" width="180" height="60" class="node" />
+    <text x="140" y="1235" class="node-text">
+        <tspan x="140" dy="0">PA5·C2 - Ejecuta trabajos</tspan>
+        <tspan x="140" dy="15">y presenta entregable inter.</tspan>
+    </text>
+
+    <!-- Rombo -->
+    <polygon points="580,1300 640,1330 580,1360 520,1330" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="580" y="1335" class="node-text">¿Cumple?</text>
+
+    <!-- C3 -->
+    <rect x="490" y="1390" width="180" height="60" class="node" />
+    <text x="580" y="1415" class="node-text">
+        <tspan x="580" dy="0">PA5·C3 - Valida entregable y</tspan>
+        <tspan x="580" dy="15">solicita 2da Ministración</tspan>
+    </text>
+
+    <!-- C5 (No) -->
+    <rect x="1150" y="1390" width="180" height="60" class="node-fail" />
+    <text x="1240" y="1415" class="node-text">
+        <tspan x="1240" dy="0">PA5·C5 - Decreta Cancela.</tspan>
+        <tspan x="1240" dy="15">por Incumplimiento</tspan>
+    </text>
+
+    <!-- Pago 2da (Sí) -->
+    <rect x="1370" y="1480" width="180" height="60" class="node" />
+    <text x="1460" y="1505" class="node-text">
+        <tspan x="1460" dy="0">PA5·C3b - Transfiere saldo</tspan>
+        <tspan x="1460" dy="15">restante (30%/50%)</tspan>
+    </text>
+
+    <!-- C6 (No) -->
+    <rect x="710" y="1480" width="180" height="60" class="node-fail" />
+    <text x="800" y="1505" class="node-text">
+        <tspan x="800" dy="0">PA5·C6 - Exige devolución</tspan>
+        <tspan x="800" dy="15">e ingresa a Listado de Incum.</tspan>
+    </text>
+
+    <!-- C4 (Sí) -->
+    <rect x="50" y="1570" width="180" height="60" class="node" />
+    <text x="140" y="1595" class="node-text">
+        <tspan x="140" dy="0">PA5·C4 - Obtiene Resolutivo</tspan>
+        <tspan x="140" dy="15">o Certificado (Graduación)</tspan>
+    </text>
+
+    <!-- C6b (No) -->
+    <rect x="50" y="1660" width="180" height="60" class="node-fail" />
+    <text x="140" y="1685" class="node-text">
+        <tspan x="140" dy="0">PA5·C6b - Reintegra el</tspan>
+        <tspan x="140" dy="15">recurso a PROBOSQUE</tspan>
+    </text>
+
+</svg>

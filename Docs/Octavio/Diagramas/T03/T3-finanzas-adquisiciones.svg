@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1340 1500" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#6c757d" />
+        </marker>
+    </defs>
+
+    <!-- Título -->
+    <text x="670" y="30" font-size="16" font-weight="bold" fill="#343a40" text-anchor="middle">T-03 — Finanzas y Adquisiciones (Flujo por Roles)</text>
+
+    <!-- ================= CARRILES (SWIMLANES) ================= -->
+    <rect x="40" y="50" width="200" height="1420" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="140" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R28 / R39</text>
+    <text x="140" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Beneficiaria / Proveedor</text>
+
+    <rect x="250" y="50" width="200" height="1420" fill="#ffffff" stroke="#e9ecef" />
+    <text x="350" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R33 / Ext</text>
+    <text x="350" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Fiduciaria / Tesorería</text>
+
+    <rect x="460" y="50" width="200" height="1420" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="560" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R15</text>
+    <text x="560" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DAFGD</text>
+
+    <rect x="670" y="50" width="200" height="1420" fill="#ffffff" stroke="#e9ecef" />
+    <text x="770" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R16</text>
+    <text x="770" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Depto. Contabilidad</text>
+
+    <rect x="880" y="50" width="200" height="1420" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="980" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R37</text>
+    <text x="980" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Subcomité Rev. Bases</text>
+
+    <rect x="1090" y="50" width="200" height="1420" fill="#ffffff" stroke="#e9ecef" />
+    <text x="1190" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R38</text>
+    <text x="1190" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Comité Adquisiciones</text>
+
+    <!-- ================= AGRUPADORES LATERALES ================= -->
+    <rect x="10" y="100" width="20" height="340" rx="10" fill="#e8f0fe" />
+    <text x="-270" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">A. Radicación Presupuestal</text>
+    
+    <rect x="10" y="460" width="20" height="520" rx="10" fill="#fff3cd" />
+    <text x="-720" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">B. Pagos (FIPASAHEM / Diversos)</text>
+    
+    <rect x="10" y="1000" width="20" height="450" rx="10" fill="#d4edda" />
+    <text x="-1225" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">C. Adquisiciones Públicas</text>
+
+    <!-- ================= CONEXIONES (FLECHAS) ================= -->
+    <g fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arrow)">
+        <!-- Fase A -->
+        <path d="M 560 100 L 560 130" />
+        <path d="M 560 190 L 560 205 L 350 205 L 350 220" />
+        <path d="M 350 280 L 350 295 L 770 295 L 770 310" />
+        <path d="M 770 370 L 770 385 L 560 385 L 560 400" />
+        
+        <!-- Fase B -->
+        <path d="M 560 460 L 560 490" />
+        <path d="M 560 550 L 560 565 L 770 565 L 770 580" />
+        <path d="M 770 640 L 770 660" />
+        
+        <!-- Rombo Bifurcación -->
+        <!-- FIPASAHEM (Izquierda) -->
+        <path d="M 730 690 L 560 690 L 560 730" />
+        <path d="M 560 790 L 560 805 L 350 805 L 350 820" />
+        <path d="M 260 850 L 230 850" /> <!-- A Beneficiario L1 -->
+        <path d="M 350 880 L 350 895 L 770 895 L 770 910" /> <!-- Retorno a B4 -->
+
+        <!-- Directo SPEI (Abajo) -->
+        <path d="M 770 720 L 770 730" />
+        <path d="M 680 760 L 230 760" /> <!-- A Proveedor L1 -->
+        <path d="M 770 790 L 770 910" /> <!-- Retorno a B4 -->
+
+        <path d="M 770 970 L 770 985" /> <!-- Fin B -->
+
+        <!-- Fase C -->
+        <path d="M 560 1015 L 560 1050" />
+        <path d="M 560 1110 L 560 1125 L 980 1125 L 980 1140" />
+        <path d="M 980 1200 L 980 1215 L 1190 1215 L 1190 1230" />
+        <path d="M 1190 1290 L 1190 1305 L 560 1305 L 560 1320" />
+        <path d="M 470 1350 L 230 1350" /> <!-- A Proveedor L1 -->
+        <path d="M 560 1380 L 560 1415" /> <!-- Fin C -->
+    </g>
+
+    <!-- Textos de Rombo -->
+    <text x="770" y="695" font-size="11" fill="#495057" text-anchor="middle">¿FIPASAHEM?</text>
+    <text x="740" y="685" font-size="11" fill="#6c757d">Sí</text>
+    <text x="785" y="730" font-size="11" fill="#6c757d">No</text>
+
+    <!-- ================= NODOS ================= -->
+    <style>
+        .node { fill: #eaf2ff; stroke: #a0c4ff; stroke-width: 1.5; rx: 6; }
+        .node-text { font-size: 11px; fill: #495057; text-anchor: middle; }
+    </style>
+
+    <!-- Puntos de inicio -->
+    <circle cx="560" cy="95" r="5" fill="#343a40" />
+
+    <!-- A1 -->
+    <rect x="470" y="130" width="180" height="60" class="node" />
+    <text x="560" y="155" class="node-text">
+        <tspan x="560" dy="0">T3·A1 - Verifica SPP</tspan>
+        <tspan x="560" dy="15">(Liberación de Recursos)</tspan>
+    </text>
+
+    <!-- A2 -->
+    <rect x="260" y="220" width="180" height="60" class="node" />
+    <text x="350" y="245" class="node-text">
+        <tspan x="350" dy="0">T3·A2 - Tesorería Estatal</tspan>
+        <tspan x="350" dy="15">fondea cuenta PROBOSQUE</tspan>
+    </text>
+
+    <!-- A3 -->
+    <rect x="680" y="310" width="180" height="60" class="node" />
+    <text x="770" y="335" class="node-text">
+        <tspan x="770" dy="0">T3·A3 - Confirma fondo y</tspan>
+        <tspan x="770" dy="15">captura Póliza de Ingreso</tspan>
+    </text>
+
+    <!-- A4 -->
+    <rect x="470" y="400" width="180" height="60" class="node" />
+    <text x="560" y="425" class="node-text">
+        <tspan x="560" dy="0">T3·A4 - Autoriza Póliza</tspan>
+        <tspan x="560" dy="15">de Ingreso (Disponible)</tspan>
+    </text>
+
+    <!-- B1 -->
+    <rect x="470" y="490" width="180" height="60" class="node" />
+    <text x="560" y="515" class="node-text">
+        <tspan x="560" dy="0">T3·B1 - Recibe Solicitud</tspan>
+        <tspan x="560" dy="15">de Pago, Factura y Contrato</tspan>
+    </text>
+
+    <!-- B2 -->
+    <rect x="680" y="580" width="180" height="60" class="node" />
+    <text x="770" y="605" class="node-text">
+        <tspan x="770" dy="0">T3·B2 - Valida fiscalmente</tspan>
+        <tspan x="770" dy="15">y emite Póliza de Egreso</tspan>
+    </text>
+
+    <!-- Rombo -->
+    <polygon points="770,660 810,690 770,720 730,690" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+
+    <!-- B3 FIPA 1 -->
+    <rect x="470" y="730" width="180" height="60" class="node" />
+    <text x="560" y="755" class="node-text">
+        <tspan x="560" dy="0">T3·B3 - Instruye</tspan>
+        <tspan x="560" dy="15">dispersión a Fiduciaria</tspan>
+    </text>
+
+    <!-- B3 FIPA 2 -->
+    <rect x="260" y="820" width="180" height="60" class="node" />
+    <text x="350" y="845" class="node-text">
+        <tspan x="350" dy="0">T3·B3 - Fiduciaria dispersa</tspan>
+        <tspan x="350" dy="15">a CLABEs (70/30)</tspan>
+    </text>
+
+    <rect x="50" y="820" width="180" height="60" class="node" />
+    <text x="140" y="845" class="node-text">
+        <tspan x="140" dy="0">Beneficiarios reciben</tspan>
+        <tspan x="140" dy="15">ministraciones de apoyo</tspan>
+    </text>
+
+    <!-- B3 DIRECTO -->
+    <rect x="680" y="730" width="180" height="60" class="node" />
+    <text x="770" y="755" class="node-text">
+        <tspan x="770" dy="0">T3·B3 - Paga vía SPEI</tspan>
+        <tspan x="770" dy="15">o Cheque (Gasto Cte.)</tspan>
+    </text>
+
+    <rect x="50" y="730" width="180" height="60" class="node" />
+    <text x="140" y="755" class="node-text">
+        <tspan x="140" dy="0">Proveedor / Tercero</tspan>
+        <tspan x="140" dy="15">recibe pago SPEI</tspan>
+    </text>
+
+    <!-- B4 -->
+    <rect x="680" y="910" width="180" height="60" class="node" />
+    <text x="770" y="935" class="node-text">
+        <tspan x="770" dy="0">T3·B4 - Notifica al área y</tspan>
+        <tspan x="770" dy="15">archiva Póliza (Soporte)</tspan>
+    </text>
+    
+    <circle cx="770" cy="990" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="770" cy="990" r="2" fill="#343a40" />
+
+    <!-- C1 -->
+    <circle cx="560" cy="1010" r="5" fill="#343a40" />
+
+    <rect x="470" y="1050" width="180" height="60" class="node" />
+    <text x="560" y="1075" class="node-text">
+        <tspan x="560" dy="0">T3·C1 - Recibe Requisición</tspan>
+        <tspan x="560" dy="15">de Compra/Servicio</tspan>
+    </text>
+
+    <!-- C2 -->
+    <rect x="890" y="1140" width="180" height="60" class="node" />
+    <text x="980" y="1165" class="node-text">
+        <tspan x="980" dy="0">T3·C2 - Subcomité dictamina</tspan>
+        <tspan x="980" dy="15">Proyecto de Bases</tspan>
+    </text>
+
+    <!-- C3 -->
+    <rect x="1100" y="1230" width="180" height="60" class="node" />
+    <text x="1190" y="1255" class="node-text">
+        <tspan x="1190" dy="0">T3·C3 - Comité licita y</tspan>
+        <tspan x="1190" dy="15">emite Fallo Adjudicación</tspan>
+    </text>
+
+    <!-- C4 -->
+    <rect x="470" y="1320" width="180" height="60" class="node" />
+    <text x="560" y="1345" class="node-text">
+        <tspan x="560" dy="0">T3·C4 - Formaliza Contrato</tspan>
+        <tspan x="560" dy="15">y recibe bienes (Acta E/R)</tspan>
+    </text>
+
+    <rect x="50" y="1320" width="180" height="60" class="node" />
+    <text x="140" y="1345" class="node-text">
+        <tspan x="140" dy="0">Proveedor entrega bienes</tspan>
+        <tspan x="140" dy="15">o presta servicios</tspan>
+    </text>
+
+    <!-- FIN -->
+    <circle cx="560" cy="1420" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="560" cy="1420" r="2" fill="#343a40" />
+    <text x="560" y="1440" font-size="11" fill="#6c757d" text-anchor="middle">Conecta a Pagos Diversos</text>
+
+</svg>
