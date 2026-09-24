@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1840" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#6c757d" />
+        </marker>
+    </defs>
+
+    <!-- Título -->
+    <text x="850" y="30" font-size="16" font-weight="bold" fill="#343a40" text-anchor="middle">PA-06 — Restauración Forestal Integral (Flujo 8 Actores)</text>
+
+    <!-- ================= CARRILES (SWIMLANES) ================= -->
+    <rect x="40" y="50" width="200" height="1760" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="140" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R28</text>
+    <text x="140" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Beneficiaria</text>
+
+    <rect x="240" y="50" width="200" height="1760" fill="#ffffff" stroke="#e9ecef" />
+    <text x="340" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R33</text>
+    <text x="340" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Prestador Forestal (PSF)</text>
+
+    <rect x="440" y="50" width="200" height="1760" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="540" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R29</text>
+    <text x="540" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DRF (Ventanilla / Campo)</text>
+
+    <rect x="640" y="50" width="200" height="1760" fill="#ffffff" stroke="#e9ecef" />
+    <text x="740" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R30</text>
+    <text x="740" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Depto. Restauración</text>
+
+    <rect x="840" y="50" width="200" height="1760" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="940" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R20</text>
+    <text x="940" y="90" font-size="12" fill="#6c757d" text-anchor="middle">UJIGEV (Jurídico)</text>
+
+    <rect x="1040" y="50" width="200" height="1760" fill="#ffffff" stroke="#e9ecef" />
+    <text x="1140" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R31</text>
+    <text x="1140" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DRFF (Dir. Ejecutora)</text>
+
+    <rect x="1240" y="50" width="200" height="1760" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="1340" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R15</text>
+    <text x="1340" y="90" font-size="12" fill="#6c757d" text-anchor="middle">DAFGD (Finanzas)</text>
+
+    <rect x="1440" y="50" width="200" height="1760" fill="#ffffff" stroke="#e9ecef" />
+    <text x="1540" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R32</text>
+    <text x="1540" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Comité de Admisión</text>
+
+    <!-- ================= AGRUPADORES LATERALES ================= -->
+    <rect x="10" y="100" width="20" height="800" rx="10" fill="#e8f0fe" />
+    <text x="-500" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">A. Solicitud y Dictaminación</text>
+    
+    <rect x="10" y="910" width="20" height="240" rx="10" fill="#fff3cd" />
+    <text x="-1030" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">B. Contratación</text>
+    
+    <rect x="10" y="1160" width="20" height="580" rx="10" fill="#d4edda" />
+    <text x="-1450" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">C. Ejecución y Fiscalización</text>
+
+    <!-- ================= CONEXIONES ================= -->
+    <g fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arrow)">
+        <!-- A. Dictaminación -->
+        <path d="M 1540 95 L 1540 130" />
+        <path d="M 1540 190 L 1540 200 L 340 200 L 340 210" />
+        <path d="M 340 270 L 340 280 L 140 280 L 140 290" />
+        <path d="M 140 350 L 140 360 L 540 360 L 540 370" />
+        <path d="M 540 430 L 540 440 L 1140 440 L 1140 450" />
+        <path d="M 1140 510 L 1140 520 L 740 520 L 740 530" />
+        <path d="M 740 590 L 740 600 L 940 600 L 940 610" />
+        <path d="M 940 670 L 940 680 L 740 680 L 740 690" />
+        <path d="M 740 750 L 740 760 L 1540 760 L 1540 770" />
+        
+        <!-- Rombo 1 (Autoriza) -->
+        <path d="M 1540 830 L 1540 850" />
+        <!-- NO -->
+        <path d="M 1500 880 L 940 880 L 940 930" />
+        <!-- SÍ -->
+        <path d="M 1540 910 L 1540 990 L 1140 990 L 1140 1010" />
+
+        <!-- B. Contrato y Pago -->
+        <path d="M 1140 1070 L 1140 1080 L 140 1080 L 140 1090" />
+        <path d="M 140 1150 L 140 1160 L 1340 1160 L 1340 1170" />
+
+        <!-- C. Ejecución y Cierre -->
+        <path d="M 1340 1230 L 1340 1240 L 340 1240 L 340 1250" />
+        <path d="M 340 1310 L 340 1320 L 540 1320 L 540 1330" />
+        <path d="M 540 1390 L 540 1400 L 1140 1400 L 1140 1410" />
+
+        <!-- Rombo 2 (Cumple) -->
+        <path d="M 1140 1470 L 1140 1490" />
+        <!-- SÍ -->
+        <path d="M 1140 1550 L 1140 1560 L 1340 1560 L 1340 1570" />
+        <path d="M 1340 1630 L 1340 1640 L 1540 1640 L 1540 1650" />
+        <!-- NO -->
+        <path d="M 1180 1520 L 1540 1520 L 1540 1570" />
+        <path d="M 1540 1630 L 1540 1640 L 940 1640 L 940 1650" />
+
+        <!-- ENDS -->
+        <path d="M 940 990 L 940 1010" /> <!-- End NO 1 -->
+        <path d="M 1540 1710 L 1540 1730" /> <!-- End SÍ Final -->
+        <path d="M 940 1710 L 940 1730" /> <!-- End NO Final -->
+    </g>
+
+    <!-- Textos de Rombos -->
+    <text x="1550" y="905" font-size="11" fill="#28a745">Sí</text>
+    <text x="1485" y="875" font-size="11" fill="#dc3545">No</text>
+    
+    <text x="1150" y="1545" font-size="11" fill="#28a745">Sí</text>
+    <text x="1200" y="1515" font-size="11" fill="#dc3545">No</text>
+
+    <!-- ================= NODOS ================= -->
+    <style>
+        .node { fill: #eaf2ff; stroke: #a0c4ff; stroke-width: 1.5; rx: 6; }
+        .node-text { font-size: 11px; fill: #495057; text-anchor: middle; }
+        .node-fail { fill: #fff5f5; stroke: #ff8787; stroke-width: 1.5; rx: 6; }
+    </style>
+
+    <circle cx="1540" cy="95" r="5" fill="#343a40" />
+
+    <!-- A1 -->
+    <rect x="1450" y="130" width="180" height="60" class="node" />
+    <text x="1540" y="155" class="node-text">
+        <tspan x="1540" dy="0">PA6·A1 - Aprobar reglas y</tspan>
+        <tspan x="1540" dy="15">montos ($30k y $14k)</tspan>
+    </text>
+
+    <!-- A2 (PSF) -->
+    <rect x="250" y="210" width="180" height="60" class="node" />
+    <text x="340" y="235" class="node-text">
+        <tspan x="340" dy="0">PA6·A2 - Elaborar PTRFI</tspan>
+        <tspan x="340" dy="15">y Polígonos Shapefile</tspan>
+    </text>
+
+    <!-- A2 (Beneficiario) -->
+    <rect x="50" y="290" width="180" height="60" class="node" />
+    <text x="140" y="315" class="node-text">
+        <tspan x="140" dy="0">PA6·A2 - Ingresar FO-PB-501B</tspan>
+        <tspan x="140" dy="15">y entregar expediente</tspan>
+    </text>
+
+    <!-- A3 -->
+    <rect x="450" y="370" width="180" height="60" class="node" />
+    <text x="540" y="395" class="node-text">
+        <tspan x="540" dy="0">PA6·A3 - Cotejar, prevenir (5</tspan>
+        <tspan x="540" dy="15">días) y turnar expediente</tspan>
+    </text>
+
+    <!-- A4 (Digitaliza) -->
+    <rect x="1050" y="450" width="180" height="60" class="node" />
+    <text x="1140" y="475" class="node-text">
+        <tspan x="1140" dy="0">PA6·A4 - Registrar y</tspan>
+        <tspan x="1140" dy="15">digitalizar expediente</tspan>
+    </text>
+
+    <!-- A4 (Topología) -->
+    <rect x="650" y="530" width="180" height="60" class="node" />
+    <text x="740" y="555" class="node-text">
+        <tspan x="740" dy="0">PA6·A4 - Validar topología GIS</tspan>
+        <tspan x="740" dy="15">y verificar traslapes</tspan>
+    </text>
+
+    <!-- A5 (Jurídico) -->
+    <rect x="850" y="610" width="180" height="60" class="node" />
+    <text x="940" y="635" class="node-text">
+        <tspan x="940" dy="0">PA6·A5 - Emitir Dictamen</tspan>
+        <tspan x="940" dy="15">Jurídico (Propiedad)</tspan>
+    </text>
+
+    <!-- A5 (Técnico) -->
+    <rect x="650" y="690" width="180" height="60" class="node" />
+    <text x="740" y="715" class="node-text">
+        <tspan x="740" dy="0">PA6·A5 - Emitir Dictamen</tspan>
+        <tspan x="740" dy="15">Técnico (Viabilidad)</tspan>
+    </text>
+
+    <!-- A6 -->
+    <rect x="1450" y="770" width="180" height="60" class="node" />
+    <text x="1540" y="795" class="node-text">
+        <tspan x="1540" dy="0">PA6·A6 - Aprobar factibles</tspan>
+        <tspan x="1540" dy="15">y presupuesto</tspan>
+    </text>
+
+    <!-- Rombo 1 -->
+    <polygon points="1540,850 1580,880 1540,910 1500,880" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="1540" y="885" class="node-text">¿Autoriza?</text>
+
+    <!-- Ruta Rechazo -->
+    <rect x="850" y="930" width="180" height="60" class="node-fail" />
+    <text x="940" y="955" class="node-text">
+        <tspan x="940" dy="0">PA6·B1 - Notificar rechazo</tspan>
+        <tspan x="940" dy="15">fundamentado</tspan>
+    </text>
+    <circle cx="940" cy="1010" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="940" cy="1010" r="2" fill="#343a40" />
+
+    <!-- Ruta Aprobación -->
+    <rect x="1050" y="1010" width="180" height="60" class="node" />
+    <text x="1140" y="1035" class="node-text">
+        <tspan x="1140" dy="0">PA6·B1 - Publicar resultados</tspan>
+        <tspan x="1140" dy="15">y elaborar Contrato</tspan>
+    </text>
+
+    <rect x="50" y="1090" width="180" height="60" class="node" />
+    <text x="140" y="1115" class="node-text">
+        <tspan x="140" dy="0">PA6·B2 - Firmar Adhesión</tspan>
+        <tspan x="140" dy="15">y presentar cuenta</tspan>
+    </text>
+
+    <rect x="1250" y="1170" width="180" height="60" class="node" />
+    <text x="1340" y="1195" class="node-text">
+        <tspan x="1340" dy="0">PA6·B3 - Transferir 1ra</tspan>
+        <tspan x="1340" dy="15">Ministración (70%)</tspan>
+    </text>
+
+    <rect x="250" y="1250" width="180" height="60" class="node" />
+    <text x="340" y="1275" class="node-text">
+        <tspan x="340" dy="0">PA6·C1 - Ejecutar obras</tspan>
+        <tspan x="340" dy="15">y reforestar el predio</tspan>
+    </text>
+
+    <rect x="450" y="1330" width="180" height="60" class="node" />
+    <text x="540" y="1355" class="node-text">
+        <tspan x="540" dy="0">PA6·C2 - Supervisar y</tspan>
+        <tspan x="540" dy="15">emitir Minuta de Campo</tspan>
+    </text>
+
+    <rect x="1050" y="1410" width="180" height="60" class="node" />
+    <text x="1140" y="1435" class="node-text">
+        <tspan x="1140" dy="0">PA6·C3 - Validar minuta</tspan>
+        <tspan x="1140" dy="15">técnica</tspan>
+    </text>
+
+    <!-- Rombo 2 -->
+    <polygon points="1140,1490 1180,1520 1140,1550 1100,1520" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="1140" y="1525" class="node-text">¿Cumple?</text>
+
+    <!-- C4 (No) -->
+    <rect x="1450" y="1570" width="180" height="60" class="node-fail" />
+    <text x="1540" y="1595" class="node-text">
+        <tspan x="1540" dy="0">PA6·C4 - Decretar</tspan>
+        <tspan x="1540" dy="15">cancelación</tspan>
+    </text>
+
+    <rect x="850" y="1650" width="180" height="60" class="node-fail" />
+    <text x="940" y="1675" class="node-text">
+        <tspan x="940" dy="0">PA6·C4 - Exigir reintegro</tspan>
+        <tspan x="940" dy="15">e inscribir en Incumplidos</tspan>
+    </text>
+    <circle cx="940" cy="1730" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="940" cy="1730" r="2" fill="#343a40" />
+
+    <!-- C5 (Sí) -->
+    <rect x="1250" y="1570" width="180" height="60" class="node" />
+    <text x="1340" y="1595" class="node-text">
+        <tspan x="1340" dy="0">PA6·C3 - Transferir 2da</tspan>
+        <tspan x="1340" dy="15">Ministración (30%)</tspan>
+    </text>
+
+    <rect x="1450" y="1650" width="180" height="60" class="node" />
+    <text x="1540" y="1675" class="node-text">
+        <tspan x="1540" dy="0">PA6·C5 - Aprobar informe</tspan>
+        <tspan x="1540" dy="15">final (Graduación)</tspan>
+    </text>
+    <circle cx="1540" cy="1730" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="1540" cy="1730" r="2" fill="#343a40" />
+
+</svg>

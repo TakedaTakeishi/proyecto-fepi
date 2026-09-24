@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350" width="100%" height="100%" style="background-color: #ffffff; font-family: system-ui, -apple-system, sans-serif;">
+    <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#6c757d" />
+        </marker>
+    </defs>
+
+    <!-- Título -->
+    <text x="540" y="30" font-size="16" font-weight="bold" fill="#343a40" text-anchor="middle">MF-11 — Incendios Forestales: Prevención y Combate</text>
+
+    <!-- ================= CARRILES (SWIMLANES) ================= -->
+    <!-- R1: Ciudadanía -->
+    <rect x="40" y="50" width="220" height="1270" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="150" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R1</text>
+    <text x="150" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Denunciante / Propietario</text>
+
+    <!-- R2: DISF -->
+    <rect x="260" y="50" width="220" height="1270" fill="#ffffff" stroke="#e9ecef" />
+    <text x="370" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R2</text>
+    <text x="370" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Subdirección Incendios (DISF)</text>
+
+    <!-- R3: Brigadas -->
+    <rect x="480" y="50" width="220" height="1270" fill="#f8f9fa" stroke="#e9ecef" />
+    <text x="590" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R3</text>
+    <text x="590" y="90" font-size="12" fill="#6c757d" text-anchor="middle">Brigadas Combatientes</text>
+
+    <!-- R4/R5: SCI -->
+    <rect x="700" y="50" width="220" height="1270" fill="#ffffff" stroke="#e9ecef" />
+    <text x="810" y="75" font-size="12" font-weight="bold" fill="#6c757d" text-anchor="middle">R4 / R5</text>
+    <text x="810" y="90" font-size="12" fill="#6c757d" text-anchor="middle">SCI y Entidades Coordinadas</text>
+
+    <!-- ================= AGRUPADORES LATERALES ================= -->
+    <rect x="10" y="100" width="20" height="170" rx="10" fill="#e8f0fe" />
+    <text x="-185" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">A. Prevención</text>
+    
+    <rect x="10" y="280" width="20" height="250" rx="10" fill="#fff3cd" />
+    <text x="-405" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">B. Detección y Despacho</text>
+    
+    <rect x="10" y="540" width="20" height="420" rx="10" fill="#f8d7da" />
+    <text x="-750" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">C. Combate y SCI</text>
+
+    <rect x="10" y="970" width="20" height="330" rx="10" fill="#d4edda" />
+    <text x="-1135" y="24" transform="rotate(-90)" font-size="11" fill="#495057" text-anchor="middle">D. Liquidación y Cierre</text>
+
+    <!-- ================= CONEXIONES ================= -->
+    <g fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arrow)">
+        <!-- Fase A -->
+        <path d="M 370 100 L 370 130" />
+        <path d="M 370 190 L 370 205 L 590 205 L 590 220" />
+        
+        <!-- Fase B -->
+        <path d="M 150 280 L 150 310" />
+        <path d="M 150 370 L 150 385 L 370 385 L 370 400" />
+        <path d="M 370 460 L 370 475 L 590 475 L 590 490" />
+        
+        <!-- Fase C -->
+        <path d="M 590 550 L 590 580" />
+        <path d="M 590 640 L 590 670" />
+        
+        <!-- Rombo -->
+        <!-- Supera control (No) -> Activa SCI -->
+        <path d="M 640 700 L 810 700 L 810 760" />
+        <path d="M 810 820 L 810 835 L 590 835 L 590 850" />
+        <!-- Controlado (Sí) -> Va a liquidación -->
+        <path d="M 590 730 L 590 1000" />
+        
+        <!-- Fase D -->
+        <path d="M 590 910 L 590 1000" />
+        <path d="M 590 1060 L 590 1075 L 370 1075 L 370 1090" />
+        <path d="M 370 1150 L 370 1180" />
+        <path d="M 370 1240 L 370 1270" />
+    </g>
+
+    <!-- Textos de Rombo -->
+    <text x="595" y="750" font-size="11" fill="#28a745">Sí</text>
+    <text x="660" y="695" font-size="11" fill="#dc3545">No</text>
+
+    <!-- ================= NODOS ================= -->
+    <style>
+        .node { fill: #eaf2ff; stroke: #a0c4ff; stroke-width: 1.5; rx: 6; }
+        .node-text { font-size: 11px; fill: #495057; text-anchor: middle; }
+        .node-alert { fill: #fff5f5; stroke: #ff8787; stroke-width: 1.5; rx: 6; }
+        .node-warning { fill: #fff9db; stroke: #ffd43b; stroke-width: 1.5; rx: 6; }
+    </style>
+
+    <circle cx="370" cy="95" r="5" fill="#343a40" />
+    <circle cx="150" cy="275" r="5" fill="#343a40" />
+
+    <!-- A1 -->
+    <rect x="280" y="130" width="180" height="60" class="node" />
+    <text x="370" y="155" class="node-text">
+        <tspan x="370" dy="0">MF11·A1 - Subplanificación</tspan>
+        <tspan x="370" dy="15">regional preventiva</tspan>
+    </text>
+
+    <!-- A2 -->
+    <rect x="500" y="220" width="180" height="60" class="node" />
+    <text x="590" y="245" class="node-text">
+        <tspan x="590" dy="0">MF11·A2 - Ejecutar brechas</tspan>
+        <tspan x="590" dy="15">y quemas controladas</tspan>
+    </text>
+
+    <!-- B1 -->
+    <rect x="60" y="310" width="180" height="60" class="node-alert" />
+    <text x="150" y="335" class="node-text">
+        <tspan x="150" dy="0">MF11·B1 - Reportar</tspan>
+        <tspan x="150" dy="15">incendio forestal</tspan>
+    </text>
+
+    <!-- B2 -->
+    <rect x="280" y="400" width="180" height="60" class="node" />
+    <text x="370" y="425" class="node-text">
+        <tspan x="370" dy="0">MF11·B2 - Recibir reporte,</tspan>
+        <tspan x="370" dy="15">evaluar y despachar</tspan>
+    </text>
+
+    <!-- C1 -->
+    <rect x="500" y="490" width="180" height="60" class="node-alert" />
+    <text x="590" y="515" class="node-text">
+        <tspan x="590" dy="0">MF11·C1 - Arribo y</tspan>
+        <tspan x="590" dy="15">ataque inicial</tspan>
+    </text>
+
+    <!-- C2 -->
+    <rect x="500" y="580" width="180" height="60" class="node" />
+    <text x="590" y="605" class="node-text">
+        <tspan x="590" dy="0">MF11·C2 - Evaluar control</tspan>
+        <tspan x="590" dy="15">de línea de fuego</tspan>
+    </text>
+
+    <!-- Rombo Control -->
+    <polygon points="590,670 640,700 590,730 540,700" fill="#fff9db" stroke="#ffd43b" stroke-width="1.5" />
+    <text x="590" y="705" class="node-text">¿Controlado?</text>
+
+    <!-- C3 -->
+    <rect x="720" y="760" width="180" height="60" class="node-warning" />
+    <text x="810" y="785" class="node-text">
+        <tspan x="810" dy="0">MF11·C3 - Activar SCI y</tspan>
+        <tspan x="810" dy="15">coordinar dependencias</tspan>
+    </text>
+
+    <rect x="500" y="850" width="180" height="60" class="node-alert" />
+    <text x="590" y="875" class="node-text">
+        <tspan x="590" dy="0">Ejecutar supresión</tspan>
+        <tspan x="590" dy="15">interinstitucional</tspan>
+    </text>
+
+    <!-- D1 -->
+    <rect x="500" y="1000" width="180" height="60" class="node" />
+    <text x="590" y="1025" class="node-text">
+        <tspan x="590" dy="0">MF11·D1 - Liquidar incendio</tspan>
+        <tspan x="590" dy="15">y asegurar perímetro</tspan>
+    </text>
+
+    <!-- D2 -->
+    <rect x="280" y="1090" width="180" height="60" class="node" />
+    <text x="370" y="1115" class="node-text">
+        <tspan x="370" dy="0">MF11·D2 - Trazar polígono,</tspan>
+        <tspan x="370" dy="15">cuantificar (ha) y clasificar</tspan>
+    </text>
+
+    <!-- D3 -->
+    <rect x="280" y="1180" width="180" height="60" class="node" />
+    <text x="370" y="1205" class="node-text">
+        <tspan x="370" dy="0">MF11·D3 - Consolidar</tspan>
+        <tspan x="370" dy="15">estadística de temporada</tspan>
+    </text>
+
+    <!-- Puntos de fin -->
+    <circle cx="370" cy="1275" r="5" fill="#ffffff" stroke="#343a40" stroke-width="2" />
+    <circle cx="370" cy="1275" r="2" fill="#343a40" />
+
+</svg>
