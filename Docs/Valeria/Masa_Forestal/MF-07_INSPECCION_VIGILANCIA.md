@@ -14,6 +14,17 @@ Realizar las visitas periciales de inspección y auditoría técnica física en 
 - **Fuera del alcance:** Delimitación topográfica inicial de predios (MF-01)[cite: 1], cálculo de coberturas e índices por satélite (MF-02, MF-03)[cite: 1], convenios de concertación inicial (MF-05)[cite: 1], dispersión bancaria directa (MF-06)[cite: 1] y reportes ejecutivos consolidados de cierre anual (E-03)[cite: 1].
 
 ---
+## 1.1 Entradas y Salidas del Proceso
+
+| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
+|---|---|---|---|
+| **Entrada** | Expediente Técnico de Predio Aprobado | Polígono, compromisos de convenio y cronograma | Procesos MF-01, MF-03, MF-05 |
+| **Entrada** | Orden de Inspección y Verificación | Documento oficial de comisión técnica a la brigada | SGD / Jefatura de Delegación Regional |
+| **Salida** | Minuta Circunstanciada de Inspección | Acta física/digital firmada in situ con beneficiarios | Expediente SGD / Archivo Regional |
+| **Salida** | Galería Fotográfica Georreferenciada | Fotografías JPEG con metadatos EXIF de coordenadas y fecha | Repositorio de evidencias SGD |
+| **Salida** | Dictamen de Cumplimiento Técnico | Resolución de procedencia ($\ge 80\%$) para liberar ministración | Proceso financiero / Dirección General |
+
+---
 
 ## 2. Base documental (origen de los requisitos)
 
