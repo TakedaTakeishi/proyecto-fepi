@@ -1,58 +1,26 @@
-# Sistema de Gestión Documental PROBOSQUE — Catálogo de Procesos
+# Docs/Valeria (Patatuchi) — Trabajo propio
 
-> Repositorio de especificación técnica y de requerimientos para el SGD de PROBOSQUE (Edoméx).
+> Catálogo general y reparto: README raíz del repo. Alcance desde 2026-09-22: **solo masa forestal (MF) y programas de apoyo (PA)** — el germoplasma quedó fuera (archivado en `Docs/Comun/germoplasma-archivo/`).
 
----
+## Mi bloque — Masa Forestal (sprint 2026-09-22, 2 días)
 
-## 1. Dominio 1 — Masa Forestal / SIG
-
-### 1.1 Ciclo de verificación y dictaminación
-
-| ID | Proceso | Estado | Sustento documental | Asignado a |
-|---|---|---|---|---|
-| MF-01 | Delimitación de polígono y tenencia | 🟢 documentado | RO PSAH p. 19; RO Carbono pp. 6–7; FO-501A; FO-502; DEMIF; Ley Agraria | Valeria |
-| MF-02 | Levantamiento de cobertura (SIG y satélite) | 🟢 documentado | RO PSAH pp. 4, 6, 8, 19–22; RO Carbono pp. 4, 7–8; Inventario Forestal 2022; MGO 2025 pp. 21–22 | Valeria |
-| MF-03 | Índices de cobertura arbórea (NDVI/dosel) | 🟢 documentado | RO PSAH pp. 4, 7–8, 19–22; RO Carbono pp. 4, 7–9; Inventario Forestal 2022 | Valeria |
-| MF-04 | Sesión de Comité y Dictaminación de Apoyos | 🟡 pendiente | RO PSAH pp. 9–10; RO Carbono p. 8 | Equipo |
-| MF-05 | Formalización de Convenios de Concertación | 🟡 pendiente | RO PSAH pp. 10–12; RO Carbono pp. 8–9 | Equipo |
-| MF-06 | Dispersión y Comprobación de Recursos | 🟡 pendiente | RO PSAH pp. 12–14; RO Carbono pp. 9–10 | Equipo |
-| MF-07 | Inspección y vigilancia en campo | 🟢 documentado | RO PSAH pp. 4–5, 19–22; RO Carbono pp. 9–11; Manual Proc. pp. 27–32; FO-503 | Valeria |
-| MF-08 | Rescisión y Reintegro de Recursos | 🟡 pendiente | RO PSAH pp. 21–23; Ley de Procedimiento Administrativo EdoMéx | Equipo |
-
-### 1.2 Entregables especiales de Masa Forestal
-
-| ID | Entregable | Estado | Sustento documental | Asignado a |
-|---|---|---|---|---|
-| E-03 | Consolidación de estadísticas y cierre anual | 🟢 documentado | RO PSAH pp. 8–9, 21–23; RO Carbono pp. 11–13; DEMIF; MGO 2025 pp. 25–26 | Valeria |
-
----
-
-## 2. Dominio 2 — Banco de Germoplasma
-
-| ID | Proceso | Estado | Asignado a |
+| ID | Proceso | Estado | Documento |
 |---|---|---|---|
-| G-01 | Recolección de semilla en rodales | 🟢 documentado | Equipo |
-| G-02 | Beneficio y secado de semilla | 🟢 documentado | Equipo |
-| G-03 | Pruebas de viabilidad y germinación | 🟢 documentado | Equipo |
-| G-04 | Almacenamiento en cámara fría | 🟢 documentado | Equipo |
-| G-05 | Distribución y salida a viveros | 🟢 documentado | Equipo |
+| MF-01 | Delimitación de polígono y tenencia | 🟢* (retroajustar §12) | `Masa_Forestal/MF-01_DELIMITACION_POLIGONOS.md` |
+| MF-02 | Levantamiento de cobertura (SIG/satélite) | 🟢* (retroajustar §12) | `Masa_Forestal/MF-02_LEVANTAMIENTO_COBERTURA_SIG.md` |
+| MF-03 | Índices de cobertura arbórea | 🟢* (retroajustar §12) | `Masa_Forestal/MF-03_INDICES_COBERTURA.md` |
+| MF-07 | Inspección, verificación y vigilancia en campo | 🟢* (retroajustar §12) | `Masa_Forestal/MF-07_INSPECCION_VIGILANCIA.md` |
+| E-03 | Estadísticas de aprovechamiento y cierre anual | 🟢* (retroajustar §12) | `Masa_Forestal/E-03_ESTADISTICAS_CIERRE.md` |
+| **X-01** | **Requisitos MF: qué se clasifica y busca en los mapas satelitales** (énfasis 2 del profesor) | 🆕 pendiente | `Masa_Forestal/X-01_REQUISITOS_MASA_FORESTAL.md` |
+| MF-09 | Inventario Estatal Forestal y de Suelos | 🆕 pendiente | `Masa_Forestal/MF-09_INVENTARIO_ESTATAL.md` |
+| MF-12 | Aprovechamientos autorizados (DEMIF/concesiones) — alimenta E-03 | 🆕 pendiente | `Masa_Forestal/MF-12_APROVECHAMIENTOS_DEMIF.md` |
 
----
+## Reconciliación de numeración (2026-09-22)
 
-## 3. Selección y asignación de procesos
+- **MF-04 (Comité), MF-05 (convenios/asignación), MF-06 (dispersión): absorbidas al ciclo B/C de PA-01** y de los análisis PA-02..06 — ya no llevan documento propio.
+- Lo que en este folder figuraba como **"MF-08 rescisión y reintegro" ahora es MF-13** (la ID MF-08 fue usada por el catálogo raíz para el reporte absorbido por E-03, y queda libre de ambigüedad). **MF-13 lo documenta Joni** (cadena de fiscalización: PA-01 → E-02 → E-04).
 
-| Fecha | Estudiante | Procesos asignados |
-|---|---|---|
-| 2026-09-19 | Valeria | MF-01, MF-02, MF-03, MF-07, E-03 |
+## Reglas de la plantilla (actualizada)
 
----
-
-## 4. Procesos ya documentados
-
-| Clave | Título del proceso | Ruta al documento |
-|---|---|---|
-| MF-01 🟢 | Delimitación de polígono y tenencia de la tierra | [`Docs/Valeria/Masa_Forestal/MF-01_DELIMITACION_POLIGONOS.md`](Docs/Valeria/Masa_Forestal/MF-01_DELIMITACION_POLIGONOS.md) |
-| MF-02 🟢 | Levantamiento de cobertura mediante SIG y satélite | [`Docs/Valeria/Masa_Forestal/MF-02_LEVANTAMIENTO_COBERTURA_SIG.md`](Docs/Valeria/Masa_Forestal/MF-02_LEVANTAMIENTO_COBERTURA_SIG.md) |
-| MF-03 🟢 | Índices de cobertura arbórea (NDVI / SAVI) | [`Docs/Valeria/Masa_Forestal/MF-03_INDICES_COBERTURA.md`](Docs/Valeria/Masa_Forestal/MF-03_INDICES_COBERTURA.md) |
-| MF-07 🟢 | Inspección, verificación y vigilancia en campo | [`Docs/Valeria/Masa_Forestal/MF-07_INSPECCION_VIGILANCIA.md`](Docs/Valeria/Masa_Forestal/MF-07_INSPECCION_VIGILANCIA.md) |
-| E-03 🟢  | Estadísticas de cobertura forestal y cierre anual | [`Docs/Valeria/Masa_Forestal/E-03_ESTADISTICAS_CIERRE.md`](Docs/Valeria/Masa_Forestal/E-03_ESTADISTICAS_CIERRE.md) |
+- Plantilla de referencia ahora: `Docs/Joni/Programas de apoyo/PA-01_PSAHEM.md` (secciones 1–12; **§12 = insumos y productos por paso** — tabla Paso | entrada con referencia al formato real | dato capturado | salida).
+- Generador de diagramas: `Docs/Joni/Diagramas/PA01/gen-diagramas.mjs` → copiar a `Docs/Valeria/Diagramas/<ID>##/` y editar el script, no los SVG.
