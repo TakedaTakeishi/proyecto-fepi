@@ -107,31 +107,23 @@ Validar la certeza jurídica de la propiedad o posesión de los predios con voca
 
 
 ```mermaid
-sequenceDiagram
-    autonumber
-    actor R01 as R-01 Solicitante
-    actor R02 as R-02 Ventanilla DRF
-    actor R03 as R-03 Analista Jurídico
-    actor R04 as R-04 Topógrafo Campo
-    actor R05 as R-05 Especialista SIG
-
-    R01->>R02: Entrega FO-PB-501A/502 y documentos (RAN/RPP)
-    R02->>R03: Valida checklist y turna expediente en SGD
-    R03->>R03: Valida antecedentes registrales (RAN/RPP) y no litigio
-    alt Con litigio o sin acreditar
-        R03-->>R01: Emite acuerdo de prevención o improcedencia
-    else Acreditado legalmente
-        R03->>R04: Autoriza levantamiento topográfico
-        R04->>R01: Recorrido en campo con GPS submétrico y firma minuta
-        R04->>R05: Entrega coordenadas y puntos de la poligonal
-        R05->>R05: Vectoriza polígono y cruza con capas DEMIF
-        alt Existe sobreposición territorial
-            R05-->>R01: Notifica traslape perimetral y suspende trámite
-        else Sin sobreposición (0% traslape)
-            R05->>R05: Emite Dictamen Cartográfico de Delimitación
-            Note over R05: Si hay presupuesto -> Pasa a MF-02<br/>Si se agotó -> Asigna prelación en Lista de Espera
-        end
-    end
+flowchart TD
+    A([Inicio: Solicitud y Carpeta Básica]) --> B[R-02: Cotejo documental y checklist de requisitos]
+    B --> C{R-03: ¿Acredita tenencia legal y no litigio?}
+    C -- No --> D[Emisión de acuerdo de prevención o rechazo]
+    D --> Z([Fin del trámite])
+    C -- Sí --> E[R-04: Levantamiento topográfico con GPS en campo]
+    E --> F[R-04/R-01: Firma de Minuta de Deslinde]
+    F --> G[R-05: Geoprocesamiento y cruce topológico en SIG]
+    G --> H{¿Existe sobreposición con DEMIF?}
+    H -- Sí --> I[Notificación de traslape y suspensión]
+    I --> Z
+    H -- No --> J[R-05: Emisión de Cédula de Dictamen Cartográfico]
+    J --> K{¿Hay presupuesto disponible?}
+    K -- Sí --> L[Pasa al proceso MF-02]
+    K -- No --> M[Asignación de prelación en Lista de Espera]
+    L --> Z
+    M --> Z
 ```
 
 ## 8. Tabla de necesidades (con ancla al paso)
