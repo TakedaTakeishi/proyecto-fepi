@@ -93,21 +93,20 @@ Procesar matemáticamente las bandas espectrales de las imágenes satelitales ob
 ## 7. Diagrama de actividad
 
 ```mermaid
-sequenceDiagram
-    autonumber
-    actor R01 as R-01 Analista Teledeteccion
-    actor R02 as R-02 Motor Raster SGD
-    actor R03 as R-03 Dictaminador Tecnico
-
-    R01->>R02: MF03·P1 Carga bandas B4 y B8 mas mascara de exclusion
-    R02->>R02: MF03·P2 Calcula capa raster continua de NDVI
-    R02->>R02: MF03·P4 Reclasifica pixeles y calcula porcentaje de copa
-    R02->>R03: MF03·P5 Notifica porcentaje de cobertura obtenido
-    alt Cobertura de copa < 50%
-        R03->>R03: Emite dictamen No Elegible por densidad insuficiente
-    else Cobertura de copa >= 50%
-        R03->>R03: MF03·P6 Emite Cedula de Dictamen Espectral Aprobatorio
-    end
+flowchart TD
+    A([Inicio: Capas de bandas ópticas y exclusiones de MF-02]) --> B[R-01: Carga de Bandas B4-Rojo y B8-NIR]
+    B --> C{¿Tipo de estrato forestal?}
+    C -- Bosque templado/denso --> D[R-02: Cálculo de ráster continuo NDVI]
+    C -- Selva baja o matorral disperso --> E[R-02: Cálculo de ráster SAVI con L=0.5]
+    D --> F[R-02: Aplicación de máscara de exclusión y umbral NDVI >= 0.45]
+    E --> F
+    F --> G[R-02: Cuantificación automática de hectáreas de copa y porcentaje de dosel]
+    G --> H[R-03: Cotejo frente al umbral normativo de RO]
+    H --> I{¿Cobertura de copa >= 50%?}
+    I -- No --> J[R-03: Dictamen de No Elegibilidad por baja densidad]
+    J --> Z([Fin del trámite])
+    I -- Sí --> K[R-03: Emisión de Cédula de Dictamen Espectral Aprobatorio]
+    K --> L([Pasa a Comité Técnico MF-04])
 ```
 
 ---
