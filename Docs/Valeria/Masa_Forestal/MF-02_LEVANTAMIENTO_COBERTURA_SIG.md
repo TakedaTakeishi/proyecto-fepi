@@ -14,6 +14,17 @@ Determinar la cobertura vegetal y uso del suelo dentro del polígono delimitado 
 - **Fuera del alcance:** Validación jurídica y deslinde de tenencia agraria (MF-01), cálculo matemático de índices de vigor espectral NDVI/SAVI y umbrales de dictaminación (MF-03), inspección pericial en campo (MF-07) y consolidación analítica anual de metas (E-03).
 
 ---
+## 1.1 Entradas y Salidas del Proceso
+
+| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
+|---|---|---|---|
+| **Entrada** | Capa Poligonal Vectorial | Geometría perimetral del predio aprobada | Proceso MF-01 |
+| **Entrada** | Escenas Satelitales Multiespectrales | Bandas ópticas (Sentinel-2 L2A o Landsat) nubosidad $\le 5\%$ | Servidor de Teledetección / Copernicus |
+| **Entrada** | Capas del Inventario Estatal Forestal | Cartografía base temática 2022 de tipos de vegetación | Base de Datos Geográfica PROBOSQUE |
+| **Salida** | Capa Vectorial de Estratificación | Archivo vectorial con zonificación de coberturas | Insumo para MF-03 |
+| **Salida** | Cédula de Levantamiento de Cobertura SIG | Reporte técnico con desglose de hectáreas arboladas y exclusiones | Expediente del SGD |
+
+---
 
 ## 2. Base documental (origen de los requisitos)
 
