@@ -14,6 +14,17 @@ Consolidar los datos geoespaciales, técnicos y administrativos acumulados a lo 
 - **Fuera del alcance:** Operación individual de trámites predio por predio (MF-01 a MF-07)[cite: 1], auditorías contables externas de la Secretaría de Finanzas y redacción de las nuevas Reglas de Operación del siguiente año.
 
 ---
+## 1.1 Entradas y Salidas del Proceso
+
+| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
+|---|---|---|---|
+| **Entrada** | Base de datos de convenios liquidados y en campo | Datos acumulados de hectáreas, coberturas e inspecciones | Procesos MF-01 a MF-07 |
+| **Entrada** | Registros de solicitudes no dictaminadas por presupuesto | Folios calificados técnicamente pero sin techo financiero | Base de datos SGD |
+| **Salida** | Tablero Ejecutivo de Cierre Anual | Dashboard interactivo con mapas temáticos y métricas de avance | Dirección de Restauración y Fomento |
+| **Salida** | Padrón Depurado de Lista de Espera | Tabla de prelación con folios, orden de prelación y superficies | Insumo para planeación del siguiente ciclo |
+| **Salida** | Informe Anual Consolidado de Masa Forestal | Documento PDF oficial y datos abiertos para fiscalización | OSFEM / CONAFOR / Portal de Transparencia |
+
+---
 
 ## 2. Base documental (origen de los requisitos)
 
