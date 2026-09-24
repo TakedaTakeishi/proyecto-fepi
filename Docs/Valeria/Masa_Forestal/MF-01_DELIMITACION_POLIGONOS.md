@@ -15,6 +15,18 @@ Validar la certeza jurídica de la propiedad o posesión de los predios con voca
 
 ---
 
+## 1.1 Entradas y Salidas del Proceso
+
+| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
+|---|---|---|---|
+| **Entrada** | Formato de Solicitud Única | Formato `FO-PB-501A` o `FO-PB-502` firmado | R-01 Promovente / Ventanilla |
+| **Entrada** | Carpeta Básica o Título de Propiedad | Documento probatorio de tenencia (RAN o RPP) | Archivo agrario / Registro de la Propiedad |
+| **Entrada** | Puntos de coordenadas en campo | Coordenadas UTM WGS84 en GPS submétrico | R-04 Topógrafo de Campo |
+| **Salida** | Capa Poligonal Vectorial Validada | Archivo vectorial (`.shp`, GeoJSON) sin traslapes | R-05 SIG -> Insumo directo para MF-02 |
+| **Salida** | Cédula de Dictamen Jurídico-Cartográfico | Documento PDF sellado con estatus legal y superficie neta | Expediente del SGD / Padrón Prelación |
+
+---
+
 ## 2. Base documental (origen de los requisitos)
 
 | Clave | Documento (ruta en `Docs/Comun/`) | Uso — páginas verificadas |
