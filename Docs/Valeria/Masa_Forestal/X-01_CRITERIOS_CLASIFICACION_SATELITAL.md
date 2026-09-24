@@ -87,3 +87,49 @@ flowchart TD
     H --> J
     I --> K([Cédula temática transferible a MF-02 y MF-03])
 ```
+
+## 6. Procedimiento narrado (anclas de trazabilidad)
+
+- **X01·P1** R-01 (Analista SIG) programa la ingesta de escenas multiespectrales (Sentinel-2 / Landsat) y aplica filtros automáticos de calibración radiométrica y máscaras de nubosidad/sombras.
+- **X01·P2** R-02 (Motor Espectral) ejecuta el cálculo de índices estandarizados (NDVI, SAVI, NBR) según la ecorregión y tipo de cobertura fito-geográfica definida en el Inventario Estatal 2022.
+- **X01·P3** R-02 segmenta la cobertura arbórea por umbrales de densidad de copa (compacta >= 60%, semidensa 40-59%, fragmentada 20-39%, no forestal < 20%) y aplica la máscara de exclusión de áreas antrópicas.
+- **X01·P4** R-02 corre el análisis multitemporal diferencial (delta NDVI y delta NBR) contrastando con la escena basal del ejercicio previo para identificar anomalías espectrales.
+- **X01·P5** R-01 revisa las anomalías detectadas: si delta NDVI < -0.20 emite alerta de pérdida de dosel/tala; si delta NBR >= 0.10 clasifica polígono de severidad de incendio; si detecta estrés en red-edge emite bandera de sospecha de plaga descortezadora.
+- **X01·P6** R-03 (Dictaminador Técnico) valida las capas temáticas resultantes y emite el **Dictamen de Clasificación Espectral y Alertas Tempranas**, transfiriendo los insumos a los procesos de apoyo (MF-02, MF-03) o de fiscalización (MF-07).
+
+---
+
+## 7. Tabla de necesidades (con ancla al paso)
+
+| ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental verificado |
+|---|---|---|---|---|---|
+| N-X01-01 | R-01 | Módulo de ingesta y preprocesamiento con filtros de calibración atmosférica BOA (Bottom of Atmosphere) | A | X01·P1 | Estándar de Teledetección [INV-FOR] |
+| N-X01-02 | R-02 | Librería algorítmica geoespacial para cálculo raster multiespectral (NDVI, SAVI, NBR, dNBR) | A | X01·P2 | [RO-PSAH pp. 4, 8]; Práctica teledetección |
+| N-X01-03 | R-02 | Clasificador supervisado con umbrales fijos de dosel y máscara de exclusión antrópica | A | X01·P3 | [RO-PSAH p. 8; RO-CARB pp. 7–9] |
+| N-X01-04 | R-02 | Motor de detección de cambios multitemporales pixel a pixel con escenas basales | A | X01·P4 | Metodología de Monitoreo [INV-FOR]; Arts. 35-36 LGDFS |
+| N-X01-05 | R-01 | Panel de semaforización de alertas tempranas (deforestación, incendios, descortezadores) | M | X01·P5 | [RO-PSAH p. 21; Manual Proc. pp. 27–28] |
+| N-X01-06 | R-03 | Generador automatizado de reportes GeoPDF temáticos y capas vectoriales exportables | A | X01·P6 | [RO-PSAH p. 19; MGO 2025 pp. 21–22] |
+
+---
+
+## 8. Registros que el SGD debe gestionar
+
+| Registro | Genera (paso) | Campos clave requeridos | Retención sugerida |
+|---|---|---|---|
+| Catálogo de Firmas Espectrales | R-01 (X01·P1–P2) | Especie fito-geográfica, valores de reflectancia por banda, ecorregión, fecha de calibración. | Permanente |
+| Capa Ráster de Índices de Cobertura y Alertas | R-02 (X01·P2–P5) | ID Polígono/Predio, tipo de índice (NDVI, NBR, SAVI), valor medio, desviación estándar, clasificación de daño/estrato. | 10 años |
+| Cédula de Clasificación Espectral y Alertas | R-03 (X01·P6) | Folio de trámite, ID predio, porcentaje de dosel por estrato, alertas activas (tala/incendio/plaga), firma del dictaminador. | Permanente (Histórico de predio) |
+
+---
+
+## 9. Vacíos y siguientes pasos
+
+1. **V-X01-01 (Frecuencia de actualización en temporada nublada):** Durante los meses de alta pluviosidad (junio a septiembre) en las sierras del Estado de México, la persistencia de nubes anula los sensores ópticos. El sistema carece de un protocolo formal para alternar automáticamente a imágenes de radar de apertura sintética (SAR Sentinel-1) para evaluar cobertura.
+2. **V-X01-02 (Calibración de umbrales para especies invasoras):** La presencia de vegetación invasora o zacatonales densos en zonas siniestradas genera valores altos de NDVI artificiales que aparentan arbolado. Se requiere incorporar índices texturales o algoritmos de machine learning para diferenciarlos de copas arbóreas reales.
+3. **V-X01-03 (Factores alométricos oficiales de carbono):** PROBOSQUE no cuenta con una tabla de conversión alométrica oficial en sus manuales para traducir directamente la densidad espectral a toneladas de carbono retenidas por tipo de vegetación, dependiendo de aproximaciones bibliográficas de la CONAFOR.
+
+---
+
+## 10. Nota de mantenimiento
+
+Documento técnico transversal **X-01** dentro del Módulo de Masa Forestal / SIG. Archivar en `Docs/Valeria/Masa_Forestal/X-01_CRITERIOS_CLASIFICACION_SATELITAL.md`. Establece las definiciones, umbrales radiométricos y modelos espectrales que alimentan operativamente a **MF-02**, **MF-03** y las alertas de fiscalización de **MF-07**.
