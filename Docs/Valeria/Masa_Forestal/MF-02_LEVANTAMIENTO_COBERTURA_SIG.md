@@ -94,20 +94,19 @@ Determinar la cobertura vegetal y uso del suelo dentro del polígono delimitado 
 ## 7. Diagrama de actividad
 
 ```mermaid
-sequenceDiagram
-    autonumber
-    actor R01 as R-01 Admin SIG
-    actor R04 as R-04 Proveedor Satelital
-    actor R02 as R-02 Analista Teledetección
-    actor R03 as R-03 Dictaminador Técnico
-
-    R01->>R01: MF02·P1 Recupera vector perimetral validado de MF-01
-    R02->>R04: MF02·P2 Consulta y descarga escena satelital
-    R02->>R02: Aplica correccion atmosferica y recorta imagen
-    R01->>R02: MF02·P3 Cruza capas Inventario Forestal 2022
-    R02->>R02: MF02·P4 Ejecuta clasificacion tematica
-    R02->>R03: MF02·P5 Envia clasificacion tematica
-    R03->>R03: MF02·P6 Emite Cedula de Cobertura SIG
+flowchart TD
+    A([Inicio: Polígono validado de MF-01]) --> B[R-01: Extracción del vector perimetral del SGD]
+    B --> C[R-02: Consulta y descarga de escenas Sentinel-2/Landsat]
+    C --> D[R-02: Corrección atmosférica y recorte del área del predio]
+    D --> E[R-01: Cruce con capas del Inventario Forestal 2022]
+    E --> F[R-02: Clasificación supervisada de coberturas y usos de suelo]
+    F --> G[R-02: Digitalización de áreas de exclusión: caminos y zonas agrícolas]
+    G --> H[R-03: Evaluación y control de calidad de firmas espectrales]
+    H --> I{¿Clasificación coherente?}
+    I -- No --> J[Ajuste de algoritmo y reclasificación]
+    J --> F
+    I -- Sí --> K[R-03: Emisión de Cédula de Cobertura SIG]
+    K --> L([Pasa a proceso MF-03])
 ```
 
 ---
