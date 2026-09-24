@@ -17,12 +17,7 @@ Procesar matemáticamente las bandas espectrales de las imágenes satelitales ob
 
 ## 1.1 Entradas y Salidas del Proceso
 
-| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
-|---|---|---|---|
-| **Entrada** | Bandas multiespectrales recortadas | Bandas B4 (Rojo) y B8 (NIR) ajustadas a la poligonal | Proceso MF-02 |
-| **Entrada** | Máscara de exclusión de uso de suelo | Polígonos de zonas no forestales a omitir | Proceso MF-02 |
-| **Salida** | Ráster continuo de Índices (NDVI/SAVI) | Capa GeoTIFF de 10 m de resolución con valores espectrales | Motor de cálculo geoespacial SGD |
-| **Salida** | Dictamen Técnico de Cobertura Espectral | Cédula en PDF con validación del umbral normativo ($\ge 50\%$) | Expediente SGD -> Insumo para Comité MF-04 |
+> Retro-ajuste 2026-09-24: la tabla genérica que estaba aquí se rehízo como **§12** (una fila por paso del §6, con ruta real de archivo), conforme a la plantilla de 12 secciones. Ver al final del documento.
 
 ---
 
@@ -145,3 +140,18 @@ flowchart TD
 ## 11. Nota de mantenimiento
 
 Documento técnico del proceso **MF-03** dentro del Dominio 1 (Masa Forestal)[cite: 1]. Archivar en `Docs/Valeria/Masa_Forestal/MF-03_INDICES_COBERTURA.md`[cite: 1]. La cédula aprobatoria de cobertura y el porcentaje de dosel calculados en este proceso son el insumo obligatorio para que el expediente pase a **MF-04 (Aprobación en Comité Técnico y Asignación de Recursos)**[cite: 1].
+
+---
+
+## 12. Insumos y productos por paso
+
+Una fila por paso del §6 (retro-ajuste 2026-09-24, énfasis #1 del profesor). Toda celda sin archivo en las fuentes enlaza a su vacío `V-##`.
+
+| Paso | Documento/dato de entrada | Datos que se capturan/procesan | Documento de salida |
+|---|---|---|---|
+| **MF03·P1** | Bandas B4 (Rojo) y B8 (NIR) recortadas + máscara de exclusión vectorial, provenientes de MF-02 | Selección de bandas y máscara | — (insumo cargado al motor raster) |
+| **MF03·P2** | Bandas calibradas | NDVI = (B8−B4)/(B8+B4) píxel a píxel | Ráster continuo NDVI (GeoTIFF 10 m) |
+| **MF03·P3** | Estrato del Inventario (matorral / zona degradada); factor de corrección L (estándar 0.5, sin directiva oficial → `V-MF03-03`) | SAVI con L = 0.5 | Ráster continuo SAVI (GeoTIFF 10 m) |
+| **MF03·P4** | Ráster de índices; umbral NDVI ≥ 0.45 (BR-MF03-03); máscara de exclusión (BR-MF03-04) | Superficie arbolada elegible (ha), % de cobertura de copa | Reporte Cuantitativo de Cobertura |
+| **MF03·P5** | Reporte de P4; umbral normativo ≥50% [RO-PSAH p. 8] | % de dosel contra el umbral | Resolución de dictamen (Aprobatorio / Rechazado) |
+| **MF03·P6** | Dictamen de P5 | Firma electrónica del dictaminador | Cédula de Dictamen de Cobertura Espectral (PDF/GeoPDF) → insumo para MF-04 |

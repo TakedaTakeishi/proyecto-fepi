@@ -16,13 +16,7 @@ Consolidar los datos geoespaciales, técnicos y administrativos acumulados a lo 
 ---
 ## 1.1 Entradas y Salidas del Proceso
 
-| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
-|---|---|---|---|
-| **Entrada** | Base de datos de convenios liquidados y en campo | Datos acumulados de hectáreas, coberturas e inspecciones | Procesos MF-01 a MF-07 |
-| **Entrada** | Registros de solicitudes no dictaminadas por presupuesto | Folios calificados técnicamente pero sin techo financiero | Base de datos SGD |
-| **Salida** | Tablero Ejecutivo de Cierre Anual | Dashboard interactivo con mapas temáticos y métricas de avance | Dirección de Restauración y Fomento |
-| **Salida** | Padrón Depurado de Lista de Espera | Tabla de prelación con folios, orden de prelación y superficies | Insumo para planeación del siguiente ciclo |
-| **Salida** | Informe Anual Consolidado de Masa Forestal | Documento PDF oficial y datos abiertos para fiscalización | OSFEM / CONAFOR / Portal de Transparencia |
+> Retro-ajuste 2026-09-24: la tabla genérica que estaba aquí se rehízo como **§12** (una fila por paso del §6, con ruta real de archivo), conforme a la plantilla de 12 secciones. Ver al final del documento.
 
 ---
 
@@ -144,3 +138,18 @@ flowchart TD
 ## 11. Nota de mantenimiento
 
 Documento técnico del entregable especial **E-03** dentro del Dominio 1 (Masa Forestal)[cite: 1]. Archivar en `Docs/Valeria/Masa_Forestal/E-03_ESTADISTICAS_CIERRE.md`[cite: 1]. Este reporte consolida y cierra el ciclo de los procesos **MF-01 a MF-07**, constituyendo el repositorio histórico de resultados institucionales de PROBOSQUE[cite: 1].
+
+---
+
+## 12. Insumos y productos por paso
+
+Una fila por paso del §6 (retro-ajuste 2026-09-24, énfasis #1 del profesor). Toda celda sin archivo en las fuentes enlaza a su vacío `V-##`.
+
+| Paso | Documento/dato de entrada | Datos que se capturan/procesan | Documento de salida |
+|---|---|---|---|
+| **E03·P1** | Expedientes MF-01..MF-07 con estatus terminal (BR-E03-01); techos presupuestales del ejercicio | Fecha de corte, programas a consolidar | Acta de Corte del Ejercicio Fiscal |
+| **E03·P2** | Polígonos con estatus cerrado; padrón de lista de espera | Agregados espaciales por municipio y DRF | Capa Vectorial de Cierre Anual (mapas coropléticos) |
+| **E03·P3** | Hectáreas dictaminadas y montos ejercidos del SGD (series 2020–2022 comparables en `Docs/Comun/Programas de apoyo/FICHAS_Programas_Sociales_2023.xlsx`); NDVI promedio (MF-03); % de sobrevivencia (MF-07) | Indicadores de cierre (ha apoyadas, costo/ha, % de retención); metas vs. logrado (**sin MIR en el acervo** → `X-02·V-01`) | Reporte analítico de cierre (tablas) |
+| **E03·P4** | Expedientes elegibles sin suficiencia presupuestal | Puntaje de prelación (matriz pendiente → `V-MF01-02`), superficie elegible (ha) | Padrón Depurado de Lista de Espera |
+| **E03·P5** | Tablero Ejecutivo de Cierre Anual; techos presupuestales | Coherencia de cifras | Informe Anual Consolidado de Masa Forestal (PDF firmado por R-03) |
+| **E03·P6** | Informe firmado; regla de disociación de datos (BR-E03-03) | Exportación CSV/Excel/PDF sin datos personales | Publicación en portal de transparencia / datos abiertos (OSFEM, CONAFOR) + archivo cartográfico definitivo |

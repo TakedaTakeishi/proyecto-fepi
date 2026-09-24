@@ -16,13 +16,7 @@ Realizar las visitas periciales de inspección y auditoría técnica física en 
 ---
 ## 1.1 Entradas y Salidas del Proceso
 
-| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
-|---|---|---|---|
-| **Entrada** | Expediente Técnico de Predio Aprobado | Polígono, compromisos de convenio y cronograma | Procesos MF-01, MF-03, MF-05 |
-| **Entrada** | Orden de Inspección y Verificación | Documento oficial de comisión técnica a la brigada | SGD / Jefatura de Delegación Regional |
-| **Salida** | Minuta Circunstanciada de Inspección | Acta física/digital firmada in situ con beneficiarios | Expediente SGD / Archivo Regional |
-| **Salida** | Galería Fotográfica Georreferenciada | Fotografías JPEG con metadatos EXIF de coordenadas y fecha | Repositorio de evidencias SGD |
-| **Salida** | Dictamen de Cumplimiento Técnico | Resolución de procedencia ($\ge 80\%$) para liberar ministración | Proceso financiero / Dirección General |
+> Retro-ajuste 2026-09-24: la tabla genérica que estaba aquí se rehízo como **§12** (una fila por paso del §6, con ruta real de archivo), conforme a la plantilla de 12 secciones. Ver al final del documento.
 
 ---
 
@@ -33,7 +27,7 @@ Realizar las visitas periciales de inspección y auditoría técnica física en 
 | [RO-PSAH] | `Programas de apoyo/RO_2026_PagoServiciosAmbientales_Hidrológicos.pdf` | pp. 4–5 (Definiciones: Verificación en campo, Cédula de Inspección); pp. 19–22 (Mecánica operativa: visitas periódicas, levantamiento de minutas, causales de suspensión de ministraciones y sanciones)[cite: 1]. |
 | [RO-CARB] | `Programas de apoyo/RO_2026_CapturandoCarbono.pdf` | pp. 9–11 (Obligaciones de los beneficiarios, cronograma de obras, auditoría física de reforestaciones y retención de carbono). |
 | [MAN-PROC] | `Manual Jurídico/86_manualProcDirRestYFtoFtal.pdf` | pp. 27–32 (Procedimiento de inspección física, levantamiento de actas circunstanciadas, responsabilidades de las Delegaciones Regionales Forestales)[cite: 2]. |
-| [FO-503] | `Programas de apoyo/FORMATO_FO-PB-503_ReporteAvance_2026.docx` | Formato oficial de reporte de actividades y metas físicas reportadas por el beneficiario. |
+| [FO-503] | `Programas de apoyo/FORMATO_FO-PB-503_ReporteAvance_2026.docx` | Formato oficial de reporte de actividades y metas físicas reportadas por el beneficiario. ⚠ **No localizado en `Docs/Comun/`** → `V-MF07-04`. |
 | [LGDFS] | Ley General de Desarrollo Forestal Sustentable | Arts. 154, 156–158 (Atribuciones de inspección, vigilancia forestal y levantamiento de actas administrativas). |
 
 ---
@@ -141,9 +135,25 @@ flowchart TD
 1. **V-MF07-01 (Operación fuera de línea / Offline):** Gran parte de los predios forestales del Estado de México carecen de señal celular. El sistema documental debe incorporar forzosamente sincronización asíncrona (captura sin red y subida automática al detectar conexión en la DRF).
 2. **V-MF07-02 (Plantilla única de Minuta de Inspección):** Aunque el Manual de Procedimientos cita la obligatoriedad del acta circunstanciada (p. 28)[cite: 2], el catálogo no cuenta con un formato digital estandarizado específico para cada programa forestal (se usan machotes en Word o notas a mano).
 3. **V-MF07-03 (Protocolo ante causas de fuerza mayor):** No está reglamentado en las RO qué porcentaje de tolerancia técnica se aplica si las obras forestales sufrieron daños por desastres naturales (incendios catastróficos o plagas sobrevenidas sin culpa del beneficiario) previo a la inspección[cite: 1].
+4. **V-MF07-04 (Formato FO-PB-503 no localizado):** El análisis cita en §2 el formato `FORMATO_FO-PB-503_ReporteAvance_2026.docx` (reporte de actividades del beneficiario), pero **el archivo no existe en `Docs/Comun/Programas de apoyo/`** (solo están los FO-PB-501A, FO-PB-501B y FO-PB-502). Debe conseguirse el formato real o corregirse la referencia (cf. `X-03·V-01`). **Búsqueda web 2026-09-24:** 0 resultados públicos para FO-PB-503/509/520 y las cédulas RETYS de los 18 trámites solo publican los FO-PB-501/502 → confirmado como formato interno del SGC.
 
 ---
 
 ## 11. Nota de mantenimiento
 
 Documento técnico del proceso **MF-07** dentro del Dominio 1 (Masa Forestal)[cite: 1]. Archivar en `Docs/Valeria/Masa_Forestal/MF-07_INSPECCION_VIGILANCIA.md`[cite: 1]. Los resultados físicos auditados en este proceso alimentan directamente el entregable **E-03 (Estadísticas y panel de cierre anual de programas)**[cite: 1].
+
+---
+
+## 12. Insumos y productos por paso
+
+Una fila por paso del §6 (retro-ajuste 2026-09-24, énfasis #1 del profesor). Toda celda sin archivo en las fuentes enlaza a su vacío `V-##`.
+
+| Paso | Documento/dato de entrada | Datos que se capturan/procesan | Documento de salida |
+|---|---|---|---|
+| **MF07·P1** | Expediente del predio (polígono MF-01, dictamen MF-03, cronograma de compromisos); programa de inspección | Auditor asignado, periodo a inspeccionar | Orden de Verificación en Campo |
+| **MF07·P2** | Orden de P1; dispositivo móvil con GPS; beneficiario acreditado (BR-MF07-01) | Estado del arbolado, brechas cortafuego, obras de conservación de suelo; fotografías con metadatos EXIF | Evidencia georreferenciada (JPEG + EXIF WGS84, traza GPX/KML) |
+| **MF07·P3** | Hallazgos del recorrido; plantilla de minuta (**sin formato oficial** → `V-MF07-02`) | % de avance, observaciones del beneficiario, firmas | Minuta Circunstanciada de Inspección (firmada por duplicado) |
+| **MF07·P4** | Minuta + evidencias; reporte del beneficiario `FORMATO_FO-PB-503` (**citado en §2 pero sin archivo en `Docs/Comun/`** → `V-MF07-04`) | Calificación % de cumplimiento | Informe de Verificación Técnica de Campo |
+| **MF07·P5** | Informe de P4; umbral 80% (BR-MF07-03); manual de procedimientos `Docs/Comun/germoplasma-archivo/Germoplasma/86_manualProcDirRestYFtoFtal.pdf` pp. 27–32 | Validación regional del avance | Dictamen de Inspección (favorable / suspensión temporal de pago) |
+| **MF07·P6** | Dictamen de P5 | Resolución administrativa | Acuerdo de liberación de ministración (→ proceso financiero) o turnado a rescisión y reintegro (`Docs/Joni/Masa_Forestal/MF-13_RESCISION_REINTEGRO.md`) |

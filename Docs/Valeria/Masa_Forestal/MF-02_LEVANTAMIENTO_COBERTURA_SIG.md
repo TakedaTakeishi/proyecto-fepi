@@ -16,13 +16,7 @@ Determinar la cobertura vegetal y uso del suelo dentro del polígono delimitado 
 ---
 ## 1.1 Entradas y Salidas del Proceso
 
-| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
-|---|---|---|---|
-| **Entrada** | Capa Poligonal Vectorial | Geometría perimetral del predio aprobada | Proceso MF-01 |
-| **Entrada** | Escenas Satelitales Multiespectrales | Bandas ópticas (Sentinel-2 L2A o Landsat) nubosidad $\le 5\%$ | Servidor de Teledetección / Copernicus |
-| **Entrada** | Capas del Inventario Estatal Forestal | Cartografía base temática 2022 de tipos de vegetación | Base de Datos Geográfica PROBOSQUE |
-| **Salida** | Capa Vectorial de Estratificación | Archivo vectorial con zonificación de coberturas | Insumo para MF-03 |
-| **Salida** | Cédula de Levantamiento de Cobertura SIG | Reporte técnico con desglose de hectáreas arboladas y exclusiones | Expediente del SGD |
+> Retro-ajuste 2026-09-24: la tabla genérica que estaba aquí se rehízo como **§12** (una fila por paso del §6, con ruta real de archivo), conforme a la plantilla de 12 secciones. Ver al final del documento.
 
 ---
 
@@ -145,3 +139,18 @@ flowchart TD
 ## 11. Nota de mantenimiento
 
 Documento técnico del proceso **MF-02** dentro del Dominio 1 (Masa Forestal)[cite: 1]. Archivar en `Docs/<TuCarpeta>/Masa_Forestal/MF-02_LEVANTAMIENTO_COBERTURA_SIG.md`[cite: 1]. La clasificación de estratos y la superficie forestal identificada en este procedimiento son los insumos directos para alimentar **MF-03 (Cálculo de índices de cobertura arbórea)**[cite: 1].
+
+---
+
+## 12. Insumos y productos por paso
+
+Una fila por paso del §6 (retro-ajuste 2026-09-24, énfasis #1 del profesor). Toda celda sin archivo en las fuentes enlaza a su vacío `V-##`.
+
+| Paso | Documento/dato de entrada | Datos que se capturan/procesan | Documento de salida |
+|---|---|---|---|
+| **MF02·P1** | Capa poligonal validada de MF-01 (`.shp`/GeoJSON en el expediente del predio) | ID de predio, geometría perimetral | Vector cargado al workspace SIG (dato de trabajo, sin documento) |
+| **MF02·P2** | Catálogo satelital Copernicus/USGS (Sentinel-2 L2A o Landsat; escena ≤6 meses y ≤5% de nubosidad, BR-MF02-01) | ID de escena, fecha de adquisición, % de nubosidad, bandas | Escena recortada al predio (raster) + Ficha de Adquisición de Escena Satelital |
+| **MF02·P3** | Cartografía del Inventario Estatal Forestal y de Suelos 2022 (`Docs/Comun/Sitio web/inventario_forestal.html`) y criterios de clasificación (`Docs/Valeria/Masa_Forestal/X-01_CRITERIOS_CLASIFICACION_SATELITAL.md`) | Tipos de vegetación, conglomerados, estratos | Tabla de estratos por polígono (cruce temático) |
+| **MF02·P4** | Raster recortado + capas temáticas; resolución mínima 10 m/píxel (BR-MF02-03) | Firmas espectrales; estratos (bosque continuo, arbolado disperso, claros, áreas antrópicas); áreas de exclusión (caminos, agrícolas) | Capa Vectorial de Uso de Suelo y Estratificación + superficie por estrato (ha) |
+| **MF02·P5** | Clasificación de P4; revisión de coherencia ecosistémica | Ajuste de firmas espectrales | Clasificación corregida (sin documento intermedio) |
+| **MF02·P6** | Clasificación validada | Superficie total, neta arbolada y de exclusión (ha) | Cédula de Levantamiento de Cobertura SIG (PDF con plano temático; **sin formato FO-PB** → `X-03·V-01`) |

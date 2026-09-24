@@ -14,13 +14,7 @@ Registrar, validar, georreferenciar y dar seguimiento a las autorizaciones y per
 
 ## 1.1 Entradas y Salidas del Proceso
 
-| Tipo | Elemento | Descripción | Origen / Destino |
-|---|---|---|---|
-| **Entrada** | Oficio de Autorización de SEMARNAT/PROBOSQUE | Resolución oficial con volumen autorizado por especie | Promovente / Autoridad ambiental federal |
-| **Entrada** | Programa de Manejo Forestal (PMF) | Estudio técnico con ciclo de corta y parcelas de intervención | Prestador de Servicios Técnicos Forestales |
-| **Entrada** | Polígono perimetral y rodales de corta | Capa vectorial georreferenciada de las áreas de corta | Promovente / Técnico forestal |
-| **Salida** | Registro Único en la Base Cartográfica DEMIF | Integración del polígono con vigencia y volumen permitido | Base espacial PROBOSQUE / SIG |
-| **Salida** | Constancia de Registro y Trazabilidad Forestal | Documento oficial con código QR y código único de registro | Titular del predio / Módulo de inspección |
+> Retro-ajuste 2026-09-24: la tabla genérica que estaba aquí se rehízo como **§12** (una fila por paso del §5, con ruta real de archivo), conforme a la plantilla de 12 secciones. Ver al final del documento.
 
 ---
 
@@ -109,3 +103,19 @@ flowchart TD
 
 1. **V-MF12-01 (Desconexión entre SEMARNAT y PROBOSQUE):** La autoridad facultada para expedir autorizaciones es la federación (SEMARNAT), mientras que la vigilancia y el control territorial estatal lo hace PROBOSQUE. Actualmente no existe una plataforma unificada en tiempo real, lo que propicia el uso de remisiones apócrifas.
 2. **V-MF12-02 (Seguimiento satelital de la intensidad de corta):** Se debe incorporar en el SGD una rutina de teledetección que compare la pérdida real de dosel en el rodal intervenido contra el volumen reportado extraído en el informe anual del técnico.
+3. **V-MF12-03 (Expediente de aprovechamiento sin formatos en el acervo):** El oficio de autorización, el Programa de Manejo Forestal y los vectores de rodales (P1) no están en `Docs/Comun/`; solo hay la base `Docs/Comun/Masa forestal/AUTORIZACIONES_DEMIF_ago2023.xlsx` y el listado `PROBOSQUE-concesiones-2023.pdf`. Deben recabarse los documentos reales (cf. `X-03·V-01`). **Avance 2026-09-24:** capturados los formatos federales del trámite descargables en RETYS (cédulas 1141/1142/1145): `Docs/Comun/Trámites RETYS/RETYS_FF-SEMARNAT-048_AprovechamientoMaderable.pdf`, `RETYS_FF-SEMARNAT-074_AprovechamientoNoMaderable.pdf`, `RETYS_FF-SEMARNAT-055_AvisoAprovechNoMaderable.pdf` y `RETYS_Tabla_Costos_Aprovechamiento_2026.pdf`; siguen faltando el oficio de autorización y el PMF del caso.
+
+---
+
+## 12. Insumos y productos por paso
+
+Una fila por paso del §5 (retro-ajuste 2026-09-24, énfasis #1 del profesor; equivalente a §12 de la plantilla — en esta versión compacta las secciones 10–11 no aplican). Toda celda sin archivo en las fuentes enlaza a su vacío `V-##`.
+
+| Paso | Documento/dato de entrada | Datos que se capturan/procesan | Documento de salida |
+|---|---|---|---|
+| **MF12·P1** | Oficio de autorización SEMARNAT/PROBOSQUE, Programa de Manejo Forestal (PMF) y vectores de rodales (**ninguno está en `Docs/Comun/`** → `V-MF12-03`) | Titular, vigencia, municipios y paraje, volúmenes por especie | Expediente de Registro DEMIF (solicitud de registro) |
+| **MF12·P2** | Vectores de P1; capas de predios con convenios PSAH y ANP; base `Docs/Comun/Masa forestal/AUTORIZACIONES_DEMIF_ago2023.xlsx` | % de traslape contra PSAH estricto (BR-MF12-01) y áreas de veda | Resultado de validación espacial (apto / incompatibilidad) |
+| **MF12·P3** | Volúmenes del oficio; densidades de la base DEMIF e Inventario Forestal | m³ rollo por especie (pino, encino, oyamel), saldo de corta | Desglose Volumétrico Autorizado |
+| **MF12·P4** | Expediente validado | ID Único de Registro DEMIF | Registro en la base cartográfica DEMIF |
+| **MF12·P5** | Registro de P4 | Código de barras / QR de verificación | Constancia de Registro y Trazabilidad Forestal |
+| **MF12·P6** | Constancia + capas autorizadas | Habilitación de frentes de corta | Notificación a inspección y vigilancia (predio habilitado para corta y transporte) |

@@ -14,12 +14,7 @@ Planificar, estructurar, capturar y procesar los datos dasométricos, de biodive
 
 ## 1.1 Entradas y Salidas del Proceso
 
-| Tipo | Elemento | Descripción | Origen / Destino |
-|---|---|---|---|
-| **Entrada** | Malla estatal de conglomerados | Coordenadas teóricas de sitios de muestreo permanente | Marco muestral CONAFOR / PROBOSQUE |
-| **Entrada** | Formatos de brigada de campo | Medición de DAP, altura de arbolado, regeneración y suelo | Brigadas de inventario forestal |
-| **Salida** | Base de Datos Dasométrica Homologada | Registro tabular normalizado de árboles y especies | SGD / Servidor central de datos |
-| **Salida** | Capa Cartográfica del Inventario Forestal | Capa GeoTIFF / Vectorial temática oficial de biomas | Repositorio SIG institucional -> Insumo para MF-02, MF-03, MF-12 |
+> Retro-ajuste 2026-09-24: la tabla genérica que estaba aquí se rehízo como **§12** (una fila por paso del §5, con ruta real de archivo), conforme a la plantilla de 12 secciones. Ver al final del documento.
 
 ---
 
@@ -105,3 +100,19 @@ flowchart TD
 
 1. **V-MF09-01 (Muestreo en zonas de conflicto social):** Ciertos municipios de la entidad presentan restricciones de acceso por seguridad comunitaria, lo que genera huecos en la malla de muestreo. Se debe normar un procedimiento de estimación por percepción remota para estas áreas.
 2. **V-MF09-02 (Conexión directa con la base nacional de CONAFOR):** Actualmente los datos se exportan manualmente mediante hojas de cálculo para entregarse a nivel federal; debe implementarse un esquema de interoperabilidad directa.
+3. **V-MF09-03 (Formatos de brigada del inventario):** Las cédulas de conglomerado y fichas dasométricas de campo usadas en P2–P3 no están en `Docs/Comun/` (solo está la ficha web del Inventario 2022); deben recabarse los formatos reales de la brigada (cf. `X-03·V-01`). **Avance 2026-09-24:** descargados a `Docs/Comun/Masa forestal/` la metodología nacional del INFyS con los módulos de captura (`CONAFOR_INFyS_Anexo_Procedimientos_Muestreo_2019.pdf`, 312 p., con «Módulo 0. Información del conglomerado» y llenado campo por campo) e `INFyS_2017_Procedimientos_de_muestreo.pdf`; falta la plantilla en blanco que use PROBOSQUE.
+
+---
+
+## 12. Insumos y productos por paso
+
+Una fila por paso del §5 (retro-ajuste 2026-09-24, énfasis #1 del profesor; equivalente a §12 de la plantilla — en esta versión compacta las secciones 10–11 no aplican). Toda celda sin archivo en las fuentes enlaza a su vacío `V-##`.
+
+| Paso | Documento/dato de entrada | Datos que se capturan/procesan | Documento de salida |
+|---|---|---|---|
+| **MF09·P1** | Malla estatal de conglomerados / marco muestral CONAFOR-PROBOSQUE (**sin archivo en el acervo** → `V-MF09-03`) | Asignación de sitios de muestreo, rutas | Guías de navegación satelital |
+| **MF09·P2** | Guías de P1; instrumentos de campo (GPS, cinta métrica, clinómetro) | DAP, altura total, renuevo, cobertura de copa, muestras de suelo | Cédula de Conglomerado de Campo (**formato de brigada sin archivo** → `V-MF09-03`) |
+| **MF09·P3** | Cédulas de campo; cámara; GPS | Captura digital, fotografías, marcas GPS | Ficha Dasométrica de Sitio (registro en el módulo de inventarios) |
+| **MF09·P4** | Fichas capturadas | Consistencia lógica (alturas vs. diámetros); volumen de madera y carbono/ha | Base de Datos Dasométrica Homologada |
+| **MF09·P5** | Base homologada; metodología del Inventario 2022 (`Docs/Comun/Sitio web/inventario_forestal.html`) | Interpolación geoestadística | Capa actualizada del Inventario (GeoTIFF/vectorial) |
+| **MF09·P6** | Capa de P5; validación de la DRFF ([MGO] `Docs/Comun/Manual Jurídico/dic161d.pdf` pp. 25–26) | Versión oficial del año | Capa Oficial del Inventario Forestal publicada → insumo de MF-02, MF-03 y MF-12 |

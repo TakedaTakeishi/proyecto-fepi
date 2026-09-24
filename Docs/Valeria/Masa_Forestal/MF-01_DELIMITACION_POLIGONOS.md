@@ -17,13 +17,7 @@ Validar la certeza jurídica de la propiedad o posesión de los predios con voca
 
 ## 1.1 Entradas y Salidas del Proceso
 
-| Tipo | Elemento / Artefacto | Descripción y formato | Origen / Destino |
-|---|---|---|---|
-| **Entrada** | Formato de Solicitud Única | Formato `FO-PB-501A` o `FO-PB-502` firmado | R-01 Promovente / Ventanilla |
-| **Entrada** | Carpeta Básica o Título de Propiedad | Documento probatorio de tenencia (RAN o RPP) | Archivo agrario / Registro de la Propiedad |
-| **Entrada** | Puntos de coordenadas en campo | Coordenadas UTM WGS84 en GPS submétrico | R-04 Topógrafo de Campo |
-| **Salida** | Capa Poligonal Vectorial Validada | Archivo vectorial (`.shp`, GeoJSON) sin traslapes | R-05 SIG -> Insumo directo para MF-02 |
-| **Salida** | Cédula de Dictamen Jurídico-Cartográfico | Documento PDF sellado con estatus legal y superficie neta | Expediente del SGD / Padrón Prelación |
+> Retro-ajuste 2026-09-24: la tabla genérica que estaba aquí se rehízo como **§12** (una fila por paso del §6, con ruta real de archivo), conforme a la plantilla de 12 secciones. Ver al final del documento.
 
 ---
 
@@ -160,3 +154,18 @@ flowchart TD
 ## 11. Nota de mantenimiento
 
 Documento técnico-funcional del proceso **MF-01** dentro del Dominio 1 (Masa Forestal)[cite: 1]. Archivar en `Docs/<TuCarpeta>/Masa_Forestal/MF-01_DELIMITACION_POLIGONOS.md`[cite: 1]. El polígono validado y la superficie calculada en este expediente alimentan de forma inmediata a **MF-02 (Levantamiento de cobertura por SIG)**[cite: 1].
+
+---
+
+## 12. Insumos y productos por paso
+
+Una fila por paso del §6 (retro-ajuste 2026-09-24, énfasis #1 del profesor). Toda celda sin archivo en las fuentes enlaza a su vacío `V-##`.
+
+| Paso | Documento/dato de entrada | Datos que se capturan/procesan | Documento de salida |
+|---|---|---|---|
+| **MF01·P1** | `Docs/Comun/Programas de apoyo/FORMATO_FO-PB-501A_SolicitudUnica_2026.docx` y `FORMATO_FO-PB-502_RegInfo_Solicitante_Beneficiario_2026.docx` requisitados [FO-501A/502]; Carpeta Básica inscrita en el RAN o escritura RPP [RO-PSAH p. 4]; croquis preliminar del predio | Identidad y representación, régimen de tenencia, superficie solicitada, coordenadas preliminares | Solicitud firmada + expediente digitalizado (entra a P2) |
+| **MF01·P2** | Expediente de P1; checklist de requisitos por régimen [RO-PSAH p. 19] | Folio único, resultado del cotejo, digitalización | Acuse de recibo sellado (**sin formato FO-PB** → `X-03·V-01`) |
+| **MF01·P3** | Títulos (Carpeta Básica / escrituras); consulta RAN/RPP (sistemas externos; sin interoperabilidad → `V-MF01-01`) | Antecedentes registrales, litigios, representatividad | Cédula de Dictamen Jurídico (Prevención / Improcedencia / Favorable; **sin formato FO-PB** → `X-03·V-01`) |
+| **MF01·P4** | Expediente con dictamen favorable; GPS diferencial submétrico; acompañamiento del solicitante (BR-MF01-03) | Vértices UTM WGS84 Z14N, error de cierre (≤ 1:1,000) | Minuta de levantamiento en campo firmada (**sin plantilla oficial** → `V-MF01-03`) |
+| **MF01·P5** | Nube de coordenadas de P4; base histórica DEMIF `Docs/Comun/Masa forestal/AUTORIZACIONES_DEMIF_ago2023.xlsx` | Geometría `.shp`/GeoJSON, % de sobreposición | Capa poligonal vectorial validada (`.shp`/GeoJSON) |
+| **MF01·P6** | Capa validada; disponibilidad presupuestal [RO-PSAH pp. 8–9] | Superficie neta (ha), resolución elegible / lista de espera, puntaje de prelación (matriz pendiente → `V-MF01-02`) | Dictamen Cartográfico de Delimitación (PDF) + Padrón de Lista de Espera |

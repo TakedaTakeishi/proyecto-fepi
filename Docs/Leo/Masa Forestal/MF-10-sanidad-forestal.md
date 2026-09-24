@@ -16,6 +16,7 @@
 |---|---|---|
 | [WEB-SAN] | `sanidad_forestal.html` | Sitio web oficial. Define el objetivo institucional, estadísticas de atención (ej. 45 recorridos en 30 municipios, 15 notificaciones emitidas), combate de plantas parásitas (Nevado de Toluca) y peritajes judiciales[cite: 76]. |
 | [NOTA-2] | `NOTATEC2_EmergenciaFitosanitaria.pdf` | Documento técnico exhaustivo. Detalla las especies de descortezadores (ej. *Dendroctonus spp.*), la relación fase-coloración (Verde a Café grisáceo), y el diagrama de flujo administrativo "Procedimiento para procesar una notificación" (Fig. 7)[cite: 77]. |
+| [RETYS-PLAG] | `Docs/Comun/Trámites RETYS/RETYS_SOLICITUD_CombatePlagas.pdf` y `RETYS_Aviso_PlagasEnfermedades.pdf` (cédulas RETYS 873/876, capturados 2026-09-24) | Formatos descargables reales del trámite de combate/control de plagas y del aviso de posible presencia; posibles homólogos del formato CONAFOR-07-007-A citado en MF10·A1. |
 
 ## 3. Glosario de siglas
 
