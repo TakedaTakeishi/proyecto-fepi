@@ -83,11 +83,11 @@ Prioridad: **A** = obligatoria (la exige norma o el proceso se detiene), **M** =
 
 | ID | Rol / Stakeholder | Necesidad | Prioridad | Origen | Paso del procedimiento relacionado |
 |---|---|---|---|---|---|
-| N-01 | R2 UIPPE | Calcular y reportar el indicador de cobertura en la MIR | A | Normativo — MIR 2026 | Paso 2. Relacionado con Fase 2 (insumo) y Fase 8 (resultado) |
-| N-02 | R3 Administración | Vincular presupuesto ejercido con la superficie efectivamente cubierta | A | Organizacional | Paso 3. Interno a esta fase |
-| N-03 | R5 CONEVAL/evaluador | Validar consistencia metodológica del indicador | M | Normativo — Programa Anual de Evaluación | Paso 6. Relacionado con Fase 8 (Reporte) |
-| N-04 | R2 UIPPE | Recibir de la Fase 2 un dato de superficie confiable y sistematizado | A | Derivada — hoy el dato de origen vive en hojas de cálculo (riesgo documentado) | Paso 1. Relacionado directamente con Fase 2 |
-| N-05 | R4 Dirección General | Contar con la Ficha Técnica documentada antes de otorgar el Vo. Bo. | A | Normativo / Fichas 2024 | Paso 5. Previo a Fase 8 |
+| N-01 | R2 UIPPE | Que **el indicador de cobertura quede calculado y reportado en la MIR** | A | Normativo — MIR 2026 | Paso 2. Relacionado con Fase 2 (insumo) y Fase 8 (resultado) |
+| N-02 | R3 Administración | Que **el presupuesto ejercido pueda vincularse con la superficie efectivamente cubierta** | A | Organizacional | Paso 3. Interno a esta fase |
+| N-03 | R5 CONEVAL/evaluador | Que **la consistencia metodológica del indicador pueda validarse** | M | Normativo — Programa Anual de Evaluación | Paso 6. Relacionado con Fase 8 (Reporte) |
+| N-04 | R2 UIPPE | Que **el dato de superficie de la Fase 2 llegue confiable y sistematizado** | A | Derivada — hoy el dato de origen vive en hojas de cálculo (riesgo documentado) | Paso 1. Relacionado directamente con Fase 2 |
+| N-05 | R4 Dirección General | Que **la Ficha Técnica esté documentada y disponible antes de otorgar el Vo. Bo.** | A | Normativo / Fichas 2024 | Paso 5. Previo a Fase 8 |
 
 ## 9. Registros que el proceso debe gestionar
 

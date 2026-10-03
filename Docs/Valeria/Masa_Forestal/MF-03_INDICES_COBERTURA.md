@@ -110,12 +110,12 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental verificado |
 |---|---|---|---|---|---|
-| N-MF03-01 | R-01 | Interfaz para seleccionar bandas raster del repositorio y definir máscara vectorial | A | MF03·P1 | Estándar de procesamiento SIG |
-| N-MF03-02 | R-02 | Motor geoespacial (GDAL/PostGIS Raster) para cálculo automatizado de NDVI | A | MF03·P2 | [RO-PSAH p. 4 "Dictamen Técnico"][cite: 1] |
-| N-MF03-03 | R-01 | Selector de algoritmos de índice espectral (NDVI / SAVI con parámetro L editable) | M | MF03·P3 | [INV-FOR]; Práctica teledetección[cite: 1] |
-| N-MF03-04 | R-02 | Algoritmo de reclasificación automática por umbral de píxeles y suma de superficie | A | MF03·P4 | [RO-PSAH p. 8][cite: 1] |
-| N-MF03-05 | R-03 | Módulo de validación de reglas de negocio con semáforo de elegibilidad (Aprobado/Rechazado) | A | MF03·P5 | [RO-PSAH pp. 7–8][cite: 1] |
-| N-MF03-06 | R-03 | Generador de Cédula de Dictamen Espectral con histograma de frecuencias y mapa de vigor en GeoPDF | A | MF03·P6 | [RO-PSAH pp. 4, 19][cite: 1] |
+| N-MF03-01 | R-01 | Que **las bandas raster y la máscara vectorial del análisis puedan definirse con precisión** | A | MF03·P1 | Estándar de procesamiento SIG |
+| N-MF03-02 | R-02 | Que **el NDVI del predio se calcule de forma uniforme y reproducible** | A | MF03·P2 | [RO-PSAH p. 4 "Dictamen Técnico"][cite: 1] |
+| N-MF03-03 | R-01 | Que **el índice espectral aplicable (NDVI / SAVI con su parámetro L) pueda elegirse según la formación** | M | MF03·P3 | [INV-FOR]; Práctica teledetección[cite: 1] |
+| N-MF03-04 | R-02 | Que **la superficie clasificada por umbral de píxeles resulte reproducible y verificable** | A | MF03·P4 | [RO-PSAH p. 8][cite: 1] |
+| N-MF03-05 | R-03 | Que **la elegibilidad quede resuelta de forma uniforme** (Aprobado/Rechazado según las reglas) | A | MF03·P5 | [RO-PSAH pp. 7–8][cite: 1] |
+| N-MF03-06 | R-03 | Que **la Cédula de Dictamen Espectral esté disponible con su histograma de frecuencias y mapa de vigor en GeoPDF** | A | MF03·P6 | [RO-PSAH pp. 4, 19][cite: 1] |
 
 ---
 

@@ -109,12 +109,12 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental verificado |
 |---|---|---|---|---|---|
-| N-MF07-01 | R-01 | Generación de órdenes de verificación y descarga offline de expedientes y polígonos | A | MF07·P1 | [MAN-PROC pp. 27–28][cite: 2] |
-| N-MF07-02 | R-01 | App móvil con validación de metadatos EXIF (coordenadas GPS, rumbo, fecha inviolable) | A | MF07·P2 | [RO-PSAH p. 20; Estándar SIG][cite: 1] |
-| N-MF07-03 | R-01 / R-02 | Módulo de digitalización o firma digital de la Minuta Circunstanciada en tablet de campo | M | MF07·P3 | [RO-PSAH p. 20][cite: 1] |
-| N-MF07-04 | R-01 | Calculadora de cumplimiento de metas físicas (porcentaje ponderado según RO) | A | MF07·P4 | [RO-PSAH pp. 8, 20][cite: 1] |
-| N-MF07-05 | R-03 | Bandeja de validación técnica regional con semáforo de cumplimiento y panel de fotos | A | MF07·P5 | [MAN-PROC pp. 29–30][cite: 2] |
-| N-MF07-06 | R-04 | Módulo de emisión de acuerdos administrativos de liberación presupuestal o rescisión | A | MF07·P6 | [RO-PSAH pp. 21–22][cite: 1] |
+| N-MF07-01 | R-01 | Que **las órdenes de verificación se emitan y los expedientes y polígonos puedan consultarse en campo aun sin conexión** | A | MF07·P1 | [MAN-PROC pp. 27–28][cite: 2] |
+| N-MF07-02 | R-01 | Que **la evidencia fotográfica conserve sus metadatos verificables** (coordenadas GPS, rumbo, fecha) | A | MF07·P2 | [RO-PSAH p. 20; Estándar SIG][cite: 1] |
+| N-MF07-03 | R-01 / R-02 | Que **la Minuta Circunstanciada pueda firmarse y quedar digitalizada en el propio campo** | M | MF07·P3 | [RO-PSAH p. 20][cite: 1] |
+| N-MF07-04 | R-01 | Que **el cumplimiento de metas físicas pueda calcularse como porcentaje ponderado según RO** | A | MF07·P4 | [RO-PSAH pp. 8, 20][cite: 1] |
+| N-MF07-05 | R-03 | Que **la evidencia de cada visita (cumplimiento y fotos) pueda revisarse a nivel regional** | A | MF07·P5 | [MAN-PROC pp. 29–30][cite: 2] |
+| N-MF07-06 | R-04 | Que **el acuerdo administrativo de liberación presupuestal o rescisión se emita y quede notificado** | A | MF07·P6 | [RO-PSAH pp. 21–22][cite: 1] |
 
 ---
 

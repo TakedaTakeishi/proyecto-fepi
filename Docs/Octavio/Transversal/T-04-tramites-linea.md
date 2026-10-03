@@ -96,10 +96,10 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R2 | Repositorio interno para mantener el histórico de Dictámenes CEMER, Actas del Comité Interno y Reportes Trimestrales (RAPA) | A | A2 | [WEB-MEJ][cite: 43] |
-| N-02 | R1 | **Transformación Digital:** Que el SGD permita a la ciudadanía subir (upload) la documentación escaneada y el formato FO-PB directamente, eliminando el paso "Presencial" | A | B3, C1 | Derivada de la restricción observada en [RETYS-51][cite: 45] |
-| N-03 | R4 | Visibilidad en tiempo real en la DRF de los "Tiempos de Respuesta Máximos" (ej. 6 meses, 20 días hábiles) para evitar caer en responsabilidades administrativas | A | C2 | [RETYS-51 sección Tiempos][cite: 45] |
-| N-04 | R3 | API o Webhook que conecte las respuestas de la "Encuesta de Satisfacción" (Si me sirvió / No me sirvió) al SGD para evaluar el desempeño de cada DRF | M | C3 | [RETYS-51 final de página][cite: 45] |
+| N-01 | R2 | Que **el histórico de Dictámenes CEMER, Actas del Comité Interno y Reportes Trimestrales (RAPA) se conserve y pueda recuperarse** | A | A2 | [WEB-MEJ][cite: 43] |
+| N-02 | R1 | **Transformación Digital:** Que la ciudadanía **pueda entregar la documentación escaneada y el formato FO-PB sin el paso "Presencial"** | A | B3, C1 | Derivada de la restricción observada en [RETYS-51][cite: 45] |
+| N-03 | R4 | Que los **"Tiempos de Respuesta Máximos" (ej. 6 meses, 20 días hábiles) se conozcan en la DRF antes de vencer**, para no caer en responsabilidades administrativas | A | C2 | [RETYS-51 sección Tiempos][cite: 45] |
+| N-04 | R3 | Que **las respuestas de la "Encuesta de Satisfacción" (Si me sirvió / No me sirvió) lleguen y permitan evaluar el desempeño de cada DRF** | M | C3 | [RETYS-51 final de página][cite: 45] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

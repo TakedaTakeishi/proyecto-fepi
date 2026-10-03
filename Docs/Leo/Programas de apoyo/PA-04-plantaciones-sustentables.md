@@ -91,10 +91,10 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R31 | **Módulo de Vales y Logística de Planta:** El SGD debe alertar si R28 no recoge la planta en el plazo máximo de 30 días posteriores a la emisión del Vale | A | B1 | [RO-PS p. 95][cite: 66] |
-| N-02 | R29 | Herramienta móvil para verificar que la plantación se distribuyó en el 100% de la superficie (rechazar si se concentra en una sola fracción) | A | C2 | [RO-PS p. 89][cite: 66] |
-| N-03 | R31 | **Motor de Ajustes 70%:** Si R29 reporta ejecución parcial, el sistema debe exigir una justificación textual (fuerza mayor) antes de permitir recalcular el 30% restante | A | C3 | [RO-PS p. 89][cite: 66] |
-| N-04 | R32 | Bitácora inmutable de acuerdos del Comité que bloquee la emisión de recursos a beneficiarios que figuren en la "Lista de Incumplidos" histórica | M | A5 | [RO-PS p. 93][cite: 66] |
+| N-01 | R31 | **Vales y logística de planta:** Que **se sepa cuando R28 no recoge la planta en el plazo máximo de 30 días** posteriores a la emisión del Vale | A | B1 | [RO-PS p. 95][cite: 66] |
+| N-02 | R29 | Que **se verifique en campo que la plantación se distribuyó en el 100% de la superficie** (y se rechace si se concentra en una sola fracción) | A | C2 | [RO-PS p. 89][cite: 66] |
+| N-03 | R31 | **Ajustes 70%:** Que ante ejecución parcial reportada por R29, **el recálculo del 30% restante no proceda sin justificación textual (fuerza mayor)** | A | C3 | [RO-PS p. 89][cite: 66] |
+| N-04 | R32 | Que **los acuerdos del Comité queden asentados e inalterables** y **no se emitan recursos a beneficiarios que figuren en la "Lista de Incumplidos" histórica** | M | A5 | [RO-PS p. 93][cite: 66] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

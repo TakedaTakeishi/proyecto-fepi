@@ -81,11 +81,11 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental |
 |---|---|---|---|---|---|
-| N-MF12-01 | R-01 | Módulo de registro web de autorizaciones forestales con carga vectorial de rodales | A | MF12·P1 | Arts. 73–75 LGDFS |
-| N-MF12-02 | R-03 | Motor de validación topológica para impedir sobreposición con subsidios de conservación | A | MF12·P2 | [RO-PSAH p. 8; Base DEMIF][cite: 1] |
-| N-MF12-03 | R-02 | Matriz de control volumétrico por especie maderable y balance de saldo de corta | A | MF12·P3 | [MGO 2025 pp. 25–26][cite: 3] |
-| N-MF12-04 | R-02 | Generador de Constancia Oficial de Registro DEMIF con código QR de verificación rápida | A | MF12·P5 | Estándar de Trazabilidad Forestal |
-| N-MF12-05 | R-04 | Servicio de consulta móvil para inspectores de campo y verificación de remisiones | M | MF12·P6 | Art. 154 LGDFS |
+| N-MF12-01 | R-01 | Que **las autorizaciones forestales queden registradas con la geometría vectorial de los rodales** | A | MF12·P1 | Arts. 73–75 LGDFS |
+| N-MF12-02 | R-03 | Que **la sobreposición con subsidios de conservación quede impedida antes de autorizar** | A | MF12·P2 | [RO-PSAH p. 8; Base DEMIF][cite: 1] |
+| N-MF12-03 | R-02 | Que **el volumen por especie maderable y el saldo de corta sean conocidos y verificables** | A | MF12·P3 | [MGO 2025 pp. 25–26][cite: 3] |
+| N-MF12-04 | R-02 | Que **la Constancia Oficial de Registro DEMIF se emita y pueda verificarse con rapidez** | A | MF12·P5 | Estándar de Trazabilidad Forestal |
+| N-MF12-05 | R-04 | Que **el inspector de campo pueda consultar y verificar remisiones en el sitio** | M | MF12·P6 | Art. 154 LGDFS |
 
 ---
 

@@ -107,15 +107,15 @@ Generados por `Docs/Joni/Diagramas/E04/gen-diagramas.mjs`.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R21 | Recibir el avance por dominio (E-01/E-02/E-03) **en un formato consolidado capturado una vez**, en vez de pedir a mano a cada área en cada requerimiento | A | A3–A4 | [MGO25 pdf pp. 16–17 f.1 y f.11]; los registros por dominio ya se capturan en E-01/E-02/E-03 → V-03 |
-| N-02 | R21 | Tener las **metas vigentes del Programa Anual** (MIR del Pp. 03020201) con qué comparar y detectar desviación | A | A1, A3 | [MGO25 pdf pp. 16–17 f.10 "revisar el avance de las metas… congruencia con la programación aprobada"; ANEXOS23 pdf p. 2 modelo] ⚠️ MIR 2026 no está → V-04 |
-| N-03 | R21 | Conocer el **calendario real** de entregas (avances, SIED, Plan de Desarrollo, memoria) — hoy ninguna fuente documenta fecha de corte | A | A3, B1–B2, C1 | [MGO25 pdf pp. 16–17 f.11/f.13/f.15/f.17 sin plazos] → V-02 |
-| N-04 | R15 | Entregar las **cifras ejecutadas** por trimestre (autorizado/modificado/ejercido) listas para cada informe | A | A2, B3, C2 | [MGO25 pdf pp. 16–17 f.9/f.19; ANEXOS23 pdf p. 2 muestra el formato de cifras exigido] |
-| N-05 | R19 | Disponer el estado de metas y financiamiento **al momento de cada sesión** del Consejo | M | C3 | [MGO25-DG pdf p. 10: informe en cada sesión ordinaria] |
-| N-06 | R21 | Un canal único y trazable para **requerimientos extraordinarios** (OM, SF, Desarrollo Económico, OSFEM) — saber quién pidió qué y qué se entregó | M | B2, B3 | [MGO25 pdf pp. 16–17 f.2/f.3/f.14] |
-| N-07 | R21 | Reportar la ejecución del Plan de Desarrollo **desde los productos por dominio** sin recompilar a mano cada trimestre | A | C1 | [MGO25 pdf pp. 16–17 f.15 + f.5; E-01/02/03 como insumos] |
-| N-08 | R15 | Recibir la información programática de la **Cuenta Pública** completa y calificada para publicarla | M | C2 | [MGO25 pdf pp. 16–17 f.19; INFO-F evidencia la publicación] |
-| N-09 | R26 (operador del sitio) | Recibir los archivos trimestrales (estados + indicadores CONAC) **con un canal y versionado definidos** para actualizar la página sin reprocesos | A | C4 | [INFO-F serie trimestral visible; el mecanismo de carga → T-02·V-06] |
+| N-01 | R21 | Que **el avance por dominio (E-01/E-02/E-03) llegue ya consolidado en un formato capturado una vez**, en vez de pedir a mano a cada área en cada requerimiento | A | A3–A4 | [MGO25 pdf pp. 16–17 f.1 y f.11]; los registros por dominio ya se capturan en E-01/E-02/E-03 → V-03 |
+| N-02 | R21 | Que **estén disponibles las metas vigentes del Programa Anual** (MIR del Pp. 03020201) con qué comparar y detectar desviación | A | A1, A3 | [MGO25 pdf pp. 16–17 f.10 "revisar el avance de las metas… congruencia con la programación aprobada"; ANEXOS23 pdf p. 2 modelo] ⚠️ MIR 2026 no está → V-04 |
+| N-03 | R21 | Que **el calendario real de entregas** (avances, SIED, Plan de Desarrollo, memoria) **sea conocido** — hoy ninguna fuente documenta fecha de corte | A | A3, B1–B2, C1 | [MGO25 pdf pp. 16–17 f.11/f.13/f.15/f.17 sin plazos] → V-02 |
+| N-04 | R15 | Que **las cifras ejecutadas por trimestre (autorizado/modificado/ejercido) estén listas** para cada informe | A | A2, B3, C2 | [MGO25 pdf pp. 16–17 f.9/f.19; ANEXOS23 pdf p. 2 muestra el formato de cifras exigido] |
+| N-05 | R19 | Que **el estado de metas y financiamiento se conozca al momento de cada sesión** del Consejo | M | C3 | [MGO25-DG pdf p. 10: informe en cada sesión ordinaria] |
+| N-06 | R21 | Que **los requerimientos extraordinarios (OM, SF, Desarrollo Económico, OSFEM) lleguen y se respondan por una sola vía recuperable** — saber quién pidió qué y qué se entregó | M | B2, B3 | [MGO25 pdf pp. 16–17 f.2/f.3/f.14] |
+| N-07 | R21 | Que **la ejecución del Plan de Desarrollo se reporte desde los productos por dominio** sin recompilar a mano cada trimestre | A | C1 | [MGO25 pdf pp. 16–17 f.15 + f.5; E-01/02/03 como insumos] |
+| N-08 | R15 | Que **la información programática de la Cuenta Pública llegue completa y calificada** para publicarla | M | C2 | [MGO25 pdf pp. 16–17 f.19; INFO-F evidencia la publicación] |
+| N-09 | R26 (operador del sitio) | Que **los archivos trimestrales (estados + indicadores CONAC) lleguen con un canal y versionado definidos** para actualizar la página sin reprocesos | A | C4 | [INFO-F serie trimestral visible; el mecanismo de carga → T-02·V-06] |
 
 ## 10. Registros que el SGD debe gestionar
 

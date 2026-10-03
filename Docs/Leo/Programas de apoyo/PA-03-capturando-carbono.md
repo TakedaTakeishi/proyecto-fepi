@@ -89,10 +89,10 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R29 | Herramienta GIS institucional para clasificar automáticamente densidades arbóreas (umbrales 50%/60%) y cobertura natural (<20%/<30%) | A | A3 | [RO-CC p. 69][cite: 56] |
-| N-02 | R31 | **Motor de Reglas de Pago (SGD):** Bifurcación sistémica automática. Si superficie $\le$ 5 ha = Orden de Pago 100%. Si $>$ 5 ha = Orden 70% y bloqueo del 30% hasta captura de formato FO-PB-509-A | A | B2 | [RO-CC p. 69][cite: 56] |
-| N-03 | R28 | Plantilla estandarizada en sistema para capturar la "Propuesta de actividades..." (FO-PB-520-B) vinculada al contrato de adhesión | M | B1 | [RO-CC p. 70][cite: 56] |
-| N-04 | R32 | Base de datos cruzada en tiempo real para bloquear registros de predios que ya cuenten con PSAHEM u otros fondos de carbono | A | A4 | [RO-CC p. 71][cite: 56] |
+| N-01 | R29 | Que **las densidades arbóreas (umbrales 50%/60%) y la cobertura natural (<20%/<30%) puedan clasificarse de forma uniforme** | A | A3 | [RO-CC p. 69][cite: 56] |
+| N-02 | R31 | **Bifurcación de pago garantizada:** superficie $\le$ 5 ha = Orden de Pago 100%; superficie $>$ 5 ha = Orden 70% **y el 30% queda bloqueado hasta la captura del formato FO-PB-509-A** | A | B2 | [RO-CC p. 69][cite: 56] |
+| N-03 | R28 | Que la "Propuesta de actividades..." (FO-PB-520-B) **pueda capturarse de forma estandarizada y quedar vinculada al contrato de adhesión** | M | B1 | [RO-CC p. 70][cite: 56] |
+| N-04 | R32 | Que los predios que ya cuenten con PSAHEM u otros fondos de carbono **queden bloqueados antes de aprobar el registro** | A | A4 | [RO-CC p. 71][cite: 56] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

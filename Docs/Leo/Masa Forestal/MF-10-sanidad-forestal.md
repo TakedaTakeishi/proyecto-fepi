@@ -93,10 +93,10 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R29 | Aplicación móvil GIS offline con un "Módulo de Diagnóstico Visual" que permita catalogar cada árbol muestreado (Verde, Amarillo, Rojo, Gris) y georreferenciar el polígono del brote | A | A5 | [NOTA-2 Cuadro 5][cite: 77] |
-| N-02 | R41 | Integración o interfaz del SGD con el sistema federal **SINAT** (SEMARNAT) para evitar doble captura del Informe Técnico Fitosanitario | A | A4 | [NOTA-2 Fig. 7][cite: 77] |
-| N-03 | R20 | Flujo de validación digital y firma electrónica (e.firma) interdepartamental (DSF $\rightarrow$ UJIGEV $\rightarrow$ Dir. General) para cumplir el plazo normativo máximo de 15 días | A | B3, B4 | [NOTA-2 Fig. 7][cite: 77] |
-| N-04 | R40 | Módulo web (Portal de Prestadores) para que el PST cargue el ITF directamente al SGD de PROBOSQUE con sus anexos cartográficos | M | A2 | [NOTA-2 Fig. 7][cite: 77] |
+| N-01 | R29 | Que en campo **cada árbol muestreado pueda catalogarse (Verde, Amarillo, Rojo, Gris) y el polígono del brote georreferenciarse** | A | A5 | [NOTA-2 Cuadro 5][cite: 77] |
+| N-02 | R41 | Que **pueda usarse el dato del Informe Técnico Fitosanitario ya capturado en el sistema federal SINAT (SEMARNAT) sin doble captura** | A | A4 | [NOTA-2 Fig. 7][cite: 77] |
+| N-03 | R20 | Que los documentos interdepartamentales (DSF $\rightarrow$ UJIGEV $\rightarrow$ Dir. General) **puedan validarse y firmarse dentro del plazo normativo máximo de 15 días** | A | B3, B4 | [NOTA-2 Fig. 7][cite: 77] |
+| N-04 | R40 | Que el PST **pueda entregar el ITF directamente al organismo**, con sus anexos cartográficos | M | A2 | [NOTA-2 Fig. 7][cite: 77] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

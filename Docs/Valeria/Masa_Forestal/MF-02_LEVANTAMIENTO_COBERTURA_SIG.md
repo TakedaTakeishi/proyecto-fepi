@@ -109,12 +109,12 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental verificado |
 |---|---|---|---|---|---|
-| N-MF02-01 | R-01 | Módulo de importación automática de vectores desde el expediente del predio validado | A | MF02·P1 | [RO-PSAH p. 19][cite: 1] |
-| N-MF02-02 | R-02 | Conector API o módulo de descarga automatizada de imágenes Sentinel-2 corregidas | M | MF02·P2 | Estándar operativo teledetección[cite: 1] |
-| N-MF02-03 | R-01 | Repositorio de capas WMS/WFS del Inventario Estatal Forestal y de Suelos 2022 integrado al software | A | MF02·P3 | [INV-FOR]; [RO-PSAH p. 4][cite: 1] |
-| N-MF02-04 | R-02 | Motor de procesamiento raster para clasificación de uso de suelo y vectorización de coberturas | A | MF02·P4 | [RO-PSAH p. 4 "Dictamen Técnico", p. 6 "SIG"][cite: 1] |
-| N-MF02-05 | R-03 | Visor geográfico interactivo con comparativa multitemporal (antes vs después) | M | MF02·P5 | Práctica técnica forestal |
-| N-MF02-06 | R-03 | Generación automatizada de la Cédula de Cobertura en PDF con firmas electrónicas y plano cartográfico | A | MF02·P6 | [RO-PSAH pp. 4, 19][cite: 1] |
+| N-MF02-01 | R-01 | Que **el vector validado que obra en el expediente del predio pueda aprovecharse sin recaptura** | A | MF02·P1 | [RO-PSAH p. 19][cite: 1] |
+| N-MF02-02 | R-02 | Que **las imágenes Sentinel-2 corregidas del predio puedan obtenerse de fuente oficial y a tiempo** | M | MF02·P2 | Estándar operativo teledetección[cite: 1] |
+| N-MF02-03 | R-01 | Que **las capas del Inventario Estatal Forestal y de Suelos 2022 sean consultables y compartibles** | A | MF02·P3 | [INV-FOR]; [RO-PSAH p. 4][cite: 1] |
+| N-MF02-04 | R-02 | Que **el uso de suelo pueda clasificarse y las coberturas vectorizarse a partir de las escenas** | A | MF02·P4 | [RO-PSAH p. 4 "Dictamen Técnico", p. 6 "SIG"][cite: 1] |
+| N-MF02-05 | R-03 | Que **la variación multitemporal del predio pueda compararse** (antes vs después) | M | MF02·P5 | Práctica técnica forestal |
+| N-MF02-06 | R-03 | Que **la Cédula de Cobertura quede emitida en PDF con firmas y plano cartográfico** | A | MF02·P6 | [RO-PSAH pp. 4, 19][cite: 1] |
 
 ---
 

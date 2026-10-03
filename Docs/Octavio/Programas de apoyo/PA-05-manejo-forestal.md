@@ -100,12 +100,12 @@
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R28 | Conocer con precisión los documentos técnicos requeridos para su modalidad (ej. Shapefiles para ETF, Códigos de cuantificación para FSC Industria) | A | A2 | [RO p. 11-13][cite: 20] |
-| N-02 | R29 | Herramienta para registrar el reloj de 5 días hábiles de prevención y detonar el desechamiento automático si no se cumple | A | A3 | [RO p. 14][cite: 20] |
-| N-03 | R30 | Calculadora automatizada para la matriz de puntos (criterios de desempate y priorización por género, salud, vulnerabilidad) | A | A6 | [RO p. 15-18][cite: 20] |
-| N-04 | R15 | Repositorio seguro para almacenar las carátulas bancarias y CLABEs de los beneficiarios para dispersión | A | B2 | [RO p. 11][cite: 20] |
-| N-05 | R30 | Módulo de seguimiento de entregables (Bitácoras, Planes de Auditoría) para detonar la segunda ministración | A | C2 | [RO p. 10][cite: 20] |
-| N-06 | R20 | Gestión del "Listado de Personas Beneficiarias Incumplidas" con control de reintegros para habilitar exclusiones | A | C6 | [RO p. 23][cite: 20] |
+| N-01 | R28 | **Disponer con precisión de los documentos técnicos requeridos para su modalidad** (ej. Shapefiles para ETF, Códigos de cuantificación para FSC Industria) | A | A2 | [RO p. 11-13][cite: 20] |
+| N-02 | R29 | Que **el plazo de 5 días hábiles de prevención se controle y el desechamiento proceda si no se cumple** | A | A3 | [RO p. 14][cite: 20] |
+| N-03 | R30 | Que **la matriz de puntos (criterios de desempate y priorización por género, salud, vulnerabilidad) se aplique de forma uniforme** | A | A6 | [RO p. 15-18][cite: 20] |
+| N-04 | R15 | Que **las carátulas bancarias y CLABEs de los beneficiarios se conserven seguras, vigentes y disponibles** para la dispersión | A | B2 | [RO p. 11][cite: 20] |
+| N-05 | R30 | Que **los entregables pendientes (Bitácoras, Planes de Auditoría) se conozcan a tiempo para detonar la segunda ministración** | A | C2 | [RO p. 10][cite: 20] |
+| N-06 | R20 | Que **el "Listado de Personas Beneficiarias Incumplidas" esté vigente, el reintegro controlado y la exclusión proceda con prueba** | A | C6 | [RO p. 23][cite: 20] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

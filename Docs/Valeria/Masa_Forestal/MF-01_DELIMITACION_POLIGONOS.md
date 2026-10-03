@@ -124,12 +124,12 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental verificado |
 |---|---|---|---|---|---|
-| N-MF01-01 | R-01 | Módulo de pre-registro web para carga de formatos `FO-PB-501A`/`502` y expedientes digitalizados | A | MF01·P1 | [FO-501A]; [FO-502]; [RO-PSAH p. 19] |
-| N-MF01-02 | R-02 | Checklist configurable de requisitos documentales por régimen de tenencia (Ejidal, Comunal, Privada) | A | MF01·P2 | [RO-PSAH p. 19]; [RO-CARB pp. 6–7] |
-| N-MF01-03 | R-03 | Panel de dictaminación jurídica con capacidad de consulta de padrones y validación registral agraria | M | MF01·P3 | Mecánica operativa [RO-PSAH p. 19] |
-| N-MF01-04 | R-04 | Interfaz móvil para captura de puntos GPS en campo, cálculo de error de cierre y firma digital de minuta | A | MF01·P4 | [RO-PSAH p. 19 Glosario "Dictamen Técnico"] |
-| N-MF01-05 | R-05 | Motor de geoprocesamiento espacial PostGIS para validación topológica y descarte automático de traslapes | A | MF01·P5 | Base cartográfica [DEMIF]; [RO-PSAH p. 6] |
-| N-MF01-06 | SGD | Algoritmo de priorización para el ordenamiento automatizado de folios en la Lista de Espera del programa | A | MF01·P6 | Criterios de dictaminación [RO-PSAH pp. 8–9] |
+| N-MF01-01 | R-01 | Que los formatos `FO-PB-501A`/`502` y los expedientes digitalizados **puedan recibirse y quedar asentados** | A | MF01·P1 | [FO-501A]; [FO-502]; [RO-PSAH p. 19] |
+| N-MF01-02 | R-02 | Que los requisitos documentales **puedan comprobarse por régimen de tenencia** (Ejidal, Comunal, Privada) | A | MF01·P2 | [RO-PSAH p. 19]; [RO-CARB pp. 6–7] |
+| N-MF01-03 | R-03 | Que **la dictaminación jurídica cuente con consulta de padrones y validación registral agraria** | M | MF01·P3 | Mecánica operativa [RO-PSAH p. 19] |
+| N-MF01-04 | R-04 | Que **los puntos GPS puedan capturarse en campo, el error de cierre calcularse y la minuta firmarse** | A | MF01·P4 | [RO-PSAH p. 19 Glosario "Dictamen Técnico"] |
+| N-MF01-05 | R-05 | Que **las geometrías queden validadas topológicamente y los traslapes sean descartados** | A | MF01·P5 | Base cartográfica [DEMIF]; [RO-PSAH p. 6] |
+| N-MF01-06 | SGD | Que **la Lista de Espera quede ordenada conforme a los criterios de prelación del programa** | A | MF01·P6 | Criterios de dictaminación [RO-PSAH pp. 8–9] |
 
 ---
 

@@ -93,11 +93,11 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R16 | Vinculación del **Folio de Expediente del Beneficiario** directamente con la Solicitud de Pago y la Póliza de Egresos para evitar recaptura | A | B2 | [CONT25 p. 30][cite: 34] |
-| N-02 | R15 | Generación de layouts (archivos de texto estructurados) con CLABEs y montos exactos (70/30) para enviar a la Fiduciaria (FIPASAHEM) | A | B3 | [FIPA][cite: 33] |
-| N-03 | R16 | Repositorio documental que exija anexar el XML/PDF de la factura, el contrato y el Acta de Recepción antes de permitir marcar una Póliza como "Pagada" | A | B1 | [CONT25 p. 29][cite: 34] |
-| N-04 | R37 | Flujo de aprobación digital para el Subcomité de Bases, bloqueando la publicación de convocatorias hasta contar con los Vistos Buenos | A | C2 | [SUB-BAS p. 3][cite: 37] |
-| N-05 | R15 | Alerta sistémica de seguimiento a contratos y proveedores objetados, vinculada al Registro de Empresas Objetadas del Estado | M | C3 | [COM-ADQ p. 7][cite: 38] |
+| N-01 | R16 | Que **del Folio de Expediente del Beneficiario se pueda llegar a la Solicitud de Pago y la Póliza de Egresos sin recaptura** | A | B2 | [CONT25 p. 30][cite: 34] |
+| N-02 | R15 | Que **las CLABEs y montos exactos (70/30) lleguen a la Fiduciaria (FIPASAHEM) sin errores de transcripción** | A | B3 | [FIPA][cite: 33] |
+| N-03 | R16 | Que **una Póliza no se dé por "Pagada" sin que el expediente tenga el XML/PDF de la factura, el contrato y el Acta de Recepción** | A | B1 | [CONT25 p. 29][cite: 34] |
+| N-04 | R37 | Que **la publicación de convocatorias no proceda hasta contar con los Vistos Buenos del Subcomité de Bases** | A | C2 | [SUB-BAS p. 3][cite: 37] |
+| N-05 | R15 | Que **los contratos y proveedores objetados sean visibles, vinculados al Registro de Empresas Objetadas del Estado** | M | C3 | [COM-ADQ p. 7][cite: 38] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

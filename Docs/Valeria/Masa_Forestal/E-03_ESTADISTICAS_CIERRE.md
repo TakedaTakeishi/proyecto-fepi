@@ -107,12 +107,12 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental verificado |
 |---|---|---|---|---|---|
-| N-E03-01 | R-01 | Módulo de configuración de periodos de corte y consolidación de ejercicios fiscales | A | E03·P1 | [RO-PSAH p. 22][cite: 1] |
-| N-E03-02 | R-02 | Generador de capas agregadas (WMS/GeoJSON) para visualización territorial masiva | A | E03·P2 | Base [DEMIF]; [INV-FOR][cite: 1] |
-| N-E03-03 | R-01 | Motor de cálculo analítico de indicadores (ha protegidas vs programadas, costo promedio/ha) | A | E03·P3 | [RO-PSAH pp. 8, 22][cite: 1] |
-| N-E03-04 | R-01 | Módulo de gestión y ordenamiento algorítmico del Padrón Oficial de Lista de Espera | A | E03·P4 | [RO-PSAH pp. 8–9][cite: 1] |
-| N-E03-05 | R-03 | Tablero interactivo (Dashboard) con filtros por municipio, DRF, tipo de tenencia y programa | M | E03·P5 | Estándar de inteligencia de negocios |
-| N-E03-06 | R-03 / R-04 | Módulo de exportación masiva en formatos auditables (PDF oficial sellado, CSV, Excel) | A | E03·P6 | [LGDFS Art. 31; MGO p. 26][cite: 3] |
+| N-E03-01 | R-01 | Que **los periodos de corte puedan configurarse y los ejercicios fiscales queden consolidados** | A | E03·P1 | [RO-PSAH p. 22][cite: 1] |
+| N-E03-02 | R-02 | Que **haya capas agregadas disponibles para la visualización territorial masiva** | A | E03·P2 | Base [DEMIF]; [INV-FOR][cite: 1] |
+| N-E03-03 | R-01 | Que **los indicadores (ha protegidas vs programadas, costo promedio/ha) se calculen de forma uniforme y comparable** | A | E03·P3 | [RO-PSAH pp. 8, 22][cite: 1] |
+| N-E03-04 | R-01 | Que **el Padrón Oficial de Lista de Espera se mantenga ordenado según sus criterios de prelación** | A | E03·P4 | [RO-PSAH pp. 8–9][cite: 1] |
+| N-E03-05 | R-03 | Que **los resultados puedan consultarse y compararse** por municipio, DRF, tipo de tenencia y programa | M | E03·P5 | Estándar de inteligencia de negocios |
+| N-E03-06 | R-03 / R-04 | Que **los datos puedan exportarse en formatos auditables** (PDF oficial sellado, CSV, Excel) | A | E03·P6 | [LGDFS Art. 31; MGO p. 26][cite: 3] |
 
 ---
 

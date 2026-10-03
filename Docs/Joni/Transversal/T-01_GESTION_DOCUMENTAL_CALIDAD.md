@@ -18,7 +18,7 @@
 | Clave | Archivo / ubicación | Qué aporta (verificado 2026-09-23) |
 |---|---|---|
 | [GUIA] | `Docs/Comun/Gestión documental y calidad/GUIA_Simple_Archivo_2026.pdf` (mar-2026) | Objeto: descripción de series conforme al Cuadro; **Área Coordinadora de Archivos** = responsable de vigilar la normatividad archivística con los responsables del Archivo de Trámite (p. 2); marco: Ley General de Archivos, **Ley de Archivos y Administración de Documentos del EdoMéx (26-nov-2020)**, MGO 2025, RI (pp. 3–4) |
-| [INVG] | `Docs/Comun/Gestión documental y calidad/INVENTARIO_Gral_Archivo_2025.pdf` (mar-2025) | Fundamento art. 13 Ley General de Archivos; trío de instrumentos (Cuadro + Guía + Inventario); **hoja de inventario con 19 campos** y firmas de **responsable del archivo** y **titular de la unidad** (pp. 2, 6); SIA = resultado del trabajo conjunto (p. 2) |
+| [INVG] | `Docs/Comun/Gestión documental y calidad/INVENTARIO_Gral_Archivo_2025.pdf` (mar-2025) | Fundamento art. 13 Ley General de Archivos; trío de instrumentos (Cuadro + Guía + Inventario); **hoja de inventario con 19 campos** y firmas de **responsable del archivo** y **titular de la unidad** (pp. 2, 6); **define "fórmula clasificadora"** = fondo/sección/serie/subserie/número de expediente, coincide con la ceja de la carpeta (pp. 6–7); SIA = resultado del trabajo conjunto (p. 2) |
 | [CUADRO] | `Docs/Comun/Gestión documental y calidad/CUADRO_Gral_Clasif_Archivística_2024.pdf` (nov-2024) | Metodología de clasificación/codificación por unidad; anexos: **Carátula de Expediente de Archivo (8.1)**, instructivo (8.2) y **Dictamen de Registro y Validación (8.3)** (pp. 2, 4–5); Criterios técnicos Gaceta 03-may-2023 (p. 5) |
 | [CERT-N] | `Docs/Comun/Gestión documental y calidad/CERT_ISO9001_NYCE_2022.pdf` (**escaneado — leído como imagen**) | Certificado **No. 2019CRE-811** NYCE (acreditada ema **85/12**), norma **NMX-CC-9001-IMNC-2015 / ISO 9001:2015**; alcance = 7 procesos; **emisión 2022-11-28 · vigente al 2025-10-10 · certificado desde 2018-08-28**; firma Carlos Manuel Pérez Munguía (DG NYCE) |
 | [CERT-I] | `Docs/Comun/Gestión documental y calidad/CERT_ISO9001_IQNET_2022.pdf` (**escaneado — leído como imagen**) | Registro IQNET **MX-2019CRE-811**; ISO 9001:2015; issued 2022-11-28, first issued 2018-08-28, **expires 2025-10-10**; firmas Alex Stoichitoiu (Presidente IQNET) y Pérez Munguía (NYCE) |
@@ -93,7 +93,7 @@
 
 - **A1** R40 opera el **Sistema Institucional de Archivos (SIA)**: actas de instalación y sesiones (2022, 2026) y **reglas de operación del GIPB** [ARCH-HTML].
 - **A2** R41 (responsables de Archivo de Trámite) **aportan series y expedientes** de su unidad [GUIA p. 2].
-- **A3** R40 **elabora/actualiza el CGCA** (2020 → 2021 → 2022 → 2024): fórmula clasificadora por unidad y serie [CUADRO pp. 6–15].
+- **A3** R40 **elabora/actualiza el CGCA** (2020 → 2021 → 2022 → 2024): fórmula clasificadora por unidad y serie [CUADRO pp. 6–15]; el término se define en [INVG] pp. 6–7 (fondo/sección/serie/subserie/número de expediente).
 - **A4** R42 **registra y valida** el CGCA y expide el **Dictamen de Registro y Validación** [CUADRO anexo 8.3] ⚠️ instancia → V-02.
 - **A5** R40 elabora la **Guía Simple de Archivo** (2025 y 2026): descripción de series conforme al CGCA [GUIA].
 - **A6** R41+R27 integran y **firman el Inventario General de Archivo** (2025 capturado; 2026 solo en SharePoint de UIPPE → **V-05**) [INVG p. 6].
@@ -132,15 +132,15 @@ Generados por `Docs/Joni/Diagramas/T01/gen-diagramas.mjs` (editar el script, no 
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R41 | Saber **cómo se clasifica y codifica** cada expediente de su unidad (fórmula clasificadora vigente) | A | A3, A7 | [CUADRO] pp. 4–5 ("aplicar los procedimientos generales para la clasificación y codificación") |
-| N-02 | R40 | Mantener **CGCA, Guía e Inventario sincronizados** con la estructura real (cada reforma del MGO cambia unidades) | A | A3–A6 | [INVG] p. 2; [GUIA] p. 2 — el MGO 2025 (dic-2025) es posterior al CGCA 2024 (nov-2024) ⚠️ posible desfase |
-| N-03 | R41·R27 | **Firmar el inventario** de su unidad con datos verificables (legajos, fechas, ubicación física) | A | A6 | [INVG] p. 6 (firmas obligatorias) |
-| N-04 | R43 | Contar con los **formatos del SGC** vigentes (Dictamen Técnico, minutas, etc.) para operar los 7 procesos del alcance | B | B2 | [RO-§17]; [ISO-HTML] alcance; formato "Dictamen Técnico" citado por [RO-PSAH] p. 8 → PA-01·V-05, X-03·V-01 |
-| N-05 | R44 | **Programa y evidencias de auditoría interna** (plan anual, hallazgos, acciones correctivas) | B | B3 | [RO-§17] ("auditorías internas… se verificará la conformidad") ⚠️ nada capturado → V-04 |
-| N-06 | R43 | **Recertificar a tiempo**: agenda de auditoría externa NYCE antes de cada vencimiento (hoy vencido) | B | B4–B7 | [CERT-N] "vigente al 2025-10-10"; [BR-11] |
-| N-07 | R26 | Publicar **certificados e instrumentos vigentes** sin que la página contradiga los documentos (el sitio dice "actualmente certificado") | B | B6 | [ISO-HTML] vs [CERT-N] — contradicción verificada hoy |
-| N-08 | R40 | Un **PADA con acciones trazables por unidad** y su informe anual (patrón DPTS: trámite → acción → unidad → fecha) | C | C1–C4 | [DPTS]; [ARCH-HTML] serie 2020–2026 |
-| N-09 | R27 | Localizar cualquier expediente por **fórmula clasificadora + ubicación física** (memoria institucional y transparencia) | A | A5–A6 | [GUIA] p. 4 ("facilitar la localización… acceso a la memoria institucional") |
+| N-01 | R41 | **Disponer de la fórmula clasificadora vigente** con que se clasifica y codifica cada expediente de su unidad | A | A3, A7 | [CUADRO] pp. 4–5 ("aplicar los procedimientos generales para la clasificación y codificación"); el **cómo** está en [CUADRO] §5 pp. 8–10 (sistema funcional jerárquico fondo/sección/serie/subserie con clave por nivel; codifica cada unidad vía su responsable del archivo de trámite, p. 6); término [INVG] pp. 6–7 |
+| N-02 | R40 | Que **CGCA, Guía e Inventario se mantengan sincronizados** con la estructura real (cada reforma del MGO cambia unidades) | A | A3–A6 | [INVG] p. 2; [GUIA] p. 2 — el MGO 2025 (dic-2025) es posterior al CGCA 2024 (nov-2024) ⚠️ posible desfase |
+| N-03 | R41·R27 | Que **el inventario de cada unidad quede firmado** con datos verificables (legajos, fechas, ubicación física) | A | A6 | [INVG] p. 6 (firmas obligatorias) |
+| N-04 | R43 | **Disponer de los formatos del SGC vigentes** (Dictamen Técnico, minutas, etc.) para operar los 7 procesos del alcance | B | B2 | [RO-§17]; [ISO-HTML] alcance; formato "Dictamen Técnico" citado por [RO-PSAH] p. 8 → PA-01·V-05, X-03·V-01 |
+| N-05 | R44 | **Disponer del programa y evidencias de auditoría interna** (plan anual, hallazgos, acciones correctivas) | B | B3 | [RO-§17] ("auditorías internas… se verificará la conformidad") ⚠️ nada capturado → V-04 |
+| N-06 | R43 | Que **la recertificación se cumpla a tiempo**: la agenda de auditoría externa NYCE se atiende antes de cada vencimiento (hoy vencido) | B | B4–B7 | [CERT-N] "vigente al 2025-10-10"; [BR-11] |
+| N-07 | R26 | Que **certificados e instrumentos vigentes se publiquen** sin que la página contradiga los documentos (el sitio dice "actualmente certificado") | B | B6 | [ISO-HTML] vs [CERT-N] — contradicción verificada hoy |
+| N-08 | R40 | Que **las acciones del PADA queden trazables por unidad** y **su informe anual se rinda** (patrón DPTS: trámite → acción → unidad → fecha) | C | C1–C4 | [DPTS]; [ARCH-HTML] serie 2020–2026 |
+| N-09 | R27 | Que **cualquier expediente sea localizable** por **fórmula clasificadora + ubicación física** (memoria institucional y transparencia) | A | A5–A6 | [GUIA] p. 4 ("facilitar la localización… acceso a la memoria institucional"); término [INVG] pp. 6–7; **ubicación física** = campo del Inventario (ubicación topográfica: archivero, área) [INVG] pp. 6–7 y columna de la hoja [GUIA] p. 46 |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 
@@ -149,7 +149,7 @@ Generados por `Docs/Joni/Diagramas/T01/gen-diagramas.mjs` (editar el script, no 
 | CGCA (cada versión) | año (2020, 2021, 2022, 2024…) + Dictamen de Registro y Validación | [CUADRO]; [ARCH-HTML] |
 | Guía Simple de Archivo | año (2025, 2026) | [GUIA]; [ARCH-HTML] |
 | Inventario General de Archivo | año + unidad + firma de responsable y titular | [INVG]; [ARCH-HTML] (2026 → **V-05**) |
-| Carátula de Expediente de Archivo | fórmula clasificadora + no. de expediente | [CUADRO] anexos 8.1–8.2 |
+| Carátula de Expediente de Archivo | fórmula clasificadora + no. de expediente | [CUADRO] anexos 8.1–8.2; término definido en [INVG] pp. 6–7 |
 | Certificados ISO (NYCE e IQNET) | cert. 2019CRE-811 / MX-2019CRE-811 + fechas emisión/vigencia | [CERT-N]; [CERT-I] |
 | Programa y evidencias de auditoría (interna/externa) | ejercicio + plan + hallazgos | ⚠️ → **V-04** |
 | PADA / PIDA + Informe anual de cumplimiento | ejercicio (2020–2026) | [ARCH-HTML] |
@@ -168,7 +168,7 @@ Generados por `Docs/Joni/Diagramas/T01/gen-diagramas.mjs` (editar el script, no 
 | **V-03** | **Personificación del SIA/GIPB**: nombres de los responsables del Archivo de Trámite por unidad y de la integración vigente del GIPB (solo hay actas 2022/2026 sin capturar) | [DIR] solo nombra al Jefe de Departamento; [ARCH-HTML] enlaza actas sin integrantes | Capturar las actas del sitio + entrevista R40 | A1–A2, A6 · N-3 |
 | **V-04** | La **operación del SGC**: unidad responsable formal, auditor interno, programa de auditorías internas y sus hallazgos; catálogo de **formatos del SGC** (el "Dictamen Técnico" de PA-01·V-05 y demás) | [ISO-HTML] publica política/objetivos pero no organigrama del SGC ni formatos; [RO-§17] exige las auditorías sin evidencia; candidata Diana Martínez Silva (probosque.auditoria@) sin confirmar | Entrevista a R40/R43 + pedir el manual de calidad y el catálogo de formatos | B2–B3 · N-4, N-5 (→ X-03·V-01) |
 | **V-05** | El **Inventario General de Archivo 2026** no está en el repo: el sitio lo enlaza a un **SharePoint de UIPPE** (URL con caducidad) — solo el de 2025 está capturado | [ARCH-HTML] enlace `gobedomex-my.sharepoint.com/…Inventarios General de Archivos 2026.pdf` | Descargar desde el enlace del sitio a `Docs/Comun/Gestión documental y calidad/` (tarea) | A6 · N-3, N-9 |
-| **V-06** | **Desfase de versión CGCA vs. estructura**: el CGCA es de nov-2024 y el MGO vigente es del 16-dic-2025 (reordenó unidades: SSA/MIF, UJIGEV…) — ¿está actualizada la fórmula clasificadora? | [CUADRO] nov-2024 vs [GUIA] mar-2026 que ya cita el MGO 2025 (el marco normativo del [INVG] 2025 aún cita el MGO 2023) | Contrastar el CGCA 2024 con la estructura MGO 2025 (tarea de análisis) | A3 · N-2 |
+| **V-06** | **Desfase de versión CGCA vs. estructura**: el CGCA es de nov-2024 y el MGO vigente es del 16-dic-2025 (reordenó unidades: SSA/MIF, UJIGEV…) — ¿está actualizada la fórmula clasificadora? | [CUADRO] nov-2024 vs [GUIA] mar-2026 que ya cita el MGO 2025 (el marco normativo del [INVG] 2025 aún cita el MGO 2023); verif. 2026-09-30 con pdftotext: el marco del [CUADRO] p. 5 cita el MGO Gaceta 25-may-2023; "Erradicaci…" y "Servicios Ambientales" dan **0 coincidencias** en el CGCA — su sección 3C sigue siendo "Asuntos Jurídicos y de Igualdad de Género" y no hay sección para la SSA/MIF | Contrastar el CGCA 2024 con la estructura MGO 2025 (tarea de análisis) | A3 · N-2 |
 
 ### 11.2 Cerrados durante este análisis (2026-09-23)
 
@@ -197,7 +197,7 @@ Generados por `Docs/Joni/Diagramas/T01/gen-diagramas.mjs` (editar el script, no 
 | **A4** — registro y validación | CGCA de A3 + anexo 8.3 "Dictamen de Registro y Validación" | Datos de registro, observaciones de la instancia | **Dictamen de Registro y Validación del CGCA** (formato existe en blanco; instancia emisora → **V-02**) |
 | **A5** — Guía Simple | CGCA validado [GUIA] pp. 2–4 | Descripción de series: características fundamentales y control | **Guía Simple de Archivo 2026** (`Gestión documental y calidad/GUIA_Simple_Archivo_2026.pdf`; serie 2025–2026 en el sitio) |
 | **A6** — Inventario General | Expedientes por unidad (A2); hoja de inventario de 19 campos [INVG] p. 6 | No. progresivo, no. de expediente, serie, fórmula, nombre, legajos, documentos, fechas, ubicación física | **Inventario General de Archivo** firmado por responsable del archivo y titular (2025 capturado; 2026 → **V-05**) |
-| **A7** — carátula de expediente | CGCA (fórmula clasificadora) [CUADRO] anexos 8.1–8.2 | Código del expediente, título, fechas, unidad | **Carátula de Expediente de Archivo** (formato definido en el [CUADRO]) |
+| **A7** — carátula de expediente | CGCA (fórmula clasificadora — definición [INVG] pp. 6–7) [CUADRO] anexos 8.1–8.2 | Código del expediente, título, fechas, unidad | **Carátula de Expediente de Archivo** (formato definido en el [CUADRO]) |
 | **A8** — publicación | Instrumentos de A3–A7 | Versión y fecha de publicación | Instrumentos publicados en `Docs/Comun/Sitio web/coordinacion_archivos.html` (mecanismo de carga → T-02·V-06) |
 | **B1** — política y objetivos | Política y objetivos de calidad aprobados [ISO-HTML] | Metas cuantificadas por proceso (BR-7) | **Política y objetivos de calidad** publicados en `certificacion_iso9001.html` |
 | **B2** — operación del alcance | Formatos del SGC (Dictamen Técnico → **PA-01·V-05**; catálogo → **V-04**); procedimientos documentados (p. ej. `Gestión documental y calidad/RES_CEMER_Aprueba_Prot_VisitaVerificación_2020.pdf`) | Evidencias de operación de los 7 procesos (resoluciones, dictámenes, minutas, informes) | Registros del SGC por proceso (catálogo sin publicar → **V-04**) |
