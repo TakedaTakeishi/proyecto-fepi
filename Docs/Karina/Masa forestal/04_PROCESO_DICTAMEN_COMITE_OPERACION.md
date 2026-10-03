@@ -78,10 +78,10 @@ Prioridad: **A** = obligatoria (la exige norma o el proceso se detiene), **M** =
 
 | ID | Rol / Stakeholder | Necesidad | Prioridad | Origen | Paso del procedimiento relacionado |
 |---|---|---|---|---|---|
-| N-01 | R1 CAS | Quórum legal para instalar sesión y votar | A | Normativo — Reglamento Interno CAS | Paso 2. Requisito para iniciar la Fase 4 |
-| N-02 | R2 Órgano Interno de Control | Vigilar transparencia de la sesión (voz, sin voto) | A | Normativo — Reglamento Interno CAS | Paso 3. Interno a esta fase (paralelo) |
-| N-03 | R4 Solicitante | Acceder oportunamente a los listados publicados | A | Derivada — mecanismo oficial de notificación | Paso 7. Relacionado con Fase 5 (asignación) |
-| N-04 | Secretaría Técnica del CAS | Recabar firmas del acta en máximo 10 días hábiles | A | Normativo — Reglamento Interno CAS | Paso 6. Interno a esta fase |
+| N-01 | R1 CAS | Que **el quórum legal esté garantizado para instalar sesión y votar** | A | Normativo — Reglamento Interno CAS | Paso 2. Requisito para iniciar la Fase 4 |
+| N-02 | R2 Órgano Interno de Control | Que **la transparencia de la sesión pueda vigilarse (voz, sin voto)** | A | Normativo — Reglamento Interno CAS | Paso 3. Interno a esta fase (paralelo) |
+| N-03 | R4 Solicitante | Que **los listados publicados sean accesibles oportunamente** | A | Derivada — mecanismo oficial de notificación | Paso 7. Relacionado con Fase 5 (asignación) |
+| N-04 | Secretaría Técnica del CAS | Que **las firmas del acta queden recabadas dentro del plazo reglamentario** | A | Normativo — Reglamento Interno CAS | Paso 6. Interno a esta fase |
 
 ## 9. Registros que el proceso debe gestionar
 

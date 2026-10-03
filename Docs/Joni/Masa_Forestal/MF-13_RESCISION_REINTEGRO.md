@@ -127,16 +127,16 @@ Generados por `Docs/Joni/Diagramas/MF13/gen-diagramas.mjs` (editar el script, no
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R29·R30 | **Documentar el incumplimiento con evidencia** (minuta, informe, verificación, denuncia) y adjuntarla al expediente | A | A1–A2 | [RO-PSAH] pp. 16–17 §8.1.8 (cada causal exige un hecho comprobable) |
-| N-02 | R20 | Revisar **listado de incumplidos y predios con procedimientos/sanciones** antes de proponer la baja | A | A3 | [RO-PSAH] p. 20 §10.1·XV (verbatim) |
-| N-03 | R28 | Recibir **notificación con motivos** y saber cómo subsanar, desistir o acreditar al sucesor | A | A4, B2–B3 | [RO-PSAH] p. 17 §8.1.9.2·X–XII ("por cualquier medio"; desistimiento por escrito; 30 días hábiles) |
-| N-04 | Sec. Técnica (R19) / R32·R38 | Someter a sesión el **acuerdo de baja y reintegro** y asentarlo en acta | A | A5 | [RO-PSAH] p. 17 §8.1.9.3 ("previo acuerdo del Comité"); [RIC] p. 8 |
-| N-05 | R20 | **Gestionar la devolución** con acuerdo e instrucción del Comité (sin instrucción, no hay cobro) | A | A6–A8c | [RO-PSAH] p. 20 §10.1·XV; [RO-CC] p. 17 f. V |
-| N-06 | R15 | Proporcionar **la cuenta correcta** (fiduciaria en PSAHEM / PROBOSQUE en los demás) y registrar la devolución | A | A7–A8 | [RO-PSAH] p. 17 §8.1.9.3 vs [RO-CC] p. 15 §8.1.9.c — discrepancia verificada (BR-4) |
-| N-07 | R28 | **Comprobar el reintegro** (recibo/transferencia) y poder **salir del Listado** con prueba de cumplimiento | A | A8, C4 | [RO-PSAH] p. 17 §8.1.9.3·VI |
-| N-08 | R31·R15 | **Reasignar montos no ejercidos** a predios factibles sin cobertura, del mismo ejercicio | M | C1–C3 | [RO-PSAH] p. 17 §8.1.9.3·IV |
-| N-09 | R13 / OSFEM | **Pista de auditoría del dinero**: ministración → reintegro → reasignación, con fechas y montos ("¿cuánto regresó?") | A | C7 | [RO-PSAH] p. 21 §17 (OSFEM/Contraloría/OIC + auditorías ISO); pregunta del profesor 2026-09-22 |
-| N-10 | R31 → E-02 | Cifras de **reintegro y reasignación del ejercicio** listas para el informe anual sin recompilar | A | C7 | [RO-PSAH] p. 20 §16.1 → E-02·A2 |
+| N-01 | R29·R30 | Que **el incumplimiento quede documentado con su evidencia** (minuta, informe, verificación, denuncia) **adjunta al expediente** | A | A1–A2 | [RO-PSAH] pp. 16–17 §8.1.8 (cada causal exige un hecho comprobable) |
+| N-02 | R20 | Que **puedan consultarse el listado de incumplidos y los predios con procedimientos/sanciones** antes de proponer la baja | A | A3 | [RO-PSAH] p. 20 §10.1·XV (verbatim) |
+| N-03 | R28 | Que **le llegue notificación con motivos** y **sepa cómo subsanar, desistir o acreditar al sucesor** | A | A4, B2–B3 | [RO-PSAH] p. 17 §8.1.9.2·X–XII ("por cualquier medio"; desistimiento por escrito; 30 días hábiles) |
+| N-04 | Sec. Técnica (R19) / R32·R38 | Que **el acuerdo de baja y reintegro se sesione y quede asentado en acta** | A | A5 | [RO-PSAH] p. 17 §8.1.9.3 ("previo acuerdo del Comité"); [RIC] p. 8 |
+| N-05 | R20 | Que **la devolución solo se cobre con acuerdo e instrucción del Comité** (sin instrucción, no hay cobro) | A | A6–A8c | [RO-PSAH] p. 20 §10.1·XV; [RO-CC] p. 17 f. V |
+| N-06 | R15 | Que **se disponga de la cuenta correcta** (fiduciaria en PSAHEM / PROBOSQUE en los demás) y **la devolución quede registrada** | A | A7–A8 | [RO-PSAH] p. 17 §8.1.9.3 vs [RO-CC] p. 15 §8.1.9.c — discrepancia verificada (BR-4) |
+| N-07 | R28 | Que **el reintegro quede comprobado** (recibo/transferencia) y **pueda salirse del Listado** con prueba de cumplimiento | A | A8, C4 | [RO-PSAH] p. 17 §8.1.9.3·VI |
+| N-08 | R31·R15 | Que **los montos no ejercidos puedan reasignarse** a predios factibles sin cobertura, del mismo ejercicio | M | C1–C3 | [RO-PSAH] p. 17 §8.1.9.3·IV |
+| N-09 | R13 / OSFEM | Que **la ruta del dinero sea recuperable**: ministración → reintegro → reasignación, con fechas y montos ("¿cuánto regresó?") | A | C7 | [RO-PSAH] p. 21 §17 (OSFEM/Contraloría/OIC + auditorías ISO); pregunta del profesor 2026-09-22 |
+| N-10 | R31 → E-02 | Que **las cifras de reintegro y reasignación del ejercicio estén listas para el informe anual** sin recompilar | A | C7 | [RO-PSAH] p. 20 §16.1 → E-02·A2 |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

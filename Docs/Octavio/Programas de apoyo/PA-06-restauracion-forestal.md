@@ -95,11 +95,11 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R30 | **Validador Topológico Automático** en el SGD que rechace shapefiles sin SRC 32614 o con atributos inválidos | A | A4 | [GUIA p. 7][cite: 19, 28] |
-| N-02 | R30 | Motor de cruce geoespacial para detectar traslapes con polígonos apoyados en los últimos 5 años | A | A4 | [GUIA p. 8][cite: 19, 28] |
-| N-03 | R32 | Registro inmutable (Logs) de Actas del Comité que autorizan asignaciones o reintegros | A | A6, C4 | [RIC-RE Art. 12][cite: 15, 24] |
-| N-04 | R29 | Aplicación móvil offline para registrar minutas con fotografías georreferenciadas de las obras | M | C2 | [GUIA Anexo I][cite: 19, 28] |
-| N-05 | R15 | Trazabilidad del origen y destino del dinero: asociar folio del expediente con comprobante de transferencia o ficha de reintegro | A | B3, C3 | [RIC-RE Art. 12][cite: 15, 22] |
+| N-01 | R30 | Que **los shapefiles sin SRC 32614 o con atributos inválidos queden rechazados antes de aceptar el proyecto** | A | A4 | [GUIA p. 7][cite: 19, 28] |
+| N-02 | R30 | Que **los traslapes con polígonos apoyados en los últimos 5 años se detecten antes de dictaminar** | A | A4 | [GUIA p. 8][cite: 19, 28] |
+| N-03 | R32 | Que **las Actas del Comité que autorizan asignaciones o reintegros queden asentadas y no puedan alterarse** | A | A6, C4 | [RIC-RE Art. 12][cite: 15, 24] |
+| N-04 | R29 | Que **las minutas con fotografías georreferenciadas de las obras puedan registrarse en campo aun sin conexión** | M | C2 | [GUIA Anexo I][cite: 19, 28] |
+| N-05 | R15 | Que **el origen y destino del dinero se pueda seguir: del folio del expediente al comprobante de transferencia o ficha de reintegro** | A | B3, C3 | [RIC-RE Art. 12][cite: 15, 22] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

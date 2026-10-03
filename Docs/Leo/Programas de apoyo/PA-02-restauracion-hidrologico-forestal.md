@@ -94,10 +94,10 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R29 | Aplicación móvil GIS offline para que la DRF levante la poligonal en el paso A3 y la sincronice al expediente único | A | A3 | [FLUJO / RO-RHF p. 59][cite: 46, 54] |
-| N-02 | R31 | Generador automático de "Contratos de Adhesión" cruzando los datos del FO-PB-502 y los polígonos aprobados | A | B2 | [RO-RHF p. 60][cite: 51, 54] |
-| N-03 | R31 | **Módulo de Ajuste Proporcional:** Algoritmo en el SGD que recalcule automáticamente el pago final (30%) si la DRF reporta una superficie trabajada menor a la aprobada | A | C3 | [FLUJO / RO-RHF p. 60][cite: 46, 54] |
-| N-04 | R31 | Módulo de "Vale de Planta" interconectado con el inventario de los 17 viveros (Salida G9) para evitar sobre-asignación | M | B1 | [RO-RHF p. 55][cite: 54] |
+| N-01 | R29 | Que la DRF **pueda levantar la poligonal en campo y esta llegue sincronizada al expediente** | A | A3 | [FLUJO / RO-RHF p. 59][cite: 46, 54] |
+| N-02 | R31 | Que los **"Contratos de Adhesión" puedan emitirse con los datos del FO-PB-502 y los polígonos aprobados sin recapturarlos** | A | B2 | [RO-RHF p. 60][cite: 51, 54] |
+| N-03 | R31 | **Ajuste proporcional del pago final (30%):** Que cuando la superficie trabajada sea menor a la aprobada, el pago final **se recalcule proporcionalmente con justificación** | A | C3 | [FLUJO / RO-RHF p. 60][cite: 46, 54] |
+| N-04 | R31 | Que el "Vale de Planta" **se vincule al inventario real de los 17 viveros (Salida G9) y se evite la sobre-asignación** | M | B1 | [RO-RHF p. 55][cite: 54] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

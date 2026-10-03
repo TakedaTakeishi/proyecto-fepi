@@ -78,11 +78,11 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental |
 |---|---|---|---|---|---|
-| N-MF09-01 | R-03 | Módulo de diseño muestral y asignación de conglomerados espaciales | M | MF09·P1 | [INV-FOR]; Metodología Inventario[cite: 5.2] |
-| N-MF09-02 | R-01 | Interfaz móvil con formularios validados para captura de mediciones dasométricas | A | MF09·P2 | [INV-FOR pp. 12–15] |
-| N-MF09-03 | R-02 | Algoritmo biométrico de cálculo automático de volumen de madera y biomasa | A | MF09·P4 | Estándar de Biometría Forestal |
-| N-MF09-04 | R-03 | Publicador de servicios geográficos WMS/WFS de la capa oficial de vegetación | A | MF09·P5 | [MGO pp. 21–22][cite: 3] |
-| N-MF09-05 | R-04 | Repositorio de versiones históricas del Inventario Estatal para análisis multitemporal | M | MF09·P6 | Art. 35 LGDFS |
+| N-MF09-01 | R-03 | Que **el diseño muestral se aplique y los conglomerados espaciales queden asignados** | M | MF09·P1 | [INV-FOR]; Metodología Inventario[cite: 5.2] |
+| N-MF09-02 | R-01 | Que **las mediciones dasométricas puedan capturarse en campo en formato validado** | A | MF09·P2 | [INV-FOR pp. 12–15] |
+| N-MF09-03 | R-02 | Que **el volumen de madera y la biomasa se calculen de forma consistente** | A | MF09·P4 | Estándar de Biometría Forestal |
+| N-MF09-04 | R-03 | Que **la capa oficial de vegetación sea consultable y compartible** | A | MF09·P5 | [MGO pp. 21–22][cite: 3] |
+| N-MF09-05 | R-04 | Que **las versiones históricas del Inventario Estatal se conserven y puedan compararse** | M | MF09·P6 | Art. 35 LGDFS |
 
 ---
 

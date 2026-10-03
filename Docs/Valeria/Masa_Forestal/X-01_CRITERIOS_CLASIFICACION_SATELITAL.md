@@ -103,12 +103,12 @@ flowchart TD
 
 | ID | Rol | Necesidad del SGD | Prior. | Paso | Origen documental verificado |
 |---|---|---|---|---|---|
-| N-X01-01 | R-01 | Módulo de ingesta y preprocesamiento con filtros de calibración atmosférica BOA (Bottom of Atmosphere) | A | X01·P1 | Estándar de Teledetección [INV-FOR] |
-| N-X01-02 | R-02 | Librería algorítmica geoespacial para cálculo raster multiespectral (NDVI, SAVI, NBR, dNBR) | A | X01·P2 | [RO-PSAH pp. 4, 8]; Práctica teledetección |
-| N-X01-03 | R-02 | Clasificador supervisado con umbrales fijos de dosel y máscara de exclusión antrópica | A | X01·P3 | [RO-PSAH p. 8; RO-CARB pp. 7–9] |
-| N-X01-04 | R-02 | Motor de detección de cambios multitemporales pixel a pixel con escenas basales | A | X01·P4 | Metodología de Monitoreo [INV-FOR]; Arts. 35-36 LGDFS |
-| N-X01-05 | R-01 | Panel de semaforización de alertas tempranas (deforestación, incendios, descortezadores) | M | X01·P5 | [RO-PSAH p. 21; Manual Proc. pp. 27–28] |
-| N-X01-06 | R-03 | Generador automatizado de reportes GeoPDF temáticos y capas vectoriales exportables | A | X01·P6 | [RO-PSAH p. 19; MGO 2025 pp. 21–22] |
+| N-X01-01 | R-01 | Que **las escenas lleguen corregidas a reflectancia de superficie (BOA) y sean utilizables** | A | X01·P1 | Estándar de Teledetección [INV-FOR] |
+| N-X01-02 | R-02 | Que **los índices multiespectrales (NDVI, SAVI, NBR, dNBR) se calculen de forma uniforme** | A | X01·P2 | [RO-PSAH pp. 4, 8]; Práctica teledetección |
+| N-X01-03 | R-02 | Que **la clasificación aplique los umbrales fijos de dosel y la máscara de exclusión antrópica** | A | X01·P3 | [RO-PSAH p. 8; RO-CARB pp. 7–9] |
+| N-X01-04 | R-02 | Que **el cambio respecto de las escenas basales pueda detectarse pixel a pixel** | A | X01·P4 | Metodología de Monitoreo [INV-FOR]; Arts. 35-36 LGDFS |
+| N-X01-05 | R-01 | Que **las alertas tempranas (deforestación, incendios, descortezadores) lleguen a tiempo para actuar** | M | X01·P5 | [RO-PSAH p. 21; Manual Proc. pp. 27–28] |
+| N-X01-06 | R-03 | Que **los reportes temáticos GeoPDF y las capas vectoriales exportables estén disponibles** | A | X01·P6 | [RO-PSAH p. 19; MGO 2025 pp. 21–22] |
 
 ---
 

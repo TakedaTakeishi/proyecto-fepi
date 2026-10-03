@@ -119,17 +119,17 @@ Generados por `Docs/Joni/Diagramas/E02/gen-diagramas.mjs`.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R37 | **Consolidar por beneficiario** lo ejecutado en el año (contrato, pagos, minuta, informe final, incumplimiento) sin rehacer expedientes a mano | A | A1 | [RO-PSAH pdf p. 20 §15 seguimiento; pdf p. 17 §8.1.9]; el registro existe paso a paso en PA-01·C3–C7 |
-| N-02 | R37 | Saber **qué se le pide al informe anual** (contenido mínimo) y con qué cifras de presupuesto cerrar | A | A2 | [RO-CC pdf p. 18 "ejecución del programa"; ANEXOS23 pdf p. 2 muestra las cifras exigidas (autorizado/modificado/ejercido)] ⚠️ ningún RO define el contenido → V-01 |
-| N-03 | R19·R21 (Sec. Técnica) | Convocar con la **documentación completa 3 días hábiles antes** y registrar asistencia/quórum | A | A3 | [RCE arts. 19–20 pdf p. 4 y p. 6] |
-| N-04 | vocales R38/R32 (vía **Sec. Técnica = R19**) | Recibir el informe **antes de autorizarlo** y dejar el acuerdo en acta (quien remite y registra es R19; quien firma convocatorias es la Presidencia — V-04) | A | A4 | [RCE art. 5 f. XI pdf p. 4; arts. 20–21 pdf pp. 6–7] |
-| N-05 | R15 | Reportar el **trimestre en el formato de ayudas y subsidios** sin duplicar capturas | M | A5 | [FIN-AYS — escaneado; verificado visualmente 2026-09-19: hoja T2-2026 declara "NO APLICA"] ⚠️ contradicción aparente → V-05 |
-| N-06 | R21 | Saber **qué Pp./proyecto será evaluado** cada año (PAE) para preparar la información | A | B1, B3 | [EVAL-H serie 2014–2023; CONAC23 pdf p. 1 §1.5] |
-| N-07 | R21 | Designar y sostener a la **persona de seguimiento** durante los ~6 meses que dura la evaluación (25-may→11-dic en 2023) | A | B2, B4 | [CONAC23 pdf p. 1 §§1.2–1.4] |
-| N-08 | R21·R37 | Entregar a la evaluadora (FF2022: **María Eugenia Morales Rodríguez**, SINSA) **padrones y evidencia de ejecución** (superficies, beneficiarios, montos) con calidad verificable | A | B3 | [CONAC23 pdf p. 2 obj. específicos; pdf p. 6 §4 datos de la instancia evaluadora] |
-| N-09 | R21 | Dar **cumplimiento documentado a los hallazgos** (convenio + acta) y conservar la evidencia para la siguiente evaluación | A | B5, B6 | [EVAL-H §Vigésima Sexta: cada evaluación 2014–2023 publicada con convenio y acta de cumplimiento] |
-| N-10 | R13 | Cruzar **quejas/denuncias turnadas** con el listado de incumplidos del año | M | A1, A4 | [RCE art. 5 f. XII pdf p. 4; RO-PSAH §18 pdf p. 21] |
-| N-11 | R21 | Alimentary E-04 con los resultados **sin volver a preguntar a las áreas** (una sola captura temporada→SIED) | M | A5, B6 | [MGO25 pdf pp. 16–17 UIPPE f.11/f.13; BR-10] |
+| N-01 | R37 | Que **lo ejecutado en el año (contrato, pagos, minuta, informe final, incumplimiento) esté consolidado por beneficiario** sin rehacer expedientes a mano | A | A1 | [RO-PSAH pdf p. 20 §15 seguimiento; pdf p. 17 §8.1.9]; el registro existe paso a paso en PA-01·C3–C7 |
+| N-02 | R37 | Que **esté definido qué se le pide al informe anual** (contenido mínimo) y con qué cifras de presupuesto cerrar | A | A2 | [RO-CC pdf p. 18 "ejecución del programa"; ANEXOS23 pdf p. 2 muestra las cifras exigidas (autorizado/modificado/ejercido)] ⚠️ ningún RO define el contenido → V-01 |
+| N-03 | R19·R21 (Sec. Técnica) | Que la sesión **se convoque con la documentación completa 3 días hábiles antes** y **asistencia/quórum queden registrados** | A | A3 | [RCE arts. 19–20 pdf p. 4 y p. 6] |
+| N-04 | vocales R38/R32 (vía **Sec. Técnica = R19**) | Que el informe **les llegue antes de autorizarlo** y **el acuerdo quede en acta** (quien remite y registra es R19; quien firma convocatorias es la Presidencia — V-04) | A | A4 | [RCE art. 5 f. XI pdf p. 4; arts. 20–21 pdf pp. 6–7] |
+| N-05 | R15 | Que **el trimestre se reporte en el formato de ayudas y subsidios sin duplicar capturas** | M | A5 | [FIN-AYS — escaneado; verificado visualmente 2026-09-19: hoja T2-2026 declara "NO APLICA"] ⚠️ contradicción aparente → V-05 |
+| N-06 | R21 | Que **se sepa con anticipación qué Pp./proyecto será evaluado cada año** (PAE) para preparar la información | A | B1, B3 | [EVAL-H serie 2014–2023; CONAC23 pdf p. 1 §1.5] |
+| N-07 | R21 | Que **haya persona de seguimiento designada y sostenida durante los ~6 meses que dura la evaluación** (25-may→11-dic en 2023) | A | B2, B4 | [CONAC23 pdf p. 1 §§1.2–1.4] |
+| N-08 | R21·R37 | Que **padrones y evidencia de ejecución (superficies, beneficiarios, montos) lleguen a la evaluadora con calidad verificable** (FF2022: **María Eugenia Morales Rodríguez**, SINSA) | A | B3 | [CONAC23 pdf p. 2 obj. específicos; pdf p. 6 §4 datos de la instancia evaluadora] |
+| N-09 | R21 | Que **los hallazgos tengan cumplimiento documentado** (convenio + acta) **y la evidencia quede conservada** para la siguiente evaluación | A | B5, B6 | [EVAL-H §Vigésima Sexta: cada evaluación 2014–2023 publicada con convenio y acta de cumplimiento] |
+| N-10 | R13 | Que **las quejas/denuncias turnadas puedan cruzarse con el listado de incumplidos del año** | M | A1, A4 | [RCE art. 5 f. XII pdf p. 4; RO-PSAH §18 pdf p. 21] |
+| N-11 | R21 | Que **E-04 pueda alimentarse de los resultados sin volver a preguntar a las áreas** (una sola captura temporada→SIED) | M | A5, B6 | [MGO25 pdf pp. 16–17 UIPPE f.11/f.13; BR-10] |
 
 ## 10. Registros que el SGD debe gestionar
 

@@ -84,11 +84,11 @@ Prioridad: **A** = obligatoria · **M** = media · **B** = deseable.
 
 | ID | Rol | Necesidad | P | Paso | Origen |
 |---|---|---|---|---|---|
-| N-01 | R2 | **Plataforma de Despacho Asistido (CAD)** que permita registrar el reporte, geolocalizar el punto de calor y asignar la brigada más cercana en tiempo real | A | B2 | [RLGDFS Art. 210][cite: 11] |
-| N-02 | R3 | Registro en sistema móvil (offline) de los kilómetros de brechas cortafuego construidas para alimentar el tablero de indicadores en tiempo real | A | A2 | [WEB-INF][cite: 31] |
-| N-03 | R4 | Módulo del **Sistema de Comando de Incidentes** para documentar el Plan de Acción del Incidente (PAI), asignación de recursos y bitácora de comunicaciones | A | C3 | [MGO / RLGDFS Art. 209][cite: 11, 32] |
-| N-04 | R2 | Herramienta SIG para trazar el polígono final quemado, calcular el área exacta (ha) e integrarlo al Histórico de Masa Forestal | A | D2 | [WEB-INF][cite: 31] |
-| N-05 | R2 | Clasificador automático de impacto (Mínimo, Moderado, Severo) basado en la evaluación de mortalidad arbórea capturada en campo | M | D2 | [RLGDFS Art. 212][cite: 11] |
+| N-01 | R2 | Que **el reporte quede registrado, el punto de calor geolocalizado y la brigada más cercana asignada en tiempo real** | A | B2 | [RLGDFS Art. 210][cite: 11] |
+| N-02 | R3 | Que **los kilómetros de brechas cortafuego construidas queden registrados en campo y disponibles para los indicadores** | A | A2 | [WEB-INF][cite: 31] |
+| N-03 | R4 | Que **el Plan de Acción del Incidente (PAI), la asignación de recursos y las comunicaciones queden documentados durante el incidente** | A | C3 | [MGO / RLGDFS Art. 209][cite: 11, 32] |
+| N-04 | R2 | Que **el polígono final quemado pueda trazarse, su área exacta (ha) calcularse e integrarse al Histórico de Masa Forestal** | A | D2 | [WEB-INF][cite: 31] |
+| N-05 | R2 | Que **el impacto quede clasificado (Mínimo, Moderado, Severo) a partir de la mortalidad arbórea capturada en campo** | M | D2 | [RLGDFS Art. 212][cite: 11] |
 
 ## 10. Registros que el SGD debe gestionar (catálogo documental)
 

@@ -76,11 +76,11 @@ Prioridad: **A** = obligatoria (la exige norma o el proceso se detiene), **M** =
 
 | ID | Rol / Stakeholder | Necesidad | Prioridad | Origen | Paso del procedimiento relacionado |
 |---|---|---|---|---|---|
-| N-01 | R1 UIPPE | Dar seguimiento y difundir los resultados de la evaluación | A | Normativo — Programa Anual de Evaluación[cite: 3] | Paso 1 y 2. Origen del ciclo de reporte |
-| N-02 | R2 Instancia evaluadora externa | Emitir hallazgos y Aspectos Susceptibles de Mejora (ASM) | M | Normativo — CONEVAL / PAE[cite: 3] | Paso 3. Evaluación metodológica |
-| N-03 | R3 Dirección General de PROBOSQUE | Suscribir y validar los resultados publicados | A | Organizacional[cite: 3] | Paso 4. Autorización previa a publicación |
-| N-04 | Ciudadanía / público general | Acceder al informe de resultados de forma pública y comprensible | A | Inferida — Ley de Transparencia y Acceso a la Información Pública del Edomex[cite: 3] | Paso 5. Difusión final en Portal de Transparencia |
-| N-05 | R1 UIPPE | Contar con un mecanismo formal de seguimiento a los ASM (responsables y fechas) | M | Inferida — no se documentó un mecanismo formal más allá de su mención genérica[cite: 3] | Paso 6. Retroalimentación a Fases 2 y 3 |
+| N-01 | R1 UIPPE | Que **los resultados de la evaluación tengan seguimiento y se difundan** | A | Normativo — Programa Anual de Evaluación[cite: 3] | Paso 1 y 2. Origen del ciclo de reporte |
+| N-02 | R2 Instancia evaluadora externa | Que **los hallazgos y Aspectos Susceptibles de Mejora (ASM) queden emitidos** | M | Normativo — CONEVAL / PAE[cite: 3] | Paso 3. Evaluación metodológica |
+| N-03 | R3 Dirección General de PROBOSQUE | Que **los resultados publicados estén suscritos y validados** | A | Organizacional[cite: 3] | Paso 4. Autorización previa a publicación |
+| N-04 | Ciudadanía / público general | Que **el informe de resultados sea de acceso público y comprensible** | A | Inferida — Ley de Transparencia y Acceso a la Información Pública del Edomex[cite: 3] | Paso 5. Difusión final en Portal de Transparencia |
+| N-05 | R1 UIPPE | Que **el seguimiento a los ASM tenga responsables y fechas definidos y recuperables** | M | Inferida — no se documentó un mecanismo formal más allá de su mención genérica[cite: 3] | Paso 6. Retroalimentación a Fases 2 y 3 |
 
 ## 9. Registros que el proceso debe gestionar
 
