@@ -140,7 +140,6 @@
 
 ## 8. Diagramas de actividad
 
-Generados por `Docs/Joni/Diagramas/T02/gen-diagramas.mjs` (editar el script, no los `.svg`).
 
 ![T2·A ordenamientos](../Diagramas/T02/T2-A-ordenamientos.svg)
 
