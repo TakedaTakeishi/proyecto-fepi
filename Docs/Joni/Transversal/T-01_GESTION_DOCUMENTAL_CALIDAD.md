@@ -42,6 +42,7 @@
 | IQNET | Red internacional de organismos de certificación (NYCE es miembro; emite el registro MX-…) |
 | NYCE | Normalización y Certificación NYCE, S.C. — organismo de certificación del SGC |
 | PADA / PIDA | Programa (antes Plan) Institucional/Anual de Desarrollo Archivístico |
+| Serie documental | Categoría archivística definida en el propio CGCA §7 m) p. 16: "la división de una Sección que corresponde al conjunto de documentos producidos en el desarrollo de una misma atribución general, integrados en Expedientes de acuerdo con un asunto, actividad o trámite específico". En PROBOSQUE se codifica `sección.serie` en la tabla del CGCA (pp. 11–15: p. ej. `1S.1` Atención a zonas críticas forestales, `1S.5` Sanidad Forestal, `1C.2` Sistema de Gestión de Calidad); la Guía Simple es el instrumento que las describe ([GUIA] pp. 2, 4) y el Inventario captura su clave por expediente ([INVG] p. 7). ⚠️ No confundir con el uso de "serie" como sucesión anual de publicaciones del sitio (serie PADA/PIDA 2020–2026, [ARCH-HTML]) |
 | SGC | Sistema de Gestión de la Calidad (ISO 9001) |
 | SIA | Sistema Institucional de Archivos de PROBOSQUE |
 | UAZC | Unidad de Atención a Zonas Críticas (aparece en el Prot. Visita de Verificación) |
@@ -120,7 +121,7 @@
 
 ## 8. Diagramas de actividad
 
-Generados por `Docs/Joni/Diagramas/T01/gen-diagramas.mjs` (editar el script, no los `.svg`).
+
 
 ![T01·A](../Diagramas/T01/T01-A-archivo.svg)
 
