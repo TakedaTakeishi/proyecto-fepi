@@ -58,5 +58,5 @@ Al revisar, corregir o consolidar una necesidad de `Docs/TABLA_NECESIDADES.md` o
 
 ## Git
 
-- Cada integrante trabaja en su carpeta (`Docs/Joni|Leo|Octavio|Valeria/`) y sube a su rama (`joni_rama`, `alan_rama`, `rama-karina`); el merge a `main` se hace al condensar avance, con mensaje `Merge: cambios de <nombre>`. **Jon es quien hace los merges**; commits estructurales/consolidación (p. ej. reorganizar el repo) van directo en `main`. No force-push sin pedirlo.
+- Cada integrante trabaja en su carpeta (`Docs/Joni|Leo|Octavio|Valeria/`) y sube a su rama (`joni-rama`, `alan_rama`, `rama-karina`); el merge a `main` se hace al condensar avance, con mensaje `Merge: cambios de <nombre>`. **Jon es quien hace los merges**; commits estructurales/consolidación (p. ej. reorganizar el repo) van directo en `main`. No force-push sin pedirlo.
 - Idioma de documentos, commits y conversación: español.
