@@ -59,7 +59,7 @@ Reutilizo IDs previos (R13 OIC, R15 DAFGD, R19 DG, R20 UJIGEV, R21 UIPPE, R29 DR
 | R21 | UIPPE — enlace con la evaluación estatal: pone la **persona responsable del seguimiento** de cada evaluación (2023: Lic. Jessica Fabiola Luja Navas), provee datos de MIR/presupuesto, consolida para E-04 | **Margarita Olivares Márquez** ([DIR] l.23–26; [CONAC23 p. 1 §1.4]) | Interno |
 | R19 | DG — Secretaría Técnica de los R38; firma y presenta los acuerdos (RO, informes) | **Alejandro Santiago Sánchez Vélez** | Interno |
 | R15 | DAFGD — cifras de presupuesto autorizado/modificado/ejercido (insumo del informe y del Anexo 1) | **Irán Terán Cordero** | Interno |
-| R13 | OIC — vocal de los comités; recibe quejas/denuncias turnadas (facultad XII del comité) | **Jesús Alejandro Rentería Núñez** | Interno |
+| R13 | OIC — vocal de los comités; recibe quejas/denuncias turnadas (facultad XI del comité) | **Jesús Alejandro Rentería Núñez** | Interno |
 | R15 | — (no se crea rol para Finanzas estatal: **es destino, no actor**; quien reporta es **Irán Terán Cordero**, DAFGD, ya personificada como R15 en G09/GS3/PA-01) | — | Externo destino |
 
 ## 5. Funciones y actividades por rol
@@ -68,7 +68,7 @@ Reutilizo IDs previos (R13 OIC, R15 DAFGD, R19 DG, R20 UJIGEV, R21 UIPPE, R29 DR
 |---|---|---|
 | R37 | Consolidar ejecución por beneficiario (contratos, pagos, minutas, incumplidos); elaborar informe anual de ejecución | A1, A2 |
 | R19/R21 (Sec. Técnica) | Convocar sesión (3 días con documentación), turnar el informe, levantar acta | A3, A4 |
-| R38/R32 | **Autorizar el Informe Anual de Resultados** (f. XI); conocer listados y resultados | A4 |
+| R38/R32 | **Autorizar el Informe Anual de Resultados** (f. X); conocer listados y resultados | A4 |
 | R37/R21 | Difundir: resultados en sitio, formato de ayudas y subsidios, transparencia | A5 |
 | R39 | Ejecuta la evaluación externa (recaba, analiza, entrega informe con hallazgos); el PAE lo emite la instancia estatal convocante | B3, B4 |
 | R21 | Responsable del seguimiento interno de la evaluación; proveer MIR/presupuesto/cobertura; dar cumplimiento a hallazgos (acta) | B2, B3, B5 |
@@ -84,7 +84,7 @@ Reutilizo IDs previos (R13 OIC, R15 DAFGD, R19 DG, R20 UJIGEV, R21 UIPPE, R29 DR
 - **BR-5** El marco estadístico es la **MIR del Pp. 03020201 "Desarrollo Forestal"** (6 proyectos; los apoyos = proyecto "Servicios ambientales de los ecosistemas forestales"); las evaluaciones estatales valoran metas, indicadores y calidad de la información para rendición de cuentas [ANEXOS23 pdf p. 2; CONAC23 pdf pp. 1–2].
 - **BR-6** Cada evaluación estatal cierra con **Convenio para la mejora del desempeño y resultados gubernamentales** + **acta de cumplimiento de hallazgos y recomendaciones**, publicados en el sitio [EVAL-H].
 - **BR-7** La ejecución se reporta también en el formato trimestral oficial de **"Montos pagados por ayudas y subsidios"** [FIN-AYS — el T2-2026 visto el 2026-09-19 declara "NO APLICA" ⚠️ V-05].
-- **BR-8** Auditoría y fiscalización de los resultados: OSFEM, Contraloría, OIC y auditorías ISO sobre el proceso certificado [RO §17]; las quejas turnadas al OIC alimentan el listado de incumplidos [RCE art. 5 f. XII p. 4; RO-PSAH §18 p. 21].
+- **BR-8** Auditoría y fiscalización de los resultados: OSFEM, Contraloría, OIC y auditorías ISO sobre el proceso certificado [RO §17]; las quejas turnadas al OIC alimentan el listado de incumplidos [RCE art. 5 f. XI p. 4; RO-PSAH §18 p. 21].
 - **BR-9** Los acuerdos que modifican RO y reglamentos de comité pasan por los canales de T-02: aprobación del comité (CAS-CC/…), del Consejo Directivo (PBE/…) y publicación en Gaceta [RO-CC p. 3; RCE cabecera 15-ene-2025].
 - **BR-10** E-02 alimenta a E-04: la UIPPE consolida avances de metas del Programa Anual y del SIED con estos resultados [MGO25 pdf pp. 16–17 UIPPE f.11/f.13].
 
@@ -95,7 +95,7 @@ Reutilizo IDs previos (R13 OIC, R15 DAFGD, R19 DG, R20 UJIGEV, R21 UIPPE, R29 DR
 - **A1** R37 consolida por beneficiario: contratos firmados, ministraciones pagadas (70/30), minutas de verificación, informes finales, bajas/reintegros e incumplidos [RO-PSAH §7.2, 8.1.9; PA-01·C4–C7].
 - **A2** R37 elabora el **informe anual de ejecución** (contenido no estandarizado — V-01); R15 aporta cifras de presupuesto autorizado/modificado/ejercido [ANEXOS23 p. 2 como precedente del tipo de cifras].
 - **A3** R19/R21 como **Secretaría Técnica** convoca a sesión y remite la documentación 3 días hábiles antes [RCE arts. 19–20 p. 4].
-- **A4** R38 (o R32 en PSAHEM) **aprueba/autoriza el Informe Anual de Resultados** en sesión; acuerdos asentados en acta [RCE f. XI p. 4; BR-2].
+- **A4** R38 (o R32 en PSAHEM) **aprueba/autoriza el Informe Anual de Resultados** en sesión; acuerdos asentados en acta [RCE f. X p. 4; BR-2].
 - **A5** Difusión y obligación accesoria: resultados en el sitio, formato trimestral de ayudas y subsidios a Finanzas, obligaciones de transparencia [RO §14; FIN-AYS; BR-7].
 
 ### Proceso B — Ciclo estatal de evaluación (Pp. 03020201)
@@ -122,20 +122,20 @@ Generados por `Docs/Joni/Diagramas/E02/gen-diagramas.mjs`.
 | N-01 | R37 | Que **lo ejecutado en el año (contrato, pagos, minuta, informe final, incumplimiento) esté consolidado por beneficiario** sin rehacer expedientes a mano | A | A1 | [RO-PSAH pdf p. 20 §15 seguimiento; pdf p. 17 §8.1.9]; el registro existe paso a paso en PA-01·C3–C7 |
 | N-02 | R37 | Que **esté definido qué se le pide al informe anual** (contenido mínimo) y con qué cifras de presupuesto cerrar | A | A2 | [RO-CC pdf p. 18 "ejecución del programa"; ANEXOS23 pdf p. 2 muestra las cifras exigidas (autorizado/modificado/ejercido)] ⚠️ ningún RO define el contenido → V-01 |
 | N-03 | R19·R21 (Sec. Técnica) | Que la sesión **se convoque con la documentación completa 3 días hábiles antes** y **asistencia/quórum queden registrados** | A | A3 | [RCE arts. 19–20 pdf p. 4 y p. 6] |
-| N-04 | vocales R38/R32 (vía **Sec. Técnica = R19**) | Que el informe **les llegue antes de autorizarlo** y **el acuerdo quede en acta** (quien remite y registra es R19; quien firma convocatorias es la Presidencia — V-04) | A | A4 | [RCE art. 5 f. XI pdf p. 4; arts. 20–21 pdf pp. 6–7] |
+| N-04 | vocales R38/R32 (vía **Sec. Técnica = R19**) | Que el informe **les llegue antes de autorizarlo** y **el acuerdo quede en acta** (quien remite y registra es R19; quien firma convocatorias es la Presidencia — V-04) | A | A4 | [RCE art. 5 f. X pdf p. 4; arts. 20–21 pdf pp. 6–7] |
 | N-05 | R15 | Que **el trimestre se reporte en el formato de ayudas y subsidios sin duplicar capturas** | M | A5 | [FIN-AYS — escaneado; verificado visualmente 2026-09-19: hoja T2-2026 declara "NO APLICA"] ⚠️ contradicción aparente → V-05 |
 | N-06 | R21 | Que **se sepa con anticipación qué Pp./proyecto será evaluado cada año** (PAE) para preparar la información | A | B1, B3 | [EVAL-H serie 2014–2023; CONAC23 pdf p. 1 §1.5] |
 | N-07 | R21 | Que **haya persona de seguimiento designada y sostenida durante los ~6 meses que dura la evaluación** (25-may→11-dic en 2023) | A | B2, B4 | [CONAC23 pdf p. 1 §§1.2–1.4] |
 | N-08 | R21·R37 | Que **padrones y evidencia de ejecución (superficies, beneficiarios, montos) lleguen a la evaluadora con calidad verificable** (FF2022: **María Eugenia Morales Rodríguez**, SINSA) | A | B3 | [CONAC23 pdf p. 2 obj. específicos; pdf p. 6 §4 datos de la instancia evaluadora] |
 | N-09 | R21 | Que **los hallazgos tengan cumplimiento documentado** (convenio + acta) **y la evidencia quede conservada** para la siguiente evaluación | A | B5, B6 | [EVAL-H §Vigésima Sexta: cada evaluación 2014–2023 publicada con convenio y acta de cumplimiento] |
-| N-10 | R13 | Que **las quejas/denuncias turnadas puedan cruzarse con el listado de incumplidos del año** | M | A1, A4 | [RCE art. 5 f. XII pdf p. 4; RO-PSAH §18 pdf p. 21] |
+| N-10 | R13 | Que **las quejas/denuncias turnadas puedan cruzarse con el listado de incumplidos del año** | M | A1, A4 | [RCE art. 5 f. XI pdf p. 4; RO-PSAH §18 pdf p. 21] |
 | N-11 | R21 | Que **E-04 pueda alimentarse de los resultados sin volver a preguntar a las áreas** (una sola captura temporada→SIED) | M | A5, B6 | [MGO25 pdf pp. 16–17 UIPPE f.11/f.13; BR-10] |
 
 ## 10. Registros que el SGD debe gestionar
 
 | Registro | Identificador | Fuente |
 |---|---|---|
-| Informe anual de ejecución por programa | ejercicio + programa + acta de autorización del comité | [RO §15/§16; RCE f. XI] |
+| Informe anual de ejecución por programa | ejercicio + programa + acta de autorización del comité | [RO §15/§16; RCE f. X] |
 | Actas de sesión del Comité de Admisión y Seguimiento | clave tipo CAS-CC/nn.EXT/nnn/aaaa | [RO-CC p. 3; RCE arts. 19–21] |
 | Autorización de RO por consejo/comité | acuerdo PBE/… (Consejo) + CAS/… (comité) + Gaceta | [RO-CC p. 3; T-02] |
 | Padrones y resultados por beneficiario-año | folio de expediente (PA-01) → agregado por programa | [PA-01 §10] |
@@ -149,7 +149,7 @@ Generados por `Docs/Joni/Diagramas/E02/gen-diagramas.mjs`.
 
 | ID | Qué falta en el mundo real | Evidencia de que es vacío | Cómo se cierra | Afecta |
 |---|---|---|---|---|
-| **V-01** | La **plantilla/contenido del informe anual de ejecución**: ningún RO ni reglamento de comité define qué debe traer (métricas, formato, anexos) | [RO pdf §15/§16 en los 5] solo mandan "presentar"; [RCE f. XI] solo "autorizar"; los PDF/docx de `Reportes por reclamar/` son informes de investigación del equipo, no oficiales | Entrevistar SSA/MIF y Sec. Técnica de un comité; pedir un informe de ejercicio anterior anonimizado | N-02 · A2 |
+| **V-01** | La **plantilla/contenido del informe anual de ejecución**: ningún RO ni reglamento de comité define qué debe traer (métricas, formato, anexos) | [RO pdf §15/§16 en los 5] solo mandan "presentar"; [RCE f. X] solo "autorizar"; los PDF/docx de `Reportes por reclamar/` son informes de investigación del equipo, no oficiales | Entrevistar SSA/MIF y Sec. Técnica de un comité; pedir un informe de ejercicio anterior anonimizado | N-02 · A2 |
 | **V-02** | **Actas de los Comités de Admisión y Seguimiento** (las que autorizan informes y aprueban RO): no publicadas (a diferencia de las del Comité de Mejora Regulatoria de T-02) | `mejora-regulatoria.html` sí publica actas; no hay sección equivalente para los comités CAS (búsqueda en [MJ-HTML]/[MR-HTML]) | SAIMEX/transparencia; entrevista UJIGEV | N-04 · A4 |
 | **V-03** | **PAE 2026**: no se capturó el programa anual de evaluación vigente (solo el historial 2014–2023 del sitio) | [EVAL-H] lista hasta 2023; no hay liga a PAE 2026 | Sitio de la Subsecretaría de Planeación (estatal) — tarea | N-06 · B1 |
 | **V-04** | **Titulares 2026 de los comités** (Presidencia por la Secretaría del Campo; quiénes ocupan las vocalías externas e internas) | [RCE art. 5] define cargos sin nombres; [DIR] no cubre nivel estatal | Acta de instalación/primera sesión (V-02) o oficios de designación | N-03, N-04 · A3–A4 |
@@ -179,11 +179,11 @@ Generados por `Docs/Joni/Diagramas/E02/gen-diagramas.mjs`.
 > Retro-ajuste del **2026-09-23** (énfasis 1 del sprint). Una fila por paso del §7. Rutas reales en `Docs/Comun/` o `[clave]` + página del §2; sistemas externos nombrados con el campo que aportan. Huecos → `V-##`. Los productos del Proceso A se nutren de los registros de **PA-01·B3–C7**; los del Proceso B y la difusión salen hacia **E-04** (BR-10).
 
 | Paso | Documento / dato de entrada | Datos que se capturan / procesan | Documento de salida |
-|---|---|---|---|
-| **A1** — consolidación por beneficiario | Registros de PA-01: contratos firmados (PA-01·B3), comprobantes de ministraciones 70/30 (PA-01·B5/C5), **minutas de verificación** e **informes finales** (PA-01·C3–C4 → **PA-01·V-06**), listado de incumplidos y acuerdos de reintegro (PA-01·C6–C7); quejas/denuncias turnadas al OIC [RCE art. 5 f. XII, `Docs/Comun/Programas de apoyo/Comites/REGLAMENTO_Comite_*.pdf` p. 4] | Por beneficiario-año: contrato y vigencia, montos ministrados (70/30), verificación (cumple/no cumple), incumplimiento y reintegro, denuncias asociadas | Padrón consolidado de ejecución por beneficiario (tabla de trabajo del área; sin formato estandarizado → contenido mínimo del informe → **V-01**) |
+| --- | --- | --- | --- |
+| **A1** — consolidación por beneficiario | Registros de PA-01: contratos firmados (PA-01·B3), comprobantes de ministraciones 70/30 (PA-01·B5/C5), **minutas de verificación** e **informes finales** (PA-01·C3–C4 → **PA-01·V-06**), listado de incumplidos y acuerdos de reintegro (PA-01·C6–C7); quejas/denuncias turnadas al OIC [RCE art. 5 f. XI, `Docs/Comun/Programas de apoyo/Comites/REGLAMENTO_Comite_CapturandoCarbono.pdf` p. 4] | Por beneficiario-año: contrato y vigencia, montos ministrados (70/30), verificación (cumple/no cumple), incumplimiento y reintegro, denuncias asociadas | Padrón consolidado de ejecución por beneficiario (tabla de trabajo del área; sin formato estandarizado → contenido mínimo del informe → **V-01**) |
 | **A2** — elaboración del informe anual | Consolidado de A1; cifras de presupuesto **autorizado / modificado / ejercido** — sistema de **contabilidad/DAFGD** (campo: cifras del ejercicio; precedente del tipo de cifras en `Docs/Comun/Masa forestal/2023-Anexos-Desarrollo-forestal-PROBOSQUE.pdf` [ANEXOS23] p. 2) | Cifras del ejercicio por programa: beneficiarios atendidos, superficie, montos ministrados y reintegrados, avance de metas | **Informe anual de ejecución** (= Informe Anual de Resultados; en PSAHEM lo emite PA-01·C9). Sin plantilla ni contenido definido → **V-01**; sujeto Responsable/Ejecutora según el RO → **V-07** |
 | **A3** — convocatoria a sesión del comité | Informe de A2 + expediente soporte; plazos de citación: **3 días hábiles** (ordinaria) / 24 h (extraordinaria) [RCE arts. 19–20, `Docs/Comun/Programas de apoyo/Comites/REGLAMENTO_Comite_*.pdf` p. 4] | Fecha/hora de sesión, orden del día, quórum previsto (Presidencia + Sec. Técnica + mitad más uno), acuse de envío de la documentación | **Convocatoria a sesión** (oficio/correo firmado por Presidencia y emitido por la Sec. Técnica = DG R19) + paquete de documentación — sin plantilla capturada → **V-10** |
-| **A4** — autorización del informe | Paquete de A3; actas de sesiones previas (clave tipo CAS-CC/nn.EXT/nnn/aaaa) | Asistencia y quórum; acuerdo por informe: autorizado / con observaciones (f. XI: "Autorizar el Informe Anual de Resultados") | **Acta de sesión del Comité de Admisión y Seguimiento** (o del Comité Técnico FIPASAHEM en PSAHEM) con el acuerdo de autorización — no publicadas → **V-02**; plantilla de minuta → **V-10** |
+| **A4** — autorización del informe | Paquete de A3; actas de sesiones previas (clave tipo CAS-CC/nn.EXT/nnn/aaaa) | Asistencia y quórum; acuerdo por informe: autorizado / con observaciones (f. X: "Autorizar el Informe Anual de Resultados") | **Acta de sesión del Comité de Admisión y Seguimiento** (o del Comité Técnico FIPASAHEM en PSAHEM) con el acuerdo de autorización — no publicadas → **V-02**; plantilla de minuta → **V-10** |
 | **A5** — difusión y obligación accesoria | Informe autorizado (A4); formato oficial `Docs/Comun/Finanzas y adquisiciones/FINANZAS_AyudasYSubsidios_2026T2.pdf` [FIN-AYS] (escaneado, sin capa de texto) | Resultados del ejercicio a difundir; **montos pagados por ayudas y subsidios** por trimestre (el T2-2026 declara "NO APLICA" → **V-05**) | Publicación de resultados en el sitio de PROBOSQUE + **formato trimestral "Montos pagados por ayudas y subsidios"** a la Secretaría de Finanzas (solo versión escaneada → **V-05**) + obligaciones de transparencia |
 | **B1** — Programa Anual de Evaluación (PAE) | **PAE** emitido por la Subsecretaría de Planeación / DG de Evaluación del Desempeño (estatal; **TdR 2023 capturado** 2026-09-24 en `Programas de apoyo/Evaluacion_PAE/5_TdR_ESP_DESEMPENnO_2023.pdf`; el `PAE2023.pdf` del sitio estatal devuelve 404 → **V-03** a medias); historial de evaluaciones 2014–2023 en `Docs/Comun/Sitio web/evaluacion_programas.html` [EVAL-H] | Tipo de evaluación asignada al Pp. 03020201 (diseño / procesos / consistencia y resultados / específica de desempeño), plazos y alcance | **PAE del ejercicio** con el Pp. "Desarrollo Forestal" incluido (formato estatal; no en repo → **V-03**) |
 | **B2** — designación del responsable del seguimiento | PAE (B1); precedente: `Docs/Comun/Masa forestal/2023-CONAC-Desarrollo-forestal-PROBOSQUE.pdf` [CONAC23] p. 1 §1.4 | Nombre de la **persona responsable del seguimiento** interno (2023: Lic. Jessica Fabiola Luja Navas) y periodo | **Oficio de designación** del responsable del seguimiento (sin plantilla capturada → **V-10**) |
