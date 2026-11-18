@@ -56,7 +56,7 @@ Si la Wayback da la página "Your request is being blocked…", reintentar con e
 
 ## Pendientes para el merge — ✅ APLICADOS el 2026-11-17 en la unión de ramas
 
-> **Ejecutado:** (1) V-T02 editada en la tabla maestra (renglón 4b + fila de vacíos + cierre); (2) V-04, N-11 y §12·B1 de PA-01 actualizadas (claves nuevas [GAC-2013]/[GAC-2014] en su §2); (3) los 2 PDFs renombrados y movidos a `Comun/Programas de apoyo/` con todos los enlaces actualizados. **Queda opcional** el item 4 (tabla de compensación GPS como insumo de MF-01/MF-07) — decidir con el equipo.
+> **Ejecutado:** (1) V-T02 editada en la tabla maestra (renglón 4b + fila de vacíos + cierre); (2) V-04, N-11 y §12·B1 de PA-01 actualizadas (claves nuevas [GAC-2013]/[GAC-2014] en su §2); (3) los 2 PDFs renombrados y movidos a `Comun/Programas de apoyo/` con todos los enlaces actualizados. **Item 4 (tabla de compensación GPS) — cerrado sin aplicar (2026-11-18):** verificar si el estándar de 2014 sigue aplicándose en campo requería entrevista y el profesor decidió que ya no habrá entrevistas; la tabla queda como hallazgo histórico citado aquí y en [GACETA_2014-02-19_CONV_RO_PRORRIM2014_Anexos.pdf](<../Programas%20de%20apoyo/GACETA_2014-02-19_CONV_RO_PRORRIM2014_Anexos.pdf>) p. 22.
 
 El análisis ya está hecho y verificado; estas ediciones se ejecutan **al hacer el merge** para evitar colisiones innecesarias (PA-01 es de Joni; la TABLA la edita el equipo en paralelo). Antes de editar: re-extraer los anclas exactas (regla F1 de la skill `review-necesidades` — tras el merge las filas pueden haberse corrido).
 
