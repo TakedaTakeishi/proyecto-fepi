@@ -1,0 +1,431 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <title>PROBOSQUE | Cambio de uso de suelo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body class="is-preload">
+
+<div id="wrapper">
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- ENCABEZADO -->
+            <header id="header">
+                <a href="../index.html" class="logo">
+                    <strong>PROBOSQUE</strong> | Portal de Servicios Forestales
+                </a>
+            </header>
+
+            <!-- CONTENIDO -->
+            <section>
+
+                <header class="main">
+                    <h1>Cambio de uso de suelo</h1>
+                </header>
+
+                <p>
+                    Análisis espacial de las transformaciones que se presentan
+                    en el territorio mediante la comparación de la cobertura
+                    forestal y otros usos del suelo en diferentes periodos.
+                </p>
+
+                <hr class="major" />
+
+                <h2>Objetivo del análisis</h2>
+
+                <p>
+                    Identificar zonas donde la cobertura forestal ha sido
+                    sustituida o modificada por otro tipo de uso del suelo,
+                    utilizando información geográfica, cartografía oficial
+                    e imágenes satelitales.
+                </p>
+
+                <p>
+                    El análisis permite conocer la distribución territorial
+                    de los cambios y localizar áreas que requieren una revisión
+                    más detallada.
+                </p>
+
+                <hr class="major" />
+
+                <h2>Fuentes de información</h2>
+
+                <ul>
+                    <li>Imágenes satelitales Sentinel-2.</li>
+                    <li>Cartografía oficial de cobertura y uso del suelo.</li>
+                    <li>Inventario Estatal Forestal y de Suelos.</li>
+                    <li>Límites municipales.</li>
+                    <li>Polígonos forestales.</li>
+                    <li>Información obtenida mediante SIG.</li>
+                </ul>
+
+                <hr class="major" />
+
+                <h2>Mapa de cambio de uso de suelo</h2>
+
+                <p>
+                    En este espacio se mostrará posteriormente el mapa
+                    interactivo de las zonas donde se hayan identificado
+                    cambios en el uso o cobertura del suelo.
+                </p>
+
+                <div
+                    style="
+                        width: 100%;
+                        height: 450px;
+                        border: 1px solid #cccccc;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 30px;
+                    "
+                >
+                    <p style="margin: 0;">
+                        Mapa de cambio de uso de suelo
+                    </p>
+                </div>
+
+                <hr class="major" />
+
+                <h2>Indicadores</h2>
+
+                <div class="row">
+
+                    <div class="col-4 col-12-medium">
+
+                        <h3>Superficie transformada</h3>
+
+                        <p>
+                            Superficie donde se identificó un cambio de
+                            cobertura o uso del suelo.
+                        </p>
+
+                        <h2>-- ha</h2>
+
+                    </div>
+
+                    <div class="col-4 col-12-medium">
+
+                        <h3>Municipios afectados</h3>
+
+                        <p>
+                            Municipios que presentan zonas con cambios
+                            identificados.
+                        </p>
+
+                        <h2>--</h2>
+
+                    </div>
+
+                    <div class="col-4 col-12-medium">
+
+                        <h3>Zonas detectadas</h3>
+
+                        <p>
+                            Número de áreas donde se identificaron
+                            modificaciones en la cobertura.
+                        </p>
+
+                        <h2>--</h2>
+
+                    </div>
+
+                </div>
+
+                <hr class="major" />
+
+                <h2>Tipos de cambio identificados</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Uso o cobertura anterior</th>
+                            <th>Posible cobertura posterior</th>
+                            <th>Superficie</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Bosque</td>
+                            <td>Área agropecuaria</td>
+                            <td>-- ha</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bosque</td>
+                            <td>Área urbana</td>
+                            <td>-- ha</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bosque</td>
+                            <td>Infraestructura o caminos</td>
+                            <td>-- ha</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bosque</td>
+                            <td>Área sin cobertura vegetal</td>
+                            <td>-- ha</td>
+                        </tr>
+
+                        <tr>
+                            <td>Otro tipo de cobertura</td>
+                            <td>Uso diferente</td>
+                            <td>-- ha</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <hr class="major" />
+
+                <h2>Comparación temporal</h2>
+
+                <p>
+                    La comparación de imágenes correspondientes a diferentes
+                    fechas permite observar la transformación de una zona
+                    y determinar cómo ha evolucionado su cobertura.
+                </p>
+
+                <div class="row">
+
+                    <div class="col-6 col-12-medium">
+
+                        <h3>Cobertura anterior</h3>
+
+                        <div
+                            style="
+                                width: 100%;
+                                height: 250px;
+                                border: 1px solid #cccccc;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            "
+                        >
+                            <p style="margin: 0;">
+                                Imagen satelital anterior
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-12-medium">
+
+                        <h3>Cobertura posterior</h3>
+
+                        <div
+                            style="
+                                width: 100%;
+                                height: 250px;
+                                border: 1px solid #cccccc;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            "
+                        >
+                            <p style="margin: 0;">
+                                Imagen satelital posterior
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <hr class="major" />
+
+                <h2>Análisis territorial</h2>
+
+                <p>
+                    Los cambios identificados pueden analizarse espacialmente
+                    para determinar su concentración y relación con otras
+                    características del territorio.
+                </p>
+
+                <ul>
+                    <li>Distribución del cambio por municipio.</li>
+                    <li>Superficie transformada.</li>
+                    <li>Relación con zonas forestales.</li>
+                    <li>Relación con caminos y zonas urbanas.</li>
+                    <li>Concentración de cambios en determinadas zonas.</li>
+                    <li>Identificación de áreas prioritarias para revisión.</li>
+                </ul>
+
+                <hr class="major" />
+
+                <h2>Proceso de análisis</h2>
+
+                <ol>
+
+                    <li>
+                        Obtener imágenes satelitales de diferentes fechas.
+                    </li>
+
+                    <li>
+                        Seleccionar y procesar las imágenes con menor
+                        presencia de nubes.
+                    </li>
+
+                    <li>
+                        Delimitar la cobertura forestal y otros usos del suelo.
+                    </li>
+
+                    <li>
+                        Comparar la información de los diferentes periodos.
+                    </li>
+
+                    <li>
+                        Identificar las zonas donde se produjo un cambio.
+                    </li>
+
+                    <li>
+                        Calcular la superficie transformada.
+                    </li>
+
+                    <li>
+                        Representar los resultados mediante un mapa.
+                    </li>
+
+                    <li>
+                        Identificar zonas que requieran análisis o
+                        verificación adicional.
+                    </li>
+
+                </ol>
+
+                <hr class="major" />
+
+                <h2>Relación con la pérdida de cobertura forestal</h2>
+
+                <p>
+                    El cambio de uso de suelo puede relacionarse con el análisis
+                    de pérdida de cobertura forestal. Cuando una zona pierde
+                    cobertura, el análisis territorial permite observar si
+                    posteriormente aparece otro tipo de uso del suelo.
+                </p>
+
+                <p>
+                    De esta manera, ambos análisis pueden complementarse para
+                    conocer no solamente dónde se perdió la cobertura, sino
+                    también qué transformación territorial se observa
+                    posteriormente.
+                </p>
+
+                <hr class="major" />
+
+                <h2>Observaciones</h2>
+
+                <p>
+                    La identificación de un cambio de cobertura o uso del suelo
+                    mediante información satelital no determina por sí misma
+                    si dicho cambio es autorizado o no.
+                </p>
+
+                <p>
+                    Cuando se detecte una transformación que requiera atención,
+                    la información podrá utilizarse como apoyo para realizar
+                    una revisión documental o una posible verificación en campo.
+                </p>
+
+                <hr class="major" />
+
+                <ul class="actions">
+
+                    <li>
+                        <a href="../analisis.html" class="button">
+                            Volver al análisis forestal
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../index.html" class="button">
+                            Volver al inicio
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </div>
+    </div>
+
+    <!-- BARRA LATERAL -->
+    <div id="sidebar">
+
+        <div class="inner">
+
+            <nav id="menu">
+
+                <header class="major">
+                    <h2>Menú</h2>
+                </header>
+
+                <ul>
+
+                    <li>
+                        <a href="../index.html">
+                            Página principal
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../conservacion.html">
+                            Conservación de la masa forestal
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../apoyos.html">
+                            Programas de apoyo para dueños de terrenos forestales
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../analisis.html">
+                            Análisis y observación de la masa forestal
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <section>
+
+                <header class="major">
+                    <h2>PROBOSQUE</h2>
+                </header>
+
+                <p>
+                    Portal de Servicios Forestales.
+                </p>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SCRIPTS -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/browser.min.js"></script>
+<script src="../assets/js/breakpoints.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
