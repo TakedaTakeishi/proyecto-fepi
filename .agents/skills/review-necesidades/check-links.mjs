@@ -40,7 +40,8 @@ for (const f of targets) {
   lines.forEach((l, i) => {
     if (l.includes('check-links:ignore')) return;
     for (const m of l.matchAll(linkRe)) {
-      const t = m[2].trim();
+      // convención del repo: enlaces con angle brackets [texto](<ruta>) — quitarlos antes de resolver
+      const t = m[2].trim().replace(/^<+/, '').replace(/>+$/, '');
       if (/^(https?:|mailto:)/.test(t)) continue;
       if (t === '' || t === '…' || t === '...') { console.log(`${rel}:${i + 1} ERROR placeholder [${m[1]}](${t})`); errors++; continue; }
       if (t.startsWith('#')) {
