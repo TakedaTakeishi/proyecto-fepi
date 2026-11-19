@@ -45,6 +45,8 @@ Sin cambio de prioridad pero con retiro marcado: NG-049, NG-057, NG-058, NG-060 
 4. **NG-025** — la frase termina en "…a las personas beneficiarias como" (colgante). La intención: dispersar las ministraciones conforme a las RO. Sugerir "…dispersar las ministraciones conforme a las RO a las personas beneficiarias asignadas".
 5. **NG-012** — "cada predio, sometido en la convocatoria": probablemente quiso decir "presentado en la convocatoria". Confirmar con el profesor o pulir a "sometido a la convocatoria".
 6. **NG-019** — quedó un marcador colgante `**?` al final de la Descripción (negrita abierta con interrogación): es una **pregunta del profesor sin resolver** — levantarla en la sesión antes de pulir la fila.
+7. **NG-012** — daño de editor en el Origen: las comillas dobles de las citas se convirtieron en entidades HTML `&#34;` (4×: "Dictamen Técnico" y "Diagnóstico Técnico Forestal" en las referencias a los glosarios de RO-PSAH y RO-CC). El padre (`72c92df`) tiene las comillas normales — **revertir esas 4 entidades a `"`** en el merge; es artefacto, no intención.
+8. **Puntuación** — varias de las redacciones nuevas del profesor quedaron **sin punto final** (NG-005, NG-007, NG-011, NG-025, NG-064, NG-066, NG-029): al aplicar los pulidos, cerrar la oración; no cambia el contenido.
 
 ## C · Comentarios de acción dentro de filas (pendientes que el merge debe ejecutar o agendar)
 
@@ -112,7 +114,7 @@ Barrido sistemático sobre `490a2ad` de todos los paréntesis/marcadores dentro 
 | 17 | NG-060 | `(dar de baja)` | Prioridad | D · retiro con barrido C8 |
 | 18 | — | `"Falta el cierre de los programas."` | Nota suelta tras la tabla de Etapa 8 | E · confirmar con el profesor antes de actuar |
 
-Notas del barrido: (a) el bloque **Transversales al ciclo** quedó intacto — ninguna anotación nueva; (b) el `**?` de NG-020 detectado en el barrido es el interrogante legítimo de su stakeholder ("⚠️ ¿**Irán Terán Cordero**?"), no anotación del profesor; (c) NG-012 "sometido en la convocatoria" está en B-5 (errata a pulir).
+Notas del barrido: (a) el bloque **Transversales al ciclo** quedó intacto — ninguna anotación nueva; (b) el `**?` de NG-020 detectado en el barrido es el interrogante legítimo de su stakeholder ("⚠️ ¿**Irán Terán Cordero**?"), no anotación del profesor; (c) NG-012 "sometido en la convocatoria" está en B-5 (errata a pulir); (d) el barrido con diff por fragmentos (celdas completas, no truncadas) verificó que **no hay anotaciones adicionales al final de las restricciones** en ninguna fila — las dos que viven dentro de Notas son la de NG-029 (#7) y la de NG-066 (#10), ambas listadas; (e) el mismo barrido detectó el daño `&#34;` de NG-012 (B-7) y los puntos finales perdidos (B-8).
 
 ## H · Resumen de instrucciones para el merge
 
