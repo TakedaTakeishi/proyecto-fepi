@@ -158,7 +158,106 @@ El cruce se realiza por módulo entre la propuesta de solución de la sección 3
 
 El resultado comprende **9 módulos, 30 servicios y 30 necesidades**.
 
-## 7. Fuentes de consulta
+## 7. Herramientas específicas por módulo y servicio
+
+La base propuesta es React para las pantallas, Node.js con Express para procesar las operaciones y PostgreSQL para almacenar y relacionar los datos. Las validaciones y permisos se comprobarían en el servidor.
+
+| Módulo | Cómo se hará | Servicio y necesidad | Herramientas específicas propuestas |
+|---|---|---|---|
+| **1. Convocatorias y recepción** | Consultar convocatorias, requisitos, oficinas y fechas mediante pantallas web. | **Consulta de convocatorias y requisitos** · NG-001 | React para pantallas y filtros; Node.js + Express para consultas; PostgreSQL para convocatorias y requisitos. |
+|  | Capturar la entrega y generar el comprobante con los documentos recibidos. | **Recepción de solicitudes y emisión de acuses** · NG-002 | React para formularios; Node.js + Express para recepción; PostgreSQL para datos; Puppeteer para generar el acuse PDF. |
+|  | Comprobar requisitos y controlar faltantes, plazos y turnos. | **Validación e integración de solicitudes** · NG-003 | React para listas de comprobación; Node.js + Express para reglas y cambios de estado; PostgreSQL para requisitos, fechas y responsables. |
+| **2. Expedientes y archivo** | Clasificar documentos, conservar versiones y localizar expedientes. | **Archivo y consulta de expedientes** · NG-005 | React para búsquedas y consulta; Node.js + Express para permisos y descargas; PostgreSQL para metadatos; Multer para recibir archivos y almacenamiento privado del servidor para conservarlos. |
+|  | Incorporar cambios de representación, titularidad y documentación. | **Actualización del expediente** · NG-064 | React para edición y carga; Node.js + Express para validaciones; PostgreSQL para antecedentes; Multer para documentos de respaldo. |
+| **3. Notificaciones** | Preparar avisos y registrar destinatario, entrega, respuesta y plazo. | **Notificación del estado del trámite** · NG-065 | React para bandeja de avisos; Node.js + Express para seguimiento; PostgreSQL para estados; Nodemailer para correo por SMTP; Puppeteer para avisos PDF. |
+|  | Comunicar el incumplimiento y conservar sus motivos y constancia. | **Notificación de incumplimientos** · NG-R08 | React, Node.js + Express y PostgreSQL para seguimiento; Nodemailer cuando corresponda correo; Multer para constancias de entrega. |
+| **4. Evaluación y resolución** | Revisar documentos legales y registrar el dictamen y sus motivos. | **Dictaminación jurídica** · NG-007 | React para consulta documental y evaluación; Node.js + Express para flujo de revisión; PostgreSQL para dictámenes; Docxtemplater para preparar Word desde formatos autorizados. |
+|  | Aplicar los criterios técnicos vigentes de cada programa. | **Dictaminación técnica** · NG-016 | React para formularios; Node.js + Express para comprobaciones y cálculos; PostgreSQL para criterios y resultados; Docxtemplater para el dictamen. |
+|  | Ordenar solicitudes con los criterios documentados y registrar la autorización. | **Prelación y lista de espera** · NG-019 | PostgreSQL para consultas y ordenamiento; Node.js + Express para reglas por programa; React para revisión; ExcelJS para exportar listas. |
+|  | Reunir y entregar dictámenes, informes y anexos para sesiones. | **Integración de documentación para sesiones** · NG-024 | React para seleccionar documentos; PostgreSQL para relacionarlos con la sesión; Archiver para paquetes ZIP; Puppeteer para la relación de documentos. |
+| **5. Contratos y recursos económicos** | Completar formatos con datos del expediente y gestionar validación y firma. | **Formalización de contratos** · NG-029 | React para revisión; Node.js + Express para recuperar datos; PostgreSQL para contratos y datos bancarios; Docxtemplater para Word; Multer para incorporar ejemplares firmados. |
+|  | Mostrar qué comprobantes se recibieron y cuáles faltan por ministración. | **Control de requisitos de ministración** · NG-066 | React para listas y estados; Node.js + Express para comprobaciones; PostgreSQL para requisitos por programa; Multer para comprobantes. |
+|  | Calcular montos, preparar solicitudes y registrar la emisión del pago. | **Tramitación de ministraciones** · NG-025 | Node.js + Express para reglas; PostgreSQL, con montos decimales y transacciones, para movimientos; React para revisión; Puppeteer para solicitudes PDF. |
+|  | Registrar la confirmación de recepción y cobro con su evidencia. | **Confirmación de recepción y cobro** · NG-R06 | React para captura; Node.js + Express para comprobaciones; PostgreSQL para fecha, monto y referencia; Multer para acuses. |
+|  | Registrar la devolución autorizada y conciliar el importe reintegrado. | **Gestión de reintegros** · NG-032 | React para seguimiento; Node.js + Express para flujo; PostgreSQL para movimientos relacionados; Multer para comprobantes; ExcelJS para conciliación. |
+|  | Relacionar recursos disponibles con solicitudes factibles y su autorización. | **Reasignación de recursos** · NG-033 | React para revisión; Node.js + Express para comprobar condiciones; PostgreSQL con transacciones para actualizar saldos y asignaciones conjuntamente. |
+| **6. Verificación y conclusión** | Recibir el aviso de término y los documentos de conclusión. | **Recepción del aviso e informe de conclusión** · NG-067 | React para formularios; Node.js + Express para recepción; PostgreSQL para fechas y estados; Multer para informes. |
+|  | Capturar resultados de visitas y adjuntar formatos firmados y evidencias. | **Registro de verificaciones en campo** · NG-008 | React con diseño adaptable a móviles; Node.js + Express para captura; PostgreSQL para visitas; Multer para fotografías y minutas; Docxtemplater para formatos autorizados. |
+|  | Consultar resultados y evidencias y registrar su revisión. | **Revisión de resultados de las verificaciones** · NG-018 | React para consulta; Node.js + Express para permisos y revisión; PostgreSQL para resultados, observaciones y responsables. |
+|  | Comprobar y asentar la conclusión total o con ajuste. | **Conclusión del apoyo** · NG-068 | React para revisión del cumplimiento; Node.js + Express para comprobar condiciones; PostgreSQL para cierre y antecedentes; Puppeteer para la constancia, cuando su formato se confirme. |
+| **7. Incumplimientos** | Registrar hechos, causal, fecha y documentos de respaldo. | **Registro de incumplimientos y evidencias** · NG-030 | React para captura; Node.js + Express para validación; PostgreSQL para incumplimientos; Multer para evidencias. |
+|  | Incorporar altas y solicitudes de exclusión con sus antecedentes. | **Administración del listado de incumplidos** · NG-R13 | React para administración; Node.js + Express para permisos y cambios de estado; PostgreSQL para historial; Multer para documentos probatorios. |
+|  | Consultar restricciones al revisar solicitudes y tramitar pagos. | **Comprobación de restricciones** · NG-031 | PostgreSQL para cruces de personas y predios; Node.js + Express para comprobaciones; React para mostrar advertencias y sus motivos. |
+| **8. Resultados y padrones** | Reunir superficies, montos y cumplimiento por ejercicio y programa. | **Consolidación de cifras de ejecución** · NG-034 | PostgreSQL para agregaciones; Node.js + Express para consultas; React para filtros y tablas; ExcelJS para exportaciones. |
+|  | Preparar resultados y registrar su revisión y aprobación. | **Presentación y validación de resultados** · NG-037 | React para revisión; Node.js + Express para el flujo de aprobación; PostgreSQL para cortes y versiones; Puppeteer para informes PDF. |
+|  | Conservar qué información se solicitó, entregó y cuándo. | **Control de entregas institucionales** · NG-038 | React para seguimiento; Node.js + Express para operaciones; PostgreSQL para solicitudes y entregas; Multer para constancias y archivos entregados. |
+|  | Mantener y exportar la relación final de personas beneficiarias. | **Integración y actualización de padrones** · NG-069 | PostgreSQL para consultar beneficiarios y estados; Node.js + Express para comprobaciones; React para revisión; ExcelJS para Excel y Puppeteer para PDF. |
+| **9. Auditoría y evaluación** | Recorrer la evidencia del apoyo y preparar paquetes documentales. | **Consulta de trazabilidad y evidencia para auditoría** · NG-039 | PostgreSQL para relaciones e historial; Node.js + Express para consultas autorizadas; React para consulta cronológica; Archiver para ZIP; ExcelJS para la relación de evidencias. |
+|  | Registrar evaluaciones, responsables, hallazgos y evidencias de atención. | **Seguimiento de evaluaciones externas** · NG-036 | React para seguimiento; Node.js + Express para estados y permisos; PostgreSQL para hallazgos y plazos; Multer para evidencias; Puppeteer para informes. |
+
+Multer recibe los archivos enviados desde los formularios. Su conservación se resolvería mediante almacenamiento privado, con sus ubicaciones y versiones relacionadas en PostgreSQL. Docxtemplater completa documentos Word desde plantillas y Puppeteer genera los PDF desde documentos HTML diseñados para impresión.
+
+ExcelJS permitiría preparar archivos Excel, Archiver reunir documentos en ZIP y Nodemailer enviar correo mediante un servicio SMTP configurado. Las constancias de entrega seguirían formando parte del expediente.
+
+### Referencias técnicas
+
+- [React — interfaces web](https://react.dev/).
+- [Node.js — entorno de ejecución de JavaScript](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs).
+- [Express — framework web para Node.js](https://expressjs.com/).
+- [PostgreSQL — transacciones](https://www.postgresql.org/docs/current/tutorial-transactions.html).
+- [Multer — recepción de archivos enviados por formularios](https://github.com/expressjs/multer).
+- [Docxtemplater — documentos Word desde plantillas](https://docxtemplater.com/docs/).
+- [Puppeteer — generación de PDF](https://pptr.dev/guides/pdf-generation).
+- [ExcelJS — lectura y escritura de Excel](https://github.com/exceljs/exceljs).
+- [Archiver — generación de archivos comprimidos](https://www.archiverjs.com/).
+- [Nodemailer — envío de correo electrónico](https://nodemailer.com/).
+
+## 8. Descripción y funcionamiento de las herramientas
+
+| Herramienta | Qué es y dónde funciona | Cómo funciona | Uso propuesto en el SGD |
+|---|---|---|---|
+| **React** | Librería de JavaScript para construir interfaces en el navegador. | Organiza las pantallas en componentes que muestran datos y responden a las acciones del usuario. Envía solicitudes al servidor para consultar o guardar información. | Formularios, búsquedas, tablas, listas de comprobación y pantallas de seguimiento. [Documentación](https://react.dev/) |
+| **Node.js** | Entorno que ejecuta JavaScript en el servidor. | Ejecuta el código que recibe las peticiones de la aplicación, procesa operaciones, consulta datos y prepara respuestas. | Ejecutar las reglas y servicios de los nueve módulos. [Documentación](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) |
+| **Express** | Framework web que funciona sobre Node.js. | Define rutas para operaciones como registrar una solicitud o consultar un expediente. Permite ejecutar comprobaciones de acceso y validaciones antes de atender cada operación. | Organizar la comunicación entre React, las reglas del negocio y la base de datos. [Documentación](https://expressjs.com/en/guide/using-middleware.html) |
+| **PostgreSQL** | Sistema gestor de base de datos relacional, instalado en el servidor. | Conserva información en tablas relacionadas. Ejecuta consultas y transacciones para mantener consistentes operaciones que modifican varios datos. | Relacionar personas, predios, solicitudes, expedientes, pagos, visitas y documentos. [Documentación](https://www.postgresql.org/docs/current/intro-whatis.html) |
+| **Multer** | Componente de procesamiento de peticiones —middleware— para Express y Node.js. | Procesa los archivos enviados desde formularios web y permite recibirlos en memoria o escribirlos en disco, según la configuración. | Recibir minutas, fotografías, contratos firmados, informes y comprobantes. La aplicación deberá relacionarlos con su expediente y controlar su conservación. [Documentación](https://github.com/expressjs/multer) |
+| **Docxtemplater** | Librería de JavaScript que puede ejecutarse en Node.js. | Abre una plantilla Word con campos marcados y los sustituye por datos de la aplicación. Produce un archivo .docx. | Preparar contratos, dictámenes y otros documentos a partir de formatos autorizados. [Documentación](https://docxtemplater.com/docs/) |
+| **Puppeteer** | Librería de JavaScript para controlar un navegador, normalmente desde Node.js. | Abre un documento HTML, aplica sus estilos y utiliza la función de impresión del navegador para generar un PDF. | Generar acuses, avisos, relaciones de documentos e informes PDF. [Documentación](https://pptr.dev/guides/pdf-generation) |
+| **ExcelJS** | Librería de JavaScript para trabajar con archivos Excel desde Node.js. | Crea o lee libros de trabajo y permite manejar hojas, filas, celdas y formatos. | Exportar listas de espera, padrones, conciliaciones y resultados en .xlsx. [Documentación](https://github.com/exceljs/exceljs) |
+| **Archiver** | Librería de Node.js para crear archivos comprimidos. | Reúne archivos y carpetas en un paquete, como un ZIP, que puede guardarse o enviarse para descarga. | Preparar paquetes documentales para sesiones, auditorías y evaluaciones. [Documentación](https://www.archiverjs.com/) |
+| **Nodemailer** | Librería de Node.js para enviar correo electrónico. | Construye mensajes con destinatarios, contenido y adjuntos y los entrega mediante un servicio de correo configurado, por ejemplo SMTP. | Enviar avisos y documentos cuando el procedimiento permita ese medio. La aplicación conservaría el resultado del envío y la evidencia de entrega que corresponda. [Documentación](https://nodemailer.com/) |
+
+El **almacenamiento privado de archivos** es otro componente de la solución. Su función sería conservar los documentos recibidos; PostgreSQL guardaría sus datos de identificación, ubicación y relación con el expediente. Su implementación concreta queda pendiente de elegir.
+
+## 9. Arquitectura de la aplicación
+
+Se propone una **arquitectura cliente-servidor de tres capas, con un backend monolítico modular**.
+
+| Capa | Herramientas propuestas | Responsabilidad |
+|---|---|---|
+| **Presentación** | React | Mostrar pantallas, formularios, expedientes y resultados en el navegador. |
+| **Lógica de negocio** | Node.js + Express | Procesar solicitudes, comprobar permisos, aplicar reglas de cada programa y ejecutar los servicios de los nueve módulos. |
+| **Persistencia** | PostgreSQL y almacenamiento privado de archivos | Conservar datos relacionados, documentos, versiones y evidencias. |
+
+Los nueve módulos estarían organizados dentro de una misma aplicación de servidor. Cada módulo tendría sus servicios y compartiría información del expediente.
+
+```mermaid
+flowchart TB
+    U["Usuarios en el navegador"]
+    R["React · Presentación"]
+    B["Node.js + Express<br/>Backend monolítico modular<br/>9 módulos y 30 servicios funcionales"]
+    D[("PostgreSQL<br/>Datos relacionados")]
+    A["Almacenamiento privado<br/>Documentos y evidencias"]
+
+    U --> R
+    R <-->|"Peticiones y respuestas HTTP"| B
+    B <--> D
+    B <--> A
+```
+
+Los **30 servicios** definidos son funciones del negocio, como recibir solicitudes o tramitar reintegros. Se implementarían dentro de los módulos del backend.
+
+## 10. Fuentes de consulta
 
 La trazabilidad completa, con páginas, numerales y vacíos por necesidad, se conserva en la columna Origen de la [tabla maestra](../TABLA_NECESIDADES.md#3-tabla-maestra).
 
