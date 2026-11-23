@@ -31,6 +31,10 @@ Un solo tablero para todo el equipo. Lo que no está en el tablero no se hace.
 
 **Orden de "Por hacer":** arriba van las tarjetas marcadas como **obligatorias** (lo que pidió el profesor para la próxima presentación); abajo, lo que puede esperar. Cada quien toma siempre la tarjeta más alta que tenga asignada.
 
+### Ejemplo
+
+![1795457669574](image/Metodologia_de_trabajo/1795457669574.png)
+
 ## 3. El ciclo (cada 2–3 días)
 
 1. **Presentación.** Cada comentario del profesor se anota en ese momento como tarjeta en Feedback.
