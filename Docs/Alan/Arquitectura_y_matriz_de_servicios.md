@@ -38,6 +38,12 @@ Estos cuatro módulos reutilizan expediente, archivos, notificaciones y análisi
 
 Los **13 módulos son una decisión de diseño de esta propuesta**, no un número exigido por las fuentes ni un óptimo demostrado. Se conservan como agrupaciones internas de una aplicación web. Si la validación de V-A05 determina que basta adjuntar el informe de carbono, deberá revisarse si MOD-13 requiere una responsabilidad propia o puede integrarse en Evaluación y asignación.
 
+### 1.2. Diagrama de la arquitectura
+
+El diagrama de Octavio resume la organización: el **flujo principal del trámite** recorre MOD-01 → MOD-02 → MOD-03 → MOD-04 → MOD-05 → MOD-06; los **cuatro módulos específicos por programa** (MOD-10 a MOD-13) complementan ese flujo desde arriba con sus entregables propios (PTRFI, estudios y certificaciones, evaluación mensual PEG, muestreo de carbono); y los **tres módulos transversales** (MOD-08, MOD-09 y MOD-07) dan soporte por debajo con expediente y servicios comunes, análisis geográfico y reportes.
+
+![Diagrama de arquitectura simplificado, Octavio](<../Octavio/Diagrama de Arquitectura Simplificado.png>)
+
 ## 2. Momentos, módulos y servicios
 
 ### 2.1. Catálogo de módulos
