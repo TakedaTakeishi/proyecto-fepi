@@ -13,7 +13,7 @@ La historia en cinco pasos:
 1. **Tenemos una propuesta de solución organizada así:** momentos del trámite → módulos (MOD-01 a MOD-13) → servicios (SC-## comunes y SE-## específicos). Cada módulo es una pantalla o conjunto de pantallas de la aplicación; cada servicio es una cosa que se puede hacer dentro de él.
 2. **En la primera revisión** el profesor vio la tabla 2.1 (catálogo de módulos) y el catálogo de servicios. Lo regañó dos cosas: que los servicios no estaban redactados como funcionalidades, y que varios no eran servicios de verdad. Al final de esa revisión pidió: háganme la **tabla 2.3**, una vista consolidada donde yo vea, por módulo: la generalidad del módulo, el momento en que se usa y los servicios que brinda. «Si lo hacen ahorita lo puedo revisar» (rev. 1, 09:25).
 3. **El equipo creó la 2.3** (está en el commit `5270196`) y en la **segunda revisión** se la pasó al profesor fila por fila. Él fue hablando y marcando problemas; nosotros fuimos anotando sus marcas **dentro de la tabla, entre paréntesis**: `(borrar)`, `(existente en el 5)`, `(implícito en 4)`, etc.
-4. **Lo que falta:** esas marcas son tarea pendiente — hay que borrar lo marcado, fusionar lo implícito y completar la redacción — y además corregir erratas. Eso es lo que este documento instruye.
+4. **Lo que falta:** resolver esas marcas (borrar, fusionar, redactar) y corregir erratas. Cómo hacerlo está en §6 — **con su criterio**; las instrucciones no les dictan el resultado de cada fila.
 5. **Alcance de esta ronda: solo la tabla 2.3.** El catálogo (§3) y la matriz (§4) se arreglan en la pasada siguiente, cuando el profesor apruebe la 2.3 limpia. No los toquen todavía.
 
 ---
@@ -43,7 +43,7 @@ Nosotros teníamos a SC-05 como «Comprobante de recepción». El profesor la cu
 3. Después nos propuso el escenario en que **sí** sería un servicio: «Agarro, pongo un folio y recupero mi comprobante. Si es así, sí» (rev. 1, 06:00). O sea: si hay una pantalla donde la persona escribe su folio y vuelve a descargar su comprobante (porque lo perdió), **eso** sí se puede picar — y se redacta por eso.
 4. Y cerró: «Pero entonces no es esto» (rev. 1, 06:05) — tal como estaba nombrada, no.
 
-**Moraleja (lo que antes decía enrevesado «el paso final de un flujo se verbaliza dentro del servicio que lo produce»):** cuando una cosa es el remate automático de otro servicio (el comprobante al terminar de subir el expediente), no la listes como servicio aparte. Y si la mantienes como servicio, nómbrala por lo que el usuario puede hacer con ella — no por el nombre del papelito.
+**Moraleja:** cuando una cosa es el remate automático de otro servicio (el comprobante al terminar de subir el expediente), no la listes como servicio aparte. Y si la mantienes como servicio, nómbrala por lo que el usuario puede hacer con ella — no por el nombre del papelito.
 
 ### 1.3. ¿Y qué pasó con SC-05 al final?
 
@@ -51,7 +51,7 @@ En la segunda revisión, ya sobre la tabla 2.3, el profesor aceptó SC-05 como s
 
 > «¿Comprobante de recepción qué? — Genera comprobante de recepción» (rev. 2, 00:17–00:19).
 
-O sea: con verbo y describiendo lo que se hace. Por eso en las acciones de abajo SC-05 **no se borra**: se reescribe. Lo que sí se borra es lo que no pasa la prueba del botón (SC-07, SC-08, SC-32, SC-52, SC-53, SC-21, SC-26, SC-31 — ver §5).
+O sea: con verbo y describiendo lo que se hace. Por eso SC-05 **no es de las marcadas para borrar**: se reescribe. Lo que sí sale son las que no pasan la prueba del botón — ver §5.
 
 ---
 
@@ -64,7 +64,7 @@ La segunda regadera fue a los servicios que **solo dicen "consultar"**. Pasó en
 3. Y la clave: «Esta consulta, pero no está la generación. **La generación es el trabajo del comité propiamente**» (rev. 2, 01:55). El trabajo de la gente (registrar la lista, armar el paquete de dictámenes) tiene que poder hacerse en el sistema.
 4. Su balance de toda la fila: «Ahorita vi, solamente hay una consulta y una generación. Entonces, ¿dónde voy a hacer todo mi trabajo del comité propiamente?» (rev. 2, 02:20). Si en un momento hay cuatro servicios y tres son "consultar", el módulo no sirve para trabajar.
 
-**Moraleja:** revisen cada fila preguntándose **quién trabaja en ese momento y qué necesita hacer**. Cada cosa que esa persona hace tiene que poder hacerse (generar, registrar, entregar) — además de poderse consultar. Un módulo de solo consultas está mal.
+**Moraleja:** en cada momento del trámite trabaja alguien (el comité, el revisor, el técnico). Cada cosa que esa persona hace tiene que poder hacerse en el sistema — generar, registrar, entregar — además de poderse consultar. Un módulo de solo consultas está mal.
 
 ---
 
@@ -95,74 +95,84 @@ Dos cosas que confundieron en la sesión misma, aclaradas:
 
 ---
 
-## 5. Acciones fila por fila (antes → después)
+## 5. Lo que el profesor ya decidió en la sesión (hechos, no criterio nuestro)
 
-Con las tres ideas de arriba (botón, generación, redacción) ya se entiende cada acción. Van por fila, en el orden de la tabla.
+Estos puntos no son negociables ni cuestión de criterio — el profesor los dijo. Aplíquenlos tal cual; el resto de cada fila es suyo:
 
-### 5.1. Fila MOD-02 · Recepción e integración (la más discutida)
+1. **La complementación del expediente sale de la fila** (SC-07): «Complementación del expediente, ¿a qué se refiere?… Lo borraremos ahora» (rev. 1, 06:39; confirmado en rev. 2). No es un botón — ocurre dentro del flujo de revisión, notificación y plazo.
+2. **El folio ya está en el comprobante** (SC-08 sale de la fila): «Folio y turno del expediente, ¿a qué se refiere?… ya está en el 5, o sea, ya lo tenemos en el 5» (rev. 2).
+3. **En MOD-03 hace falta la generación:** «Esta consulta, pero no está la generación. La generación es el trabajo del comité propiamente» (rev. 2, 01:55) — la lista de espera y el paquete de dictámenes se deben poder generar, no solo consultar.
+4. **El comprobante se redacta con verbo:** «Genera comprobante de recepción» (rev. 2, 00:19) — y la justificación de tenerlo como servicio propio es la recuperación con el folio (rev. 1, 06:00).
 
-| Servicio actual | Qué dijo el profesor | Acción |
-|---|---|---|
-| SC-04 «Permite la captura y entrega de solicitudes» | «La recepción permite la captura y entrega de solicitudes» (rev. 2, 00:05) — la aceptó | **Mantener y ampliar.** Dos servicios se fusionan dentro de él: la carga de documentos (SC-52) y la asignación de oficina regional (SC-53). Redacción sugerida: «Permite capturar la solicitud y registrar su entrega con los documentos requeridos, quedando asignada a la Delegación que corresponde según el municipio del predio». **Cuidado:** la asignación regional fue pedido explícito del profesor — la función no se pierde, vive dentro de SC-04 |
-| SC-05 «Comprobante de recepción» | «Genera comprobante de recepción» (rev. 2, 00:19) | **Reescribir con verbo**, incluyendo la recuperación (la conversación de §1.2): «Permite generar el comprobante de recepción con los documentos entregados, folio, fecha y firma/sello de quien recibe, y recuperarlo después con el folio» |
-| SC-07 «Complementación del expediente **(borrar)** en el caso de ;» | «Complementación del expediente, ¿a qué se refiere?… Lo borraremos ahora» (rev. 1, 06:39) | **BORRAR de la fila.** No pasa la prueba del botón: la complementación ocurre dentro del flujo — SC-06 (la revisión detecta faltantes) + SC-13 (la notificación lo avisa) + SC-14 (el plazo de 5 días hábiles se controla) — y la persona vuelve a entrar por SC-04/SC-52. Al borrar el servicio, borra también el resto de la frase inconclusa («en el caso de ;») |
-| SC-08 «Folio y turno del expediente **(existente en el 5)**» | «Folio y turno del expediente, ¿a qué se refiere?… ya está en el 5, o sea, ya lo tenemos en el 5» (rev. 2) | **BORRAR de la fila.** El folio ya vive en el comprobante (SC-05) — por eso el profesor dijo que ya lo tenemos "en el 5". El «turno» del expediente queda expresado en SC-55 (la lista de aspirantes turna a evaluación) |
-| SC-32 «Consulta de restricciones **(implícito en 5)**» | Marcada como implícita | **Quitar de la fila.** No hay botón de "consultar restricciones": esa comprobación corre cuando se revisa la solicitud y el resultado se muestra al revisor — vive dentro de la revisión (SC-06), que toma los datos de SC-31. *Nota:* la marca del equipo dice «implícito en 5»; al dejar la fila limpia, si no queda claro a cuál servicio quedó implícita, anótenlo en una línea al pie de la tabla para aclararlo en la próxima sesión |
-| SC-52 «Carga e integración de documentos **(implícito en 4)**» | Implícita en SC-04 | **Quitar de la fila.** Subir los documentos es parte de capturar la solicitud (SC-04). Que un archivo subido no esté validado lo resuelve el personal en la revisión (SC-06) |
-| SC-53 «Asignación de oficina regional **(implícito en 4)**» | Implícita en SC-04 | **Quitar de la fila.** La Delegación receptora queda determinada al capturar/entregar (base Cuarta de la Convocatoria: la DRF según el municipio del predio) |
-| SC-55 «Permite consultar la lista de aspirantes» | (Mismo problema de §2: solo consulta) | **Cambiar el verbo:** la lista se **genera**: «Permite generar la lista de aspirantes al cierre de la recepción y turnarla a evaluación» (así lo define su ficha en §3: «genera por programa la lista de aspirantes… y la turna») |
-
-**Resultado esperado de la fila:** tres servicios — SC-04, SC-05, SC-55 — cada uno con verbo y en una línea.
-
-### 5.2. Fila MOD-03 · Evaluación y asignación (el «3» de la revisión 2)
-
-| Servicio actual | Qué dijo el profesor | Acción |
-|---|---|---|
-| SC-15 «Permite generar la dictaminación jurídica» | Correcto en estructura | **Mantener**, precisando quién trabaja: «Permite registrar el dictamen jurídico (UJIGEV) con su procedencia, fundamentos y motivos» |
-| SC-16 «Permite registrar la dictaminación técnica» | Correcto | **Mantener** con el mismo estilo |
-| SC-17 «Permite consultar la lista de espera y los priorizados» | «¿de dónde se genera?… Pero eso hay que crearlo… La generación es el trabajo del comité propiamente» (rev. 2, 01:16–01:57) | **Cambiar a generación + consulta:** «Permite generar la lista de espera y los priorizados en la sesión del comité y consultarlas» |
-| SC-18 «Permite consultar los dictámenes» | «¿Consultar y dónde la genera?» (rev. 2, 00:56) | **Cambiar:** «Permite integrar el paquete de dictámenes e informes de las solicitudes procedentes y entregarlo al Comité o CASPEG» |
-
-**Prueba de cierre de la fila (palabras del profesor):** «Algo que me diga realmente. Y yo ya digo, ah, hace esto, hace esto y ya tengo todo cubierto» (rev. 2, 02:20). La fila debe cubrir el trabajo completo del momento: dictaminar → priorizar → armar paquete → entregar.
-
-### 5.3. Filas restantes con marca (no discutidas fila por fila; se aplica el mismo criterio)
-
-| Fila | Marca | Acción |
-|---|---|---|
-| MOD-04 | SC-21 «calcular montos **(implícito en 22)**» | **Quitar de la fila.** El cálculo ocurre dentro de SC-22 al tramitar el pago; su redacción debe mencionar que emite el pago con el monto calculado según el esquema del programa |
-| MOD-04 | Errata y sin verbo | «resgistrar» → «Permite registrar los datos bancarios…»; a SC-20 y SC-23 darles verbo completo |
-| MOD-04 | SC-48 «Planta y vales» (sin verbo) | Redactar: «Permite registrar la asignación de planta y emitir/consultar vales (RHF/PS)» |
-| MOD-05 | SC-26 «Pemite notificar el aviso e informe de conclusión **(implícito en 27)**» | **Quitar de la fila.** Recibir el aviso y el informe de conclusión es lo que dispara el registro de la visita: queda dentro de SC-27 (su redacción debe mencionar que la visita se registra a partir del aviso de conclusión y su informe). Ojo con el verbo si se conserva algo: quien avisa es la persona beneficiaria — «Permite registrar el aviso e informe de conclusión», no "notificar" |
-| MOD-05 | SC-31 «Listado de incumplidos **(implícito en 30)**» | **Quitar de la fila.** El listado se actualiza al registrar el incumplimiento o la baja (SC-30); en 2.3 sale de la fila de MOD-05 porque queda implícito en SC-30 |
-| MOD-05 | Errata | «evalución» → «evaluación»; «Pemite» → «Permite»; ajustar verbos de SC-27 y SC-28 («Permite registrar las visitas…», «Permite revisar las evidencias…») |
-| MOD-01, MOD-06, MOD-07, MOD-08, MOD-09, MOD-10–13 | Sin marcas, pero sin verbo | Uniformar: todo servicio de la 2.3 inicia con «Permite…» en una línea. Ya lo cumplen SC-02, SC-03, SC-50 y varios de MOD-03/04/05; no lo cumplen SC-24, SC-29, SC-33–37, SC-01, SC-06, SC-09–14, SC-54, SC-38–42, SC-49, SC-51 y SE-01–06. El profesor pidió el formato para todas las filas (rev. 1, 08:33) |
+Además, hay más marcas de "(implícito en N)" en filas que no discutió fila por fila (MOD-04 y MOD-05) — ellas nacen del mismo criterio; evalúenlas con el método de §6.
 
 ---
 
-## 6. Limpieza transversal (hacer al final)
+## 6. Método para procesar la tabla (paso a paso, con su criterio)
+
+Recorran la tabla **fila por fila** y, dentro de cada fila, **servicio por servicio**, aplicando tres pruebas en orden. Anoten decisiones al margen mientras trabajan; al final hacen la limpieza (§7).
+
+### Prueba 1 — ¿Pasa la prueba del botón? (§1)
+
+Pregúntense: **¿quién abre esta pantalla y con qué intención? ¿Hay un momento en que alguien "le pica" a esto?**
+
+- Si sí → es servicio, continúen con la prueba 2.
+- Si no (ocurre solo dentro del flujo de otro servicio, o es una consecuencia automática: un documento que se genera al final, un dato que se llena solo, una consulta que el sistema hace por su cuenta al revisar) → **no es servicio aparte**. Quítenlo de la fila y **verifican dónde queda su función**: el servicio que la absorbe debe mencionarla en su redacción de una línea, para que no se pierda nada (el profesor dijo que lo que absorbe otro debe "hacerlo explícito": «Algo que me diga realmente… y ya tengo todo cubierto», rev. 2, 02:20).
+
+### Prueba 2 — ¿La fila deja trabajar a quien trabaja en ese momento? (§2)
+
+Para cada fila, identifiquen primero **quién trabaja** en ese momento y qué le toca hacer (rev. 1, 09:02: «pasa de la ventanilla, pasa a área central, y ahí revisan… si algo falta, notifican, y son esos cinco días» — el profesor quería ver dónde está cada cosa y quién la hace). Luego revisen los servicios de la fila contra ese trabajo:
+
+- Todo lo que esa persona **hace** debe poder hacerse: generar, registrar, capturar, entregar, decidir.
+- Lo que solo se puede **consultar** pero alguien tiene que crearlo primero, está incompleto: agreguen el verbo de generación al servicio (o al que corresponda).
+- La fila completa debe permitir recorrer el momento de principio a fin; si solo hay consultas, falta la parte de trabajo.
+
+### Prueba 3 — ¿Se lee en una línea, con verbo, a nivel cliente? (§3)
+
+- Empieza con «Permite <verbo>…».
+- Una línea legible; si crece, probablemente hay dos servicios mezclados — sepárenlos o recorten.
+- Funcional (qué hace el software), no de implementación interna.
+- Si el nombre solo (como «Comprobante de recepción») no dice la funcionalidad, redáctenla — y si el servicio solo tiene sentido como "volver a obtener algo que ya se generó" (recuperar con folio), dígalo así.
+
+### Ejemplo de aplicación (ilustrativo, no receta)
+
+Así se ve el método aplicado a una fila — la de MOD-02, que fue la más discutida. **No lo copien tal cual en las demás: cada fila se resuelve con su propio análisis.**
+
+- SC-04 (captura y entrega) **pasa el botón** (la persona captura y entrega su solicitud). Al pasarle la prueba 2, notamos que dentro de la fila hay servicios que no tienen botón propio: subir los documentos (parte de la captura) y la oficina regional que corresponde al predio (dato que la solicitud determina). Ambos quedan **dentro** de SC-04, y su redacción de una línea debe mencionarlos para que no se pierdan.
+- SC-05 (comprobante) **se reescribe** con verbo y con su justificación: generar el comprobante al terminar la entrega y recuperarlo después con el folio.
+- SC-07 (complementación) **no pasa el botón**: detectar faltantes es parte de la revisión (SC-06), avisarlo es la notificación (SC-13), controlar los 5 días es el plazo (SC-14) — y la persona complementa volviendo a entrar por SC-04. Sale de la fila; el equipo decidió con el profesor borrarlo (§5.1).
+- SC-08 (folio y turno) **ya vive en el comprobante** (§5.2); el turno del expediente lo expresaría la lista de aspirantes al turnar a evaluación.
+- SC-55 (lista de aspirantes) **tenía el problema de §2**: decía "consultar" pero la lista se genera al cerrar la recepción — se corrige el verbo.
+
+### Registro para la siguiente pasada
+
+Lleven una lista corta (puede ser al final del archivo, fuera de la tabla, o en su nota de commit) con: **qué servicios salieron de la fila y en cuál quedaron absorbidos**. Con esa lista, la pasada siguiente (catálogo §3 y matriz §4) es mecánica.
+
+---
+
+## 7. Limpieza transversal (hacer al final)
 
 1. **Ninguna marca queda en 2.3:** fuera todos los «(borrar)», «(implícito en N)», «(existente en el N)» y las frases inconclusas.
 2. **Erratas:** «Pemite» (2 veces), «resgistrar», «evalución», y el «1» suelto en «SC-02 Permite crear una convocatoria adjuntando los datos1» → «adjuntando los datos y requisitos».
-3. **Una línea por servicio:** si la redacción crece, casi siempre son dos servicios mezclados — sepáralos o recorta; no metas párrafos.
-4. **No cambies los IDs en 2.3:** aunque quiten servicios de la fila, los IDs que sobreviven se llaman igual (el reordenamiento del catálogo §3 es la pasada siguiente).
+3. **Consistencia de conteo:** si quitan servicios de la fila, no cambien los IDs en 2.3 (el reordenamiento del catálogo §3 es la pasada siguiente).
 
 ---
 
-## 7. Fuera del alcance de esta ronda (no tocar todavía)
+## 8. Fuera del alcance de esta ronda (no tocar todavía)
 
-- **§3 Catálogo general y §4 Matriz:** los servicios que salen de la fila de 2.3 (SC-07, SC-08, SC-21, SC-26, SC-31, SC-32, SC-52, SC-53) **siguen existiendo en §3 y §4**. Fusionarlos ahí y ajustar sus columnas G/U es la siguiente pasada, cuando el profesor valide la 2.3 limpia. No lo hagan ahora para no mezclar cambios.
+- **§3 Catálogo general y §4 Matriz:** los servicios que salgan de la fila de 2.3 **siguen existiendo en §3 y §4**. Fusionarlos ahí y ajustar sus columnas G/U es la siguiente pasada, cuando el profesor valide la 2.3 limpia. No lo hagan ahora para no mezclar cambios.
 - **Los verbos de §3:** mismo criterio (generación donde falta), pero después.
 - No agregar servicios nuevos, no cambiar momentos, no cambiar IDs.
 
 ---
 
-## 8. Checklist de entrega
+## 9. Checklist de entrega
 
 - [ ] Ninguna marca `(borrar)` / `(implícito en N)` / `(existente en el N)` ni frase inconclusa en la tabla 2.3.
 - [ ] Todos los servicios de la 2.3 empiezan con «Permite…» y se leen en una sola línea.
-- [ ] La fila MOD-02 queda con **tres** servicios (SC-04, SC-05, SC-55) y la asignación de oficina regional está mencionada dentro de SC-04.
-- [ ] SC-17 y SC-18 incluyen la **generación** (lista de espera y paquete de dictámenes), no solo consulta; SC-55 genera la lista de aspirantes.
-- [ ] Las funciones que salieron de la fila quedan descritas dentro del servicio que las absorbe (SC-04: carga de documentos + oficina regional; SC-05: folio; SC-06/SC-13/SC-14: complementación; SC-22: cálculo de montos; SC-27: aviso de conclusión; SC-30: listado).
-- [ ] Erratas corregidas y conteo de servicios por fila consistente con lo anterior.
+- [ ] Cada fila pasa la prueba de §2: quien trabaja en ese momento puede hacer todo su trabajo (generar, registrar, entregar), no solo consultar.
+- [ ] Los servicios que salieron de la fila están descritos dentro del servicio que los absorbe (y nada perdió su función — especialmente la asignación de oficina regional y el folio).
+- [ ] Quedó el registro de qué servicios salieron y dónde quedaron absorbidos (§6).
+- [ ] Erratas corregidas.
 
 **Prueba final, como la haría el profesor:** abre la 2.3 y recórrela módulo por módulo preguntándote «¿quién trabaja aquí y puede hacer todo su trabajo?». Si algún momento solo ofrece consultas, algo falta — y si un servicio no pasa la prueba del botón, no es servicio.
